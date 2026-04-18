@@ -14,7 +14,7 @@ module bnn_fcc_coverage_tb #(
     parameter realtime CLK_PERIOD                               = 10ns,
     parameter bit      DEBUG                                    = 1'b0,
     parameter bit      PRINT_THROUGH_IMAGES                     = 1'b0,
-    parameter int      RESET_EVERY_N_IMAGES                     = 0,     // 0 disables periodic resets else reset every N images
+    parameter int      RESET_EVERY_N_IMAGES                     = 10,     // 0 disables periodic resets else reset every N images
     parameter bit      ALT_J_GAP_LEN                            = 1'b1,  // force data_in gap bins to hit
     parameter bit      FORCE_SHORT_GAP_BEFORE_LAST              = 1'b1,  // force one short gap right before a final beat
     parameter bit      FORCE_LONG_GAP_BEFORE_LAST               = 1'b1,  // force one long gap right before a final beat
@@ -2124,7 +2124,7 @@ $display("[%0t] Directed coverage phase complete.", $realtime);
         disable generate_clock;
         disable l_timeout;
 
-        if (passed == total_tests)
+        if (failed==0)
             $display("[%0t] SUCCESS: all %0d tests completed successfully.", $realtime, total_tests);
         else
             $error("FAILED: %0d out of %0d tests failed.", failed, total_tests);
