@@ -3,6 +3,10 @@ K4
 z2
 Z0 !s99 nomlopt
 R0
+R0
+R0
+R0
+R0
 !s11f MIXED_VERSIONS
 13
 !s112 1.1
@@ -38,9 +42,9 @@ Z11 o-64 -sv -timescale=1ns/100ps -work qrun.out/work -L mtiAvm -L mtiRnm -L mti
 Z12 tCvgOpt 0
 n@accum_@unit
 vArg_MAX
-Z13 2/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/openflex/rtl/bnn_fcc_timing.sv
+Z13 2/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/axi4_stream_if.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb_pkg.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv
 R3
-Z14 !s110 1776484549
+Z14 !s110 1776485536
 !i10b 1
 !s100 jS>]MDUSXNeQne5mjkgk43
 INEC`dPEE`?fh;Gm[RVz8X3
@@ -49,16 +53,16 @@ Z15 d/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest
 Z16 w1776484029
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv
-!i122 7
+!i122 8
 L0 3 330
 R6
 R7
 r1
 !s85 0
 31
-Z17 !s108 1776484549.000000
-Z18 !s107 /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/openflex/rtl/bnn_fcc_timing.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv|
-Z19 !s90 -64|-sv|-timescale=1ns/100ps|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/openflex/rtl/bnn_fcc_timing.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-writesessionid|+qrun.out/top_dus|-csession=incr|-csessionid=4|
+Z17 !s108 1776485536.000000
+Z18 !s107 /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb_pkg.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/axi4_stream_if.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv|
+Z19 !s90 -64|-sv|-timescale=1ns/100ps|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/axi4_stream_if.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb_pkg.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-writesessionid|+qrun.out/top_dus|-csession=incr|-csessionid=6|
 !i113 0
 R11
 R12
@@ -75,7 +79,7 @@ R15
 R16
 Z20 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv
 Z21 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv
-!i122 7
+!i122 8
 L0 8179 56
 R6
 R7
@@ -89,27 +93,27 @@ R19
 R11
 R12
 Yaxi4_stream_if
-Z22 2/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/axi4_stream_if.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb_pkg.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv
+R13
 R3
-Z23 !s110 1774397097
+R14
 !i10b 1
 !s100 a?WJ5i;W7<a[68;3ZfmNh1
-I^:]6U_9U?jd@JL@OUoj:32
+I::=Rj:5]]nfNhlQ@g8R0D1
 S1
-R1
-w1774029637
-8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/axi4_stream_if.sv
-F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/axi4_stream_if.sv
-!i122 2
+R15
+Z22 w1776485526
+8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/axi4_stream_if.sv
+F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/axi4_stream_if.sv
+!i122 8
 L0 8 0
 R6
 R7
 r1
 !s85 0
 31
-Z24 !s108 1774397097.000000
-Z25 !s107 /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb_pkg.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/axi4_stream_if.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv|
-Z26 !s90 -64|-sv|-timescale=1ns/100ps|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/axi4_stream_if.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb_pkg.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-writesessionid|+qrun.out/top_dus|-csession=incr|-csessionid=1|
+R17
+R18
+R19
 !i113 0
 R11
 R12
@@ -125,7 +129,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv
-!i122 7
+!i122 8
 L0 3 184
 R6
 R7
@@ -139,60 +143,60 @@ R19
 R11
 R12
 vbnn_fcc_tb
-R22
+R13
 R3
-DXx4 work 14 bnn_fcc_tb_pkg 0 22 55oc1QnJY`79I0gMDCoAK2
-R23
+DXx4 work 14 bnn_fcc_tb_pkg 0 22 e[OITidlNXB3YalX2FJa53
+!s110 1776486697
 !i10b 1
-!s100 LW<K][SD3g_g_IIJ<MJG=1
-I`NcPj84N]2;h9R=FF25<W3
+!s100 7f;]Skg]D[@JQMlQAM5ic1
+I3Ea9>T0ZFY:h7>X0@WZNc2
 S1
-R1
-w1774388300
-8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb.sv
-F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb.sv
-!i122 2
-L0 84 466
+R15
+w1776486687
+8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv
+F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv
+!i122 9
+L0 85 386
 R6
 R7
 r1
 !s85 0
 31
-R24
-R25
-R26
+!s108 1776486696.000000
+R18
+R19
 !i113 0
 R11
 R12
 Xbnn_fcc_tb_pkg
-R22
+R13
 R3
-R23
+R14
 !i10b 1
-!s100 7Fgf868Y2z0iPOK9;90]?3
-I55oc1QnJY`79I0gMDCoAK2
+!s100 <m15F_^79o5Z8jcmK]7;z0
+Ie[OITidlNXB3YalX2FJa53
 S1
-R1
-w1774146547
-8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb_pkg.sv
-F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb_pkg.sv
-!i122 2
+R15
+R22
+8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb_pkg.sv
+F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb_pkg.sv
+!i122 8
 L0 13 0
-V55oc1QnJY`79I0gMDCoAK2
+Ve[OITidlNXB3YalX2FJa53
 R7
 r1
 !s85 0
 31
-R24
-R25
-R26
+R17
+R18
+R19
 !i113 0
 R11
 R12
 vbnn_fcc_timing
-R13
+2/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/openflex/rtl/bnn_fcc_timing.sv
 R3
-R14
+!s110 1776484549
 !i10b 1
 !s100 ;24<jU?Xa@J6o^0n19o910
 IJlMzHk`;V?IJnW27HMYP60
@@ -208,9 +212,9 @@ R7
 r1
 !s85 0
 31
-R17
-R18
-R19
+!s108 1776484549.000000
+!s107 /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/openflex/rtl/bnn_fcc_timing.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv|
+!s90 -64|-sv|-timescale=1ns/100ps|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/openflex/rtl/bnn_fcc_timing.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-writesessionid|+qrun.out/top_dus|-csession=incr|-csessionid=4|
 !i113 0
 R11
 R12
@@ -226,8 +230,8 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv
-!i122 7
-Z27 L0 3 226
+!i122 8
+Z23 L0 3 226
 R6
 R7
 r1
@@ -253,7 +257,7 @@ w1775003785
 8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv
 F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv
 !i122 3
-R27
+R23
 R6
 R7
 r1
@@ -278,7 +282,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv
-!i122 7
+!i122 8
 L0 3 144
 R6
 R7
@@ -304,8 +308,8 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv
-!i122 7
-Z28 L0 3 146
+!i122 8
+Z24 L0 3 146
 R6
 R7
 r1
@@ -330,7 +334,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv
-!i122 7
+!i122 8
 L0 3 123
 R6
 R7
@@ -408,7 +412,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv
-!i122 7
+!i122 8
 L0 3 21
 R6
 R7
@@ -434,7 +438,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv
-!i122 7
+!i122 8
 L0 4 36
 R6
 R7
@@ -460,8 +464,8 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv
-!i122 7
-Z29 L0 3 61
+!i122 8
+Z25 L0 3 61
 R6
 R7
 r1
@@ -512,8 +516,8 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv
-!i122 7
-Z30 L0 3 165
+!i122 8
+Z26 L0 3 165
 R6
 R7
 r1
@@ -538,7 +542,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv
-!i122 7
+!i122 8
 L0 3 103
 R6
 R7
@@ -564,7 +568,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv
-!i122 7
+!i122 8
 L0 3 446
 R6
 R7
@@ -616,7 +620,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv
-!i122 7
+!i122 8
 L0 3 274
 R6
 R7
@@ -642,7 +646,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv
-!i122 7
+!i122 8
 L0 3 316
 R6
 R7
@@ -668,7 +672,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv
-!i122 7
+!i122 8
 L0 1 32
 R6
 R7
@@ -694,7 +698,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv
-!i122 7
+!i122 8
 L0 3 34
 R6
 R7
@@ -720,7 +724,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv
-!i122 7
+!i122 8
 L0 3 39
 R6
 R7
@@ -772,7 +776,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv
-!i122 7
+!i122 8
 L0 1 30
 R6
 R7
@@ -850,7 +854,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv
-!i122 7
+!i122 8
 L0 1 29
 R6
 R7
@@ -876,7 +880,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv
-!i122 7
+!i122 8
 L0 3 70
 R6
 R7
@@ -901,7 +905,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv
-!i122 7
+!i122 8
 L0 3 65
 R6
 R7
@@ -979,8 +983,8 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv
-!i122 7
-Z31 L0 3 130
+!i122 8
+Z27 L0 3 130
 R6
 R7
 r1
@@ -1005,7 +1009,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv
-!i122 7
+!i122 8
 L0 3 217
 R6
 R7
@@ -1031,7 +1035,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv
-!i122 7
+!i122 8
 L0 3 246
 R6
 R7
@@ -1083,7 +1087,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv
-!i122 7
+!i122 8
 L0 1 45
 R6
 R7
@@ -1109,7 +1113,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv
-!i122 7
+!i122 8
 L0 3 122
 R6
 R7
@@ -1187,7 +1191,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv
-!i122 7
+!i122 8
 L0 3 142
 R6
 R7
@@ -1213,7 +1217,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv
-!i122 7
+!i122 8
 L0 3 171
 R6
 R7
@@ -1239,7 +1243,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv
-!i122 7
+!i122 8
 L0 3 93
 R6
 R7
@@ -1265,7 +1269,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv
-!i122 7
+!i122 8
 L0 3 124
 R6
 R7
@@ -1291,7 +1295,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv
-!i122 7
+!i122 8
 L0 1 39
 R6
 R7
@@ -1343,8 +1347,8 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv
-!i122 7
-Z32 L0 3 49
+!i122 8
+Z28 L0 3 49
 R6
 R7
 r1
@@ -1369,7 +1373,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv
-!i122 7
+!i122 8
 L0 1 59
 R6
 R7
@@ -1396,7 +1400,7 @@ w1774400195
 8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv
 F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv
 !i122 3
-R30
+R26
 R6
 R7
 r1
@@ -1421,8 +1425,8 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv
-!i122 7
-R31
+!i122 8
+R27
 R6
 R7
 r1
@@ -1447,8 +1451,8 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv
-!i122 7
-R28
+!i122 8
+R24
 R6
 R7
 r1
@@ -1499,7 +1503,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv
-!i122 7
+!i122 8
 L0 3 139
 R6
 R7
@@ -1525,7 +1529,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv
-!i122 7
+!i122 8
 L0 3 202
 R6
 R7
@@ -1577,7 +1581,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv
-!i122 7
+!i122 8
 L0 3 133
 R6
 R7
@@ -1603,7 +1607,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv
-!i122 7
+!i122 8
 L0 3 208
 R6
 R7
@@ -1629,7 +1633,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv
-!i122 7
+!i122 8
 L0 1 229
 R6
 R7
@@ -1655,8 +1659,8 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv
-!i122 7
-Z33 L0 1 26
+!i122 8
+Z29 L0 1 26
 R6
 R7
 r1
@@ -1707,8 +1711,8 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv
-!i122 7
-R29
+!i122 8
+R25
 R6
 R7
 r1
@@ -1733,7 +1737,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv
-!i122 7
+!i122 8
 L0 1 71
 R6
 R7
@@ -1759,7 +1763,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv
-!i122 7
+!i122 8
 L0 3 22
 R6
 R7
@@ -1811,7 +1815,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv
-!i122 7
+!i122 8
 L0 3 16
 R6
 R7
@@ -1837,8 +1841,8 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv
-!i122 7
-Z34 L0 1 24
+!i122 8
+Z30 L0 1 24
 R6
 R7
 r1
@@ -1852,16 +1856,28 @@ R11
 R12
 n@pulse_@delay
 Tqrun_opt
-!s110 1776484550
-V9LM[>Fh<m>e:K[EadH<`k0
-04 10 4 work bnn_fcc_tb fast 0
+!s110 1776486698
+V<1aKHjBg4[Xf0U?6QhTRQ3
+Z31 04 10 4 work bnn_fcc_tb fast 0
 R0
-!s12b OEM100
-!s124 OEM100
+Z32 !s12b OEM100
+Z33 !s124 OEM100
 o-timescale=1ns/100ps -g USE_CUSTOM_TOPOLOGY=0 -g TOGGLE_DATA_OUT_READY=1 -g CONFIG_VALID_PROBABILITY=0.8 -g DATA_IN_VALID_PROBABILITY=0.8 -g INPUT_DATA_WIDTH=8 -g INPUT_BUS_WIDTH=64 -g CONFIG_BUS_WIDTH=64 -g OUTPUT_DATA_WIDTH=4 -g OUTPUT_BUS_WIDTH=8 -g TOTAL_LAYERS=4 -g BASE_DIR=../../python -work qrun.out/work
 R12
 nqrun_opt
-OL;O;2023.3;77
+Z34 OL;O;2023.3;77
+R1
+Tqrun_opt_1
+!s110 1776486786
+VKemegz;SP>DhWU7:20MJO0
+R31
+R0
+R32
+R33
+o-timescale=1ns/100ps -g USE_CUSTOM_TOPOLOGY=0 -g TOGGLE_DATA_OUT_READY=1 -g CONFIG_VALID_PROBABILITY=1.0 -g DATA_IN_VALID_PROBABILITY=1.0 -g INPUT_DATA_WIDTH=8 -g INPUT_BUS_WIDTH=64 -g CONFIG_BUS_WIDTH=64 -g OUTPUT_DATA_WIDTH=4 -g OUTPUT_BUS_WIDTH=8 -g TOTAL_LAYERS=4 -g BASE_DIR=../../python -work qrun.out/work
+R12
+nqrun_opt_1
+R34
 vRegister
 R13
 R3
@@ -1874,7 +1890,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv
-!i122 7
+!i122 8
 Z35 L0 1 18
 R6
 R7
@@ -1901,7 +1917,7 @@ w1774400764
 8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv
 F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv
 !i122 3
-R33
+R29
 R6
 R7
 r1
@@ -1926,7 +1942,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv
-!i122 7
+!i122 8
 L0 1 14
 R6
 R7
@@ -1952,8 +1968,8 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv
-!i122 7
-R32
+!i122 8
+R28
 R6
 R7
 r1
@@ -1978,7 +1994,7 @@ R15
 R16
 8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv
 F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv
-!i122 7
+!i122 8
 R35
 R6
 R7
@@ -2005,7 +2021,7 @@ w1774135339
 8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv
 F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv
 !i122 3
-R34
+R30
 R6
 R7
 r1
@@ -2056,7 +2072,7 @@ R15
 R16
 R20
 R21
-!i122 7
+!i122 8
 L0 55 8117
 R6
 R7
@@ -2081,7 +2097,7 @@ R15
 R16
 R20
 R21
-!i122 7
+!i122 8
 L0 8240 138
 R6
 R7
@@ -2106,7 +2122,7 @@ R15
 R16
 R20
 R21
-!i122 7
+!i122 8
 L0 8384 167
 R6
 R7
@@ -2131,7 +2147,7 @@ R15
 R16
 R20
 R21
-!i122 7
+!i122 8
 L0 8557 170
 R6
 R7
@@ -2156,7 +2172,7 @@ R15
 R16
 R20
 R21
-!i122 7
+!i122 8
 L0 8733 159
 R6
 R7
@@ -2181,7 +2197,7 @@ R15
 R16
 R20
 R21
-!i122 7
+!i122 8
 L0 8898 147
 R6
 R7
@@ -2206,7 +2222,7 @@ R15
 R16
 R20
 R21
-!i122 7
+!i122 8
 L0 9051 188
 R6
 R7
