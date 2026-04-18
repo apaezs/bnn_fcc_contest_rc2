@@ -22,7 +22,7 @@ module bnn_fcc_coverage_tb #(
     parameter bit      FORCE_LARGE_CONFIG_STALL                 = 1'b1,  
     parameter bit      THRESHOLD_FIRST_MSG_DIRECTED_TEST        = 1'b1,  
     parameter bit      FORCE_BP_DURATION_COVERAGE               = 1'b1,  // run explicit output backpressure tests
-    parameter bit      ALLOW_BP_GREATER_THAN_100                = 1'b0,  // bp from 101-1k
+    parameter bit      ALLOW_BP_GREATER_THAN_100                = 1'b1,  // bp from 101-1k
     parameter bit      ALT_CONFIG_ORDERING                      = 1'b1,  // swap between normal and weights-first ordering after resets
 
     // Bus widths
