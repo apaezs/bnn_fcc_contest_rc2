@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
-| Date         : Fri Apr 17 21:43:41 2026
+| Date         : Fri Apr 17 23:56:13 2026
 | Host         : ece-lnx-10 running 64-bit Red Hat Enterprise Linux release 8.10 (Ootpa)
 | Command      : report_utilization -file ./outputs/post_synth_util.rpt
 | Design       : bnn_fcc_timing
@@ -165,10 +165,10 @@ Table of Contents
 +----------+-------+---------------------+
 | FDRE     | 36236 |            Register |
 | LUT2     |  6565 |                 CLB |
-| LUT4     |  3938 |                 CLB |
+| LUT4     |  3940 |                 CLB |
 | RAMS32   |  2314 |                 CLB |
-| LUT6     |  2137 |                 CLB |
-| LUT3     |  2043 |                 CLB |
+| LUT6     |  2134 |                 CLB |
+| LUT3     |  2044 |                 CLB |
 | LUT5     |   569 |                 CLB |
 | FDCE     |   502 |            Register |
 | SRL16E   |   412 |                 CLB |

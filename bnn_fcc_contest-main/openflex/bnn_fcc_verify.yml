@@ -31,11 +31,19 @@ files:
  - ../rtl/without_output_FIFO/NP_Layer_WithThreshold.sv
  - ../rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv
 
+ - ../rtl/without_output_FIFO/Delay.sv
+ - ../rtl/without_output_FIFO/Pulse.sv
+ - ../rtl/without_output_FIFO/Pulse_Delay.sv
+ - ../rtl/without_output_FIFO/StickyBit.sv
+ - ../rtl/without_output_FIFO/Build_W.sv
+ - ../rtl/without_output_FIFO/Byte_Index.sv
  - ../rtl/without_output_FIFO/BRAM_SINK.sv
  - ../rtl/without_output_FIFO/BRAM_LUT_SINK.sv
  - ../rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv
  - ../rtl/without_output_FIFO/Delay_ALWAYS.sv
  - ../rtl/without_output_FIFO/Delay_FF_ALWAYS.sv
+ - ../rtl/without_output_FIFO/Delay2_ALWAYS.sv
+ - ../rtl/without_output_FIFO/Delay3_ALWAYS.sv
  - ../rtl/without_output_FIFO/Register.sv
  - ../rtl/without_output_FIFO/Register_ALWAYS.sv
  - ../rtl/without_output_FIFO/FIFO.sv
@@ -59,7 +67,7 @@ files:
  - ../rtl/without_output_FIFO/Input_Layer_Unit.sv
 
  - ../rtl/without_output_FIFO/Skid_Buffer.sv
- - ../apps/xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+ - ../rtl/without_output_FIFO/xpm_memory.sv
  - rtl/bnn_fcc_timing.sv
 
 parameters:
