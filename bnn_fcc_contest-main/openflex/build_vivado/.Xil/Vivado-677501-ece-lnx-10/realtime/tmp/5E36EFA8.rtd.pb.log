@@ -1,0 +1,144 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+INFO: [Synth 8-4471] merging register 'u_valid_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[2].GEN_RIGHT.reg_right/q_reg[0:0]' into 'u_valid_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[0:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register.sv:12]
+INFO: [Synth 8-4471] merging register 'u_valid_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[2].GEN_RIGHT.reg_right/q_reg[0:0]' into 'u_valid_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[0:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register.sv:12]
+INFO: [Synth 8-4471] merging register 'u_valid_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[4].GEN_RIGHT.reg_right/q_reg[0:0]' into 'u_valid_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[0:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register.sv:12]
+INFO: [Synth 8-4471] merging register 'u_valid_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[6].GEN_RIGHT.reg_right/q_reg[0:0]' into 'u_valid_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[0:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register.sv:12]
+INFO: [Synth 8-4471] merging register 'u_last_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[2].GEN_RIGHT.reg_right/q_reg[0:0]' into 'u_last_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[0:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_last_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[2].GEN_RIGHT.reg_right/q_reg[0:0]' into 'u_last_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[0:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_last_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[4].GEN_RIGHT.reg_right/q_reg[0:0]' into 'u_last_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[0:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_last_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[6].GEN_RIGHT.reg_right/q_reg[0:0]' into 'u_last_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[0:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_t_ren_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[2].GEN_RIGHT.reg_right/q_reg[0:0]' into 'u_t_ren_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[0:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_t_ren_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[2].GEN_RIGHT.reg_right/q_reg[0:0]' into 'u_t_ren_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[0:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_t_ren_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[4].GEN_RIGHT.reg_right/q_reg[0:0]' into 'u_t_ren_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[0:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_t_ren_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[6].GEN_RIGHT.reg_right/q_reg[0:0]' into 'u_t_ren_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[0:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_w_addr_tree/GEN_TREE.GEN_STAGE[2].GEN_NODE[1].GEN_RIGHT.reg_right/q_reg[5:0]' into 'u_w_addr_tree/GEN_TREE.GEN_STAGE[2].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[5:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_w_addr_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[1].GEN_RIGHT.reg_right/q_reg[5:0]' into 'u_w_addr_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[5:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_w_addr_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[2].GEN_RIGHT.reg_right/q_reg[5:0]' into 'u_w_addr_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[5:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_w_addr_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[3].GEN_RIGHT.reg_right/q_reg[5:0]' into 'u_w_addr_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[5:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[1].GEN_RIGHT.reg_right/q_reg[5:0]' into 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[5:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[2].GEN_RIGHT.reg_right/q_reg[5:0]' into 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[5:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[3].GEN_RIGHT.reg_right/q_reg[5:0]' into 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[5:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[4].GEN_RIGHT.reg_right/q_reg[5:0]' into 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[5:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[5].GEN_RIGHT.reg_right/q_reg[5:0]' into 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[5:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[6].GEN_RIGHT.reg_right/q_reg[5:0]' into 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[5:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[7].GEN_RIGHT.reg_right/q_reg[5:0]' into 'u_w_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[5:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_t_addr_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[2].GEN_RIGHT.reg_right/q_reg[2:0]' into 'u_t_addr_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[2:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_t_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[2].GEN_RIGHT.reg_right/q_reg[2:0]' into 'u_t_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[2:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_t_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[4].GEN_RIGHT.reg_right/q_reg[2:0]' into 'u_t_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[2:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_t_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[6].GEN_RIGHT.reg_right/q_reg[2:0]' into 'u_t_addr_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[2:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_input_tree/GEN_TREE.GEN_STAGE[2].GEN_NODE[1].GEN_RIGHT.reg_right/q_reg[31:0]' into 'u_input_tree/GEN_TREE.GEN_STAGE[2].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[31:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_input_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[1].GEN_RIGHT.reg_right/q_reg[31:0]' into 'u_input_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[31:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_input_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[2].GEN_RIGHT.reg_right/q_reg[31:0]' into 'u_input_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[31:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_input_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[3].GEN_RIGHT.reg_right/q_reg[31:0]' into 'u_input_tree/GEN_TREE.GEN_STAGE[3].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[31:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[1].GEN_RIGHT.reg_right/q_reg[31:0]' into 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[31:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[2].GEN_RIGHT.reg_right/q_reg[31:0]' into 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[31:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[3].GEN_RIGHT.reg_right/q_reg[31:0]' into 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[31:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[4].GEN_RIGHT.reg_right/q_reg[31:0]' into 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[31:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[5].GEN_RIGHT.reg_right/q_reg[31:0]' into 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[31:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[6].GEN_RIGHT.reg_right/q_reg[31:0]' into 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[31:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+INFO: [Synth 8-4471] merging register 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[7].GEN_RIGHT.reg_right/q_reg[31:0]' into 'u_input_tree/GEN_TREE.GEN_STAGE[4].GEN_NODE[0].GEN_RIGHT.reg_right/q_reg[31:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+WARNING: [Synth 8-3936] Found unconnected internal register 'u_ctrl/u_last_in_out/GEN_DELAY[0].reg_i/q_reg' and it is trimmed from '32' to '1' bits. [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+WARNING: [Synth 8-3936] Found unconnected internal register 'u_ctrl/u_last_in_reg1/GEN_DELAY[0].reg_i/q_reg' and it is trimmed from '32' to '1' bits. [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+WARNING: [Synth 8-3936] Found unconnected internal register 'u_ctrl/u_last_in_reg0/GEN_DELAY[0].reg_i/q_reg' and it is trimmed from '32' to '1' bits. [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Register_ALWAYS.sv:10]
+WARNING: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkb in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rstb in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port enb in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regceb in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port web[0] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[5] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[4] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[3] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[2] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[1] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[0] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[31] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[30] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[29] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[28] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[27] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[26] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[25] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[24] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[23] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[22] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[21] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[20] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[19] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[18] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[17] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[16] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[15] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[14] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[13] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[12] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[11] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[10] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[9] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[8] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[7] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[6] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[5] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[4] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[3] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[2] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[1] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[0] in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterrb in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterrb in module xpm_memory_base__parameterized0__1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port w_ram_ren_a in module NP_MEM_WithThreshold__parameterized62 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port t_ram_ren_a in module NP_MEM_WithThreshold__parameterized62 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port clkb in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rstb in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port enb in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port regceb in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port web[0] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[5] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[4] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[3] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[2] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[1] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port addrb[0] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[31] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[30] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[29] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[28] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[27] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[26] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[25] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[24] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[23] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[22] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[21] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[20] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[19] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[18] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[17] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[16] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[15] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[14] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[13] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[12] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[11] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[10] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[9] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[8] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[7] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[6] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[5] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[4] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[3] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[2] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[1] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dinb[0] in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterrb in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterrb in module xpm_memory_base__parameterized0__2 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port w_ram_ren_a in module NP_MEM_WithThreshold__parameterized61 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port t_ram_ren_a in module NP_MEM_WithThreshold__parameterized61 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectsbiterra in module xpm_memory_base__parameterized0__3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port injectdbiterra in module xpm_memory_base__parameterized0__3 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.

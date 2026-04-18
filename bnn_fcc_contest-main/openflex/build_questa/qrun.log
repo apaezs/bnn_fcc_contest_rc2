@@ -1,0 +1,111 @@
+QuestaSim-64 qrun 2023.3 Utility 2023.07 Jul 17 2023
+Start time: 01:50:28 on Apr 01,2026
+qrun -64 -sv -timescale=1ns/100ps -g USE_CUSTOM_TOPOLOGY=0 -g TOGGLE_DATA_OUT_READY=1 -g CONFIG_VALID_PROBABILITY=0.8 -g DATA_IN_VALID_PROBABILITY=0.8 -g INPUT_DATA_WIDTH=8 -g INPUT_BUS_WIDTH=64 -g CONFIG_BUS_WIDTH=64 -g OUTPUT_DATA_WIDTH=4 -g OUTPUT_BUS_WIDTH=8 -g TOTAL_LAYERS=4 -g BASE_DIR=../../python /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SINK.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF_2D.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF_2D.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_2D.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/fanout_tree.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SPLIT2.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT_SINK.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_MEM.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv -top bnn_fcc_tb 
+QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+Start time: 01:50:28 on Apr 01,2026
+vlog -64 -sv -timescale=1ns/100ps /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SINK.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF_2D.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF_2D.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_2D.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/fanout_tree.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SPLIT2.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT_SINK.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_MEM.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv -work qrun.out/work -statslog qrun.out/stats_log -writesessionid "+qrun.out/top_dus" -csession=incr -csessionid=0 
+-- Compiling module bnn_fcc
+-- Compiling module Config_Layer_Control
+-- Compiling module Config_Manager
+-- Compiling module Arg_MAX
+** Warning: /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv(11): (vlog-13314) Defaulting port 'popcount' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module BNN_Layer
+-- Compiling module Input_Bufferv1
+-- Compiling module Input_Layer
+-- Compiling module Layer_Control
+-- Compiling module Layer
+-- Compiling module NP_Layer
+-- Compiling module FF
+-- Compiling module BRAM_SINK
+-- Compiling module FF_2D
+-- Compiling module Register
+-- Compiling module Register_2D
+** Warning: /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv(7): (vlog-13314) Defaulting port 'd' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module Delay_FF
+-- Compiling module Delay_FF_2D
+-- Compiling module Delay
+-- Compiling module Delay_2D
+** Warning: /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_2D.sv(8): (vlog-13314) Defaulting port 'din' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module BRAM
+-- Compiling module FIFO
+-- Compiling module fanout_tree
+-- Compiling module BRAM_SPLIT2
+-- Compiling module BRAM_LUT_SINK
+-- Compiling module BRAM_LUT
+-- Compiling module Accum_Unit
+-- Compiling module NP_DP
+-- Compiling module NP_FSM
+-- Compiling module NP_UNIT
+-- Compiling module Pop_unit
+-- Compiling module Threshold_Unit
+-- Compiling module XNOR_unit
+-- Compiling module NP_MEM
+-- Compiling module BNN_Hidden
+-- Compiling module Input_Layer_Unit
+-- Compiling module Skid_Buffer
+-- Compiling module bnn_fcc_timing
+
+Top level modules:
+	BRAM_SINK
+	Delay_FF_2D
+	Delay_2D
+	BRAM_SPLIT2
+	bnn_fcc_timing
+End time: 01:50:28 on Apr 01,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 3
+QuestaSim-64 vopt 2023.3 Compiler 2023.07 Jul 17 2023
+Start time: 01:50:28 on Apr 01,2026
+vopt -timescale=1ns/100ps -g USE_CUSTOM_TOPOLOGY=0 -g TOGGLE_DATA_OUT_READY=1 -g CONFIG_VALID_PROBABILITY=0.8 -g DATA_IN_VALID_PROBABILITY=0.8 -g INPUT_DATA_WIDTH=8 -g INPUT_BUS_WIDTH=64 -g CONFIG_BUS_WIDTH=64 -g OUTPUT_DATA_WIDTH=4 -g OUTPUT_BUS_WIDTH=8 -g TOTAL_LAYERS=4 -g BASE_DIR=../../python bnn_fcc_tb -work qrun.out/work -statslog qrun.out/stats_log -o qrun_opt -csession=incr -csessionid=1 
+
+Top level modules:
+	bnn_fcc_tb
+
+Analyzing design...
+-- Loading module bnn_fcc_tb
+-- Importing package bnn_fcc_tb_pkg
+-- Loading interface axi4_stream_if
+-- Loading module bnn_fcc
+-- Loading module Config_Manager
+-- Loading module Input_Layer_Unit
+-- Loading module Skid_Buffer
+-- Loading module Input_Layer
+-- Loading module FIFO
+-- Loading module BNN_Hidden
+-- Loading module Arg_MAX
+-- Loading module BNN_Layer
+-- Loading module Config_Layer_Control
+-- Loading module Input_Bufferv1
+-- Loading module BRAM_LUT
+-- Loading module Layer
+-- Loading module Layer_Control
+-- Loading module NP_Layer
+-- Loading module fanout_tree
+-- Loading module Register
+-- Loading module NP_MEM
+-- Loading module Delay_FF
+-- Loading module Delay
+-- Loading module BRAM
+-- Loading module BRAM_LUT_SINK
+-- Loading module NP_UNIT
+-- Loading module NP_FSM
+-- Loading module NP_DP
+-- Loading module XNOR_unit
+-- Loading module Pop_unit
+-- Loading module Accum_Unit
+-- Loading module Threshold_Unit
+** Error: /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv(39): Module 'xpm_memory_spram' is not defined.
+ For instance 'u_xpm_memory_spram' at path 'bnn_fcc_tb.DUT.u_bnn_hidden.GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer.u_layer.u_np_layer.GEN_NP[0].u_np_mem.u_w_ram'
+** Error: /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv(39): Module 'xpm_memory_spram' is not defined.
+ For instance 'u_xpm_memory_spram' at path 'bnn_fcc_tb.DUT.u_bnn_hidden.GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer.u_layer.u_np_layer.GEN_NP[0].u_np_mem.u_w_ram'
+** Error: /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv(39): Module 'xpm_memory_spram' is not defined.
+ For instance 'u_xpm_memory_spram' at path 'bnn_fcc_tb.DUT.u_bnn_hidden.GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer.u_layer.u_np_layer.GEN_NP[0].u_np_mem.u_w_ram'
+-- Loading module FF
+Optimization failed
+End time: 01:50:29 on Apr 01,2026, Elapsed time: 0:00:01
+Errors: 3, Warnings: 0
+End time: 01:50:29 on Apr 01,2026, Elapsed time: 0:00:01
+*** Summary *********************************************
+    qrun: Errors:   0, Warnings:   0
+    vlog: Errors:   0, Warnings:   3
+    vopt: Errors:   3, Warnings:   0
+  Totals: Errors:   3, Warnings:   3

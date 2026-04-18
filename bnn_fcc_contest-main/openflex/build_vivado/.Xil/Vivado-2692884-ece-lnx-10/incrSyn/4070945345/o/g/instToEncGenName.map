@@ -1,0 +1,8 @@
+/bnn_fcc_timing__GC0:1283910784
+/DUT/bnn_fcc__GC0:1544831443
+/bnn_fcc_timing_GT0:1514159595
+/DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer:2500606873
+/DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/BNN_Layer_StallableInput__GC0:3507911884
+/DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/NP_Layer_WithThreshold__GB2:66424593
+/DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/NP_Layer_WithThreshold__GB1:2600263339
+/DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/NP_Layer_WithThreshold__GB0:3992710717

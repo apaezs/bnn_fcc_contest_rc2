@@ -1,0 +1,8 @@
+/bnn_fcc_timing__GC0
+/DUT/bnn_fcc__GC0
+/bnn_fcc_timing_GT0
+/DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer
+/DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/BNN_Layer_StallableInput__GC0
+/DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/NP_Layer_WithThreshold__GB2
+/DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/NP_Layer_WithThreshold__GB1
+/DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/NP_Layer_WithThreshold__GB0

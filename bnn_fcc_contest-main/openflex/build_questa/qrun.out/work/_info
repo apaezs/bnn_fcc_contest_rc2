@@ -1,0 +1,1047 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/build_questa
+vAccum_Unit
+Z2 2/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SINK.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/fanout_tree.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SPLIT2.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT_SINK.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_MEM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1775022628
+!i10b 1
+!s100 K8YQmdCjD]2=:9ADSl=Je0
+I8[QSgFWglLHMB]3@?cf6a3
+S1
+R1
+w1774149981
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv
+!i122 3
+Z5 L0 1 25
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z8 !s108 1775022628.000000
+Z9 !s107 /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_MEM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT_SINK.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SPLIT2.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/fanout_tree.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SINK.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv|
+Z10 !s90 -64|-sv|-timescale=1ns/100ps|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SINK.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/fanout_tree.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SPLIT2.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT_SINK.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_MEM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-writesessionid|+qrun.out/top_dus|-csession=incr|-csessionid=0|
+!i113 0
+Z11 o-64 -sv -timescale=1ns/100ps -work qrun.out/work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+n@accum_@unit
+vArg_MAX
+R2
+R3
+R4
+!i10b 1
+!s100 WU6BK?0EMTVAYOlcDWoh`2
+IK?JX;cYaHfiWc67Vi3i;o0
+S1
+R1
+w1774157195
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv
+!i122 3
+L0 3 196
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@arg_@m@a@x
+Yaxi4_stream_if
+Z13 2/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/axi4_stream_if.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb_pkg.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv
+R3
+Z14 !s110 1774397097
+!i10b 1
+!s100 a?WJ5i;W7<a[68;3ZfmNh1
+I^:]6U_9U?jd@JL@OUoj:32
+S1
+R1
+w1774029637
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/axi4_stream_if.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/axi4_stream_if.sv
+!i122 2
+L0 8 0
+R6
+R7
+r1
+!s85 0
+31
+Z15 !s108 1774397097.000000
+Z16 !s107 /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb_pkg.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/axi4_stream_if.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv|
+Z17 !s90 -64|-sv|-timescale=1ns/100ps|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/axi4_stream_if.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb_pkg.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-writesessionid|+qrun.out/top_dus|-csession=incr|-csessionid=1|
+!i113 0
+R11
+R12
+vbnn_fcc
+R2
+R3
+R4
+!i10b 1
+!s100 52[?YD0]7RU]_Tc4zOhnc2
+I<GXo]SGKnY?M>`UMZL=iH1
+S1
+R1
+w1775003862
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv
+!i122 3
+L0 3 231
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vbnn_fcc_tb
+R13
+R3
+DXx4 work 14 bnn_fcc_tb_pkg 0 22 55oc1QnJY`79I0gMDCoAK2
+R14
+!i10b 1
+!s100 LW<K][SD3g_g_IIJ<MJG=1
+I`NcPj84N]2;h9R=FF25<W3
+S1
+R1
+w1774388300
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb.sv
+!i122 2
+L0 84 466
+R6
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R11
+R12
+Xbnn_fcc_tb_pkg
+R13
+R3
+R14
+!i10b 1
+!s100 7Fgf868Y2z0iPOK9;90]?3
+I55oc1QnJY`79I0gMDCoAK2
+S1
+R1
+w1774146547
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb_pkg.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/verification/bnn_fcc_tb_pkg.sv
+!i122 2
+L0 13 0
+V55oc1QnJY`79I0gMDCoAK2
+R7
+r1
+!s85 0
+31
+R15
+R16
+R17
+!i113 0
+R11
+R12
+vbnn_fcc_timing
+R2
+R3
+R4
+!i10b 1
+!s100 nR@n`HRLkAW8gcQ8KJ<:D1
+IgfL@@Di60S;z=AlCiE6mz0
+S1
+R1
+w1774900115
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv
+!i122 3
+L0 13 109
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vBNN_Hidden
+R2
+R3
+R4
+!i10b 1
+!s100 aik@FhN1GVn0<g6elW1H@2
+IOAiN;Ifo9TCYTA_d]EI]23
+S1
+R1
+w1775003801
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv
+!i122 3
+L0 3 346
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@b@n@n_@hidden
+vBNN_Layer
+R2
+R3
+R4
+!i10b 1
+!s100 S5Ci7TBgL2[SF^]MM3N973
+IfI>]VL`O6o2VBne]CCPL41
+S1
+R1
+w1775003785
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv
+!i122 3
+L0 3 226
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@b@n@n_@layer
+vBRAM
+R2
+R3
+R4
+!i10b 1
+!s100 6o0QjaTFfa]o=fja1P=KZ0
+I?]FcHh9dQXj^?A;[1I@k72
+S1
+R1
+w1775020794
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv
+!i122 3
+L0 3 54
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@b@r@a@m
+vBRAM_LUT
+R2
+R3
+R4
+!i10b 1
+!s100 LVIY;6<khTX00@HgmTf8K3
+Ij^^]IGU@D0gf9EIT5g^g82
+S1
+R1
+w1775016546
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT.sv
+!i122 3
+L0 3 26
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@b@r@a@m_@l@u@t
+vBRAM_LUT_SINK
+R2
+R3
+R4
+!i10b 1
+!s100 XASk7m]I]L5dR?<dYkhl32
+I^0E_N78kjU6QM8:1@2R?T2
+S1
+R1
+w1774993300
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT_SINK.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT_SINK.sv
+!i122 3
+L0 4 39
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@b@r@a@m_@l@u@t_@s@i@n@k
+vBRAM_SINK
+R2
+R3
+R4
+!i10b 1
+!s100 9E4Klf@0cEoNUnZX]3K5h2
+I`JA1cJnh81keCHKYEg9<l2
+S1
+R1
+w1774816558
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SINK.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SINK.sv
+!i122 3
+Z18 L0 3 59
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@b@r@a@m_@s@i@n@k
+vBRAM_SPLIT2
+R2
+R3
+R4
+!i10b 1
+!s100 _hHhda_Q2:EblNUC39M1n3
+IA6Wgi7;^[0]9nSCB`fAIQ1
+S1
+R1
+w1774836056
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SPLIT2.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SPLIT2.sv
+!i122 3
+L0 3 75
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@b@r@a@m_@s@p@l@i@t2
+vConfig_Layer_Control
+R2
+R3
+R4
+!i10b 1
+!s100 Qg8aYIJhHQ<OzYdDO=o<B1
+IKRE`@YbGVcZlX23cd6CPe0
+S1
+R1
+w1775010830
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv
+!i122 3
+L0 3 644
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@config_@layer_@control
+vConfig_Manager
+R2
+R3
+R4
+!i10b 1
+!s100 Ki`8codCA476RE0N:?dWa1
+I30Fd`NNmVGi4Pl5P7RR0;0
+S1
+R1
+w1775013626
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv
+!i122 3
+L0 1 369
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@config_@manager
+vDelay
+R2
+R3
+R4
+!i10b 1
+!s100 KJZc^]B7;OUIA3d[_7Gi40
+Ic[lLjkRcc>g4[mJ??8PLR3
+S1
+R1
+w1774399947
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay.sv
+!i122 3
+Z19 L0 1 31
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@delay
+vDelay_2D
+R2
+R3
+R4
+!i10b 1
+!s100 WLQ7A]caTob?:fC9lRL610
+IHDY5jbGg:e3L;efKB3VOl2
+S1
+R1
+w1774400790
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_2D.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_2D.sv
+!i122 3
+L0 1 33
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@delay_2@d
+vDelay_FF
+R2
+R3
+R4
+!i10b 1
+!s100 Lz3A8@IRRGF>4TQQZgfn43
+I`_9CB;Jg`e`kGMZ6f>oRd2
+S1
+R1
+w1774399996
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF.sv
+!i122 3
+L0 1 28
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@delay_@f@f
+vDelay_FF_2D
+R2
+R3
+R4
+!i10b 1
+!s100 C:=OaFkmGQKa;VcfJd6]L2
+IU;ZfO[RRBA[W?e6z<VnBE3
+S1
+R1
+w1774400800
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF_2D.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF_2D.sv
+!i122 3
+R19
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@delay_@f@f_2@d
+vfanout_tree
+R2
+R3
+R4
+!i10b 1
+!s100 :o9kbEz::b2`cW[`Rn7_62
+IQSo[[md15KUMMOOcc=:5c1
+S1
+R1
+w1774734412
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/fanout_tree.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/fanout_tree.sv
+!i122 3
+L0 3 73
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+vFF
+R2
+R3
+R4
+!i10b 1
+!s100 If[HjCnQK]5km`_lOCbO;0
+IiiHNhP]F9RNzWS<hEdQ090
+S1
+R1
+w1774399930
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF.sv
+!i122 3
+L0 1 15
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@f@f
+vFF_2D
+R2
+R3
+R4
+!i10b 1
+!s100 IC9JdIEN5?A=0[HJlLg7:1
+Im7EW:hRKj>ZT2]f]8?5lo3
+S1
+R1
+w1774400716
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF_2D.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF_2D.sv
+!i122 3
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@f@f_2@d
+vFIFO
+R2
+R3
+R4
+!i10b 1
+!s100 Zc>:dTzO3F:WcJDoW9zkc1
+IKfkJ]LHEcGQcaEG90m05C1
+S1
+R1
+w1774913241
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv
+!i122 3
+L0 1 107
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@f@i@f@o
+vInput_Bufferv1
+R2
+R3
+R4
+!i10b 1
+!s100 iGb3SOY6VA]<?^az];68T1
+IBW4W2HH:Ce4BIZ`eP:nOc0
+S1
+R1
+w1774994017
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv
+!i122 3
+L0 3 334
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@input_@bufferv1
+vInput_Layer
+R2
+R3
+R4
+!i10b 1
+!s100 iV0=>]9i6=5<o7cn20J7Q1
+IKnUUBY_2DC<K4kA4RFKMY3
+S1
+R1
+w1774314277
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv
+!i122 3
+L0 1 44
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@input_@layer
+vInput_Layer_Unit
+R2
+R3
+R4
+!i10b 1
+!s100 FWLYeFcUANbz@VkUo04Mo3
+IcU5zzl0[HWnQ7M:d[`EF82
+S1
+R1
+w1774913533
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv
+!i122 3
+L0 3 137
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@input_@layer_@unit
+vLayer
+R2
+R3
+R4
+!i10b 1
+!s100 InjC1H]VDzJEXgn<NUE7K1
+IUa<SE61LA=;H:Gk3K<E_m3
+S1
+R1
+w1774993326
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv
+!i122 3
+L0 3 150
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@layer
+vLayer_Control
+R2
+R3
+R4
+!i10b 1
+!s100 [gj6AV;B4Y=bXYLKYHZdE1
+IoO87<Ge__[L3Sgkc?VIMm1
+S1
+R1
+w1774823121
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv
+!i122 3
+L0 3 238
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@layer_@control
+vNP_DP
+R2
+R3
+R4
+!i10b 1
+!s100 G0<miz_JW@n?g`U:?Ff?_3
+Io3:BRLEelGF>3:Td8<?ic3
+S1
+R1
+w1774400443
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv
+!i122 3
+L0 1 68
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@n@p_@d@p
+vNP_FSM
+R2
+R3
+R4
+!i10b 1
+!s100 K9mRKm:ZmeU=fdOSj;2[N0
+I=PL=Tb>ij7k^N<H;o]0hA1
+S1
+R1
+w1774400195
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv
+!i122 3
+L0 3 165
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@n@p_@f@s@m
+vNP_Layer
+R2
+R3
+R4
+!i10b 1
+!s100 @ePeJFT`e0^7b4B4XRH731
+I9<<EiAPDPOG?Ogzh9>H[f3
+S1
+R1
+w1774994082
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv
+!i122 3
+L0 3 252
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@n@p_@layer
+vNP_MEM
+R2
+R3
+R4
+!i10b 1
+!s100 jH1P7EFGE9RjA[eDoA5gI2
+I0cU8>P_[lLY7NdSzS8N<B1
+S1
+R1
+w1775021047
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_MEM.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_MEM.sv
+!i122 3
+L0 2 215
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@n@p_@m@e@m
+vNP_UNIT
+R2
+R3
+R4
+!i10b 1
+!s100 h6@hf^NNPga`VnIz:fe>n3
+IW:h8L9YY]kAMZ;Nd53TEb1
+S1
+R1
+w1775016736
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv
+!i122 3
+L0 1 80
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@n@p_@u@n@i@t
+vPop_unit
+R2
+R3
+R4
+!i10b 1
+!s100 e86>ZjOne0^kLWc<f@M2j2
+IGM<U1S_m3TE30EfY?i?OP0
+S1
+R1
+w1774469747
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv
+!i122 3
+L0 1 250
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@pop_unit
+vRegister
+R2
+R3
+R4
+!i10b 1
+!s100 PMol[a1KF4mP?GAjX`VBe0
+IRY?<Y^DDVB`[IambP=7VL2
+S1
+R1
+w1774399753
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register.sv
+!i122 3
+L0 1 17
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@register
+vRegister_2D
+R2
+R3
+R4
+!i10b 1
+!s100 R2I7]JEmlgP5?XoThFaKa0
+Id3l5`DdI<k>XOV<o]271O0
+S1
+R1
+w1774400764
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv
+!i122 3
+L0 1 26
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@register_2@d
+vSkid_Buffer
+R2
+R3
+R4
+!i10b 1
+!s100 7DajCeQc`1gFZk<=RZ7Li1
+IMgO;AgYR03ZA078Sa5A]h3
+S1
+R1
+w1774153773
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv
+!i122 3
+R18
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@skid_@buffer
+vThreshold_Unit
+R2
+R3
+R4
+!i10b 1
+!s100 W^5m8L5AW8Gmf<G^3z0T^1
+IKP2a_;oN9nbhQn_KACjk:1
+S1
+R1
+w1774135339
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv
+!i122 3
+L0 1 24
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@threshold_@unit
+vXNOR_unit
+R2
+R3
+R4
+!i10b 1
+!s100 5Gbi1=m:KQa5ABIP`hiU73
+ID0nIe2P@8k:J;2Q31oRIK2
+S1
+R1
+w1770328996
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv
+!i122 3
+L0 1 18
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@x@n@o@r_unit

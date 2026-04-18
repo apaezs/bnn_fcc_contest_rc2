@@ -1,0 +1,78 @@
+mode: sim
+tool: questa
+top: bnn_fcc_tb
+clock: clk
+
+files:
+  # Add all required source files:
+  # e.g.:
+  #- ../rtl/binary_neuron.sv
+  #- ../rtl/binary_layer.sv
+  #- ../rtl/bnn.sv
+
+  # These are common to all projects.
+ - ../rtl/without_output_FIFO/bnn_fcc.sv
+
+ - ../rtl/without_output_FIFO/Config_HiddenLayer_Control.sv
+ - ../rtl/without_output_FIFO/Config_OutputLayer_Control.sv
+ - ../rtl/without_output_FIFO/Config_Manager.sv
+
+ - ../rtl/without_output_FIFO/Arg_MAX.sv
+ - ../rtl/without_output_FIFO/BNN_Layer_StallableInput.sv
+ - ../rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv
+ - ../rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv
+ - ../rtl/without_output_FIFO/Input_Buffer_Stallable.sv
+ - ../rtl/without_output_FIFO/Input_Buffer_NoStall.sv
+ - ../rtl/without_output_FIFO/Input_Layer.sv
+ - ../rtl/without_output_FIFO/Layer_Control_WithThreshold.sv
+ - ../rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv
+ - ../rtl/without_output_FIFO/Layer_WithThreshold.sv
+ - ../rtl/without_output_FIFO/Layer_PopcountOnly.sv
+ - ../rtl/without_output_FIFO/NP_Layer_WithThreshold.sv
+ - ../rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv
+
+ - ../rtl/without_output_FIFO/BRAM_SINK.sv
+ - ../rtl/without_output_FIFO/BRAM_LUT_SINK.sv
+ - ../rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv
+ - ../rtl/without_output_FIFO/Delay_ALWAYS.sv
+ - ../rtl/without_output_FIFO/Delay_FF_ALWAYS.sv
+ - ../rtl/without_output_FIFO/Register.sv
+ - ../rtl/without_output_FIFO/Register_ALWAYS.sv
+ - ../rtl/without_output_FIFO/FIFO.sv
+ - ../rtl/without_output_FIFO/fanout_tree.sv
+ - ../rtl/without_output_FIFO/fanout_tree_ALWAYS.sv
+
+ - ../rtl/without_output_FIFO/NP_Accum_Unit.sv
+ - ../rtl/without_output_FIFO/NP_DP_WithThreshold.sv
+ - ../rtl/without_output_FIFO/NP_DP_PopcountOnly.sv
+ - ../rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv
+ - ../rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv
+ - ../rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv
+ - ../rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv
+ - ../rtl/without_output_FIFO/NP_MEM_WithThreshold.sv
+ - ../rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv
+ - ../rtl/without_output_FIFO/NP_Pop_unit.sv
+ - ../rtl/without_output_FIFO/NP_Threshold_Unit.sv
+ - ../rtl/without_output_FIFO/NP_XNOR_unit.sv
+
+ - ../rtl/without_output_FIFO/BNN_Hidden.sv
+ - ../rtl/without_output_FIFO/Input_Layer_Unit.sv
+
+ - ../rtl/without_output_FIFO/Skid_Buffer.sv
+ - ../apps/xilinx/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv
+ - rtl/bnn_fcc_timing.sv
+
+parameters:
+  USE_CUSTOM_TOPOLOGY: [0]
+  TOGGLE_DATA_OUT_READY: [1]
+  CONFIG_VALID_PROBABILITY: [0.8]
+  DATA_IN_VALID_PROBABILITY: [0.8]
+  INPUT_DATA_WIDTH: [8]
+  INPUT_BUS_WIDTH: [64]
+  CONFIG_BUS_WIDTH: [64]
+  OUTPUT_DATA_WIDTH: [4]
+  OUTPUT_BUS_WIDTH: [8]
+  TOTAL_LAYERS: [4]
+  BASE_DIR: ["../../python"]
+
+# TODO: Make sure implementation-specific parameters have appropriate defaults in bnn_fcc_tb.sv

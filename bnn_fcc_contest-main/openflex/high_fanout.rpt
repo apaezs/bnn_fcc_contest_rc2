@@ -1,0 +1,121 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
+| Date         : Wed Apr  8 20:54:31 2026
+| Host         : ece-lnx-10 running 64-bit Red Hat Enterprise Linux release 8.10 (Ootpa)
+| Command      : report_high_fanout_nets -max_nets 100 -file high_fanout.rpt
+| Design       : bnn_fcc_timing
+| Device       : xcu250
+-----------------------------------------------------------------------------------------
+
+High Fan-out Nets Information
+
+1. Summary
+----------
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------------+
+| Net Name                                                                                                                                                                | Fanout | Driver Type |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------------+
+| rst                                                                                                                                                                     |   1060 | PORT        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_shift_r[831]_i_1_n_0                                                                     |    785 | LUT5        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[3].u_np_mem/u_np/u_fsm/E[0]                                                 |    450 | LUT1        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r[8]_i_1__1_n_0                                                              |    257 | LUT3        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_shift_r[223]_i_1__0_n_0                                                                  |    256 | LUT5        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/valid_in_r_reg_0                                          |    188 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[12].u_np_mem/u_np/valid_in_r_reg_0                                          |    177 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[9].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].reg_i/q_reg[0]_0            |    130 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[12].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].reg_i/q_reg[0]_rep__2_0 |    119 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg[7]_rep__0_n_0                                                       |    115 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg[7]_rep__1_n_0                                                       |    115 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg[7]_rep__2_n_0                                                       |    115 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg[7]_rep__3_n_0                                                       |    115 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg[7]_rep__4_n_0                                                       |    115 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_shift_load                                                                               |    115 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_cfg_ctrl/w_shift_load                                                                                  |    114 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg[7]_rep_n_0                                                          |    113 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg[7]_rep_n_0                                                             |    113 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_dec_valid_next                                                                           |    106 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_shift_load                                                                               |    100 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg[7]_rep_n_0                                                          |     98 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_dec_data_r[0]                                                                            |     98 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_dec_data_r[1]                                                                            |     98 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_dec_data_r[2]                                                                            |     98 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_dec_data_r[3]                                                                            |     98 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_dec_data_r[4]                                                                            |     98 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_dec_data_r[5]                                                                            |     98 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_dec_data_r[6]                                                                            |     98 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_dec_data_r[7]                                                                            |     98 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_dec_valid_r                                                                              |     98 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_slot_r[97]_i_1_n_0                                                                       |     98 | LUT3        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_advance_action_next                                                                      |     91 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[12].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].reg_i/q_reg[0]_0        |     84 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[12].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].reg_i/q_reg[0]_rep__1_0 |     84 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[12].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].reg_i/q_reg[0]_rep__0_0 |     82 | FDRE        |
+| DUT/u_input_layer_unit/u_input_fifo/wptr                                                                                                                                |     81 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].reg_i/q_reg[0]_rep__3_0 |     80 | FDRE        |
+| DUT/u_input_layer_unit/u_input_fifo/mem_reg_0_1_0_13_i_1_n_0                                                                                                            |     80 | LUT5        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[12].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].reg_i/q_reg[0]_rep_0    |     79 | FDRE        |
+| DUT/u_config_manager/state_r[1]                                                                                                                                         |     77 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_prep_bank_r[4]_i_2_n_0                                                                   |     76 | LUT3        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].reg_i/q_reg[0]_rep__0_0 |     75 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].reg_i/q_reg[0]_rep__1_0 |     75 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].reg_i/q_reg[0]_0        |     74 | FDRE        |
+| DUT/u_config_manager/beat_valid_next                                                                                                                                    |     72 | LUT2        |
+| DUT/u_input_layer_unit/u_input_fifo/do_write                                                                                                                            |     72 | LUT6        |
+| DUT/u_input_layer_unit/u_input_fifo/pack_slot                                                                                                                           |     72 | LUT5        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].reg_i/q_reg[0]_rep__2_0 |     71 | FDRE        |
+| DUT/u_input_layer_unit/u_input_fifo/rptr                                                                                                                                |     71 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_prep_bank_r[4]_i_1_n_0                                                                   |     69 | LUT3        |
+| DUT/u_config_manager/state_r[0]                                                                                                                                         |     65 | FDCE        |
+| DUT/u_input_layer_unit/u_input_fifo/p_0_in[0]                                                                                                                           |     65 | LUT3        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_input_buffer/addr[0]                                                                                |     64 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_input_buffer/addr[1]                                                                                |     64 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_input_buffer/addr[2]                                                                                |     64 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_input_buffer/addr[3]                                                                                |     64 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_input_buffer/bank1_mem_addr_r_reg_n_0_[0]                                                           |     64 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_input_buffer/bank1_mem_addr_r_reg_n_0_[1]                                                           |     64 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_input_buffer/bank1_mem_addr_r_reg_n_0_[2]                                                           |     64 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_input_buffer/bank1_mem_addr_r_reg_n_0_[3]                                                           |     64 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_input_buffer/bank1_mem_wen_r_reg_n_0                                                                |     64 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_input_buffer/read_bank_sel_reg0                                                                     |     64 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_input_buffer/wen                                                                                    |     64 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[12].u_np_mem/u_np/u_fsm/u_valid_out_delay/GEN_DELAY[13].reg_i/q_reg[0]_0    |     64 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/u_fsm/u_valid_out_delay/GEN_DELAY[13].reg_i/q_reg[0]_0    |     64 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_advance_action_next                                                                      |     59 | FDCE        |
+| DUT/u_config_manager/state_r[3]                                                                                                                                         |     58 | FDCE        |
+| DUT/u_config_manager/state_r[2]                                                                                                                                         |     57 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_cfg_ctrl/w_issue_valid_next                                                                            |     51 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[9].u_np_mem/u_np/valid_in_r_reg_0                                              |     51 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_shift_r[831]                                                                             |     48 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_prep_bank_r[4]_i_1__0_n_0                                                                |     43 | LUT3        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_prep_bank_r[4]_i_2__0_n_0                                                                |     43 | LUT3        |
+| DUT/u_config_manager/msg_type_next                                                                                                                                      |     43 | LUT4        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].reg_i/q_reg[0]_rep_0    |     41 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg_n_0_[10]                                                            |     40 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_dec_valid_next                                                                           |     40 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_cfg_ctrl/w_dec_valid_next                                                                              |     40 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_cfg_ctrl/w_prep_bank_r[3]_i_2_n_0                                                                      |     39 | LUT3        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg_n_0_[10]                                                            |     37 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_cfg_ctrl/w_prep_bank_r[3]_i_1_n_0                                                                      |     36 | LUT3        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[12].u_np_mem/u_np/u_fsm/u_last_align/GEN_DELAY[10].reg_i/q_reg[0]_0         |     33 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[12].u_np_mem/u_np/u_fsm/u_valid_acc_delay/GEN_DELAY[12].reg_i/q_reg[0]_0    |     33 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/u_fsm/u_last_align/GEN_DELAY[10].reg_i/q_reg[0]_0         |     33 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/u_fsm/u_valid_acc_delay/GEN_DELAY[12].reg_i/q_reg[0]_0    |     33 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/t_ram_a_addr_r[0]                                              |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/t_ram_a_addr_r[1]                                              |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/t_ram_a_addr_r[2]                                              |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/t_ram_a_data_r_reg[31]_0[0]                                    |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/t_ram_a_data_r_reg[31]_0[1]                                    |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/t_ram_a_data_r_reg[31]_0[2]                                    |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/t_ram_a_data_r_reg[31]_0[3]                                    |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/t_ram_a_data_r_reg[31]_0[4]                                    |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/t_ram_a_data_r_reg[31]_0[5]                                    |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/t_ram_a_data_r_reg[31]_0[6]                                    |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/t_ram_a_data_r_reg[31]_0[7]                                    |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/t_ram_a_data_r_reg[31]_0[8]                                    |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/t_ram_a_data_r_reg[31]_0[9]                                    |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/u_t_addr_delay/GEN_DELAY[9].reg_i/t_ram_b_addr_d[0]            |     32 | FDRE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[30].u_np_mem/u_t_addr_delay/GEN_DELAY[9].reg_i/t_ram_b_addr_d[1]            |     32 | FDRE        |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------------+
+
+

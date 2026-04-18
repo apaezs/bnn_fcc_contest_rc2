@@ -1,0 +1,80 @@
+/*
+
+Xilinx Vivado v2021.2 (64-bit) [Major: 2021, Minor: 2]
+SW Build: 3367213 on Tue Oct 19 02:47:39 MDT 2021
+IP Build: 3369179 on Thu Oct 21 08:25:16 MDT 2021
+
+Process ID (PID): 3483262
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Sun Apr 05 23:36:07 EDT 2026
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Red Hat Enterprise Linux release 8.10 (Ootpa)
+OS Version: 4.18.0-553.111.1.el8_10.x86_64
+OS Architecture: amd64
+Available processors (cores): 24
+
+Display: localhost:11.0
+Screen size: 1707x960
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.11 64-bit
+Java home: 	/apps/reconfig/tools/Xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9
+Java executable: 	/apps/reconfig/tools/Xilinx/Vivado/2021.2/tps/lnx64/jre11.0.11_9/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Xverify:none, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/com.sun.awt=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=60m, -XX:MaxNewSize=60m, -Xms256m, -Xmx3072m, -Xss5m, -Xrs]
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	miguel.sanchez1
+User home directory: /ecel/UFAD/miguel.sanchez1
+User working directory: /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /apps/reconfig/tools/Xilinx/Vivado
+HDI_APPROOT: /apps/reconfig/tools/Xilinx/Vivado/2021.2
+RDI_DATADIR: /apps/reconfig/tools/Xilinx/Vivado/2021.2/data
+RDI_BINDIR: /apps/reconfig/tools/Xilinx/Vivado/2021.2/bin
+
+Vivado preferences file: /home/UFAD/miguel.sanchez1/.Xilinx/Vivado/2021.2/vivado.xml
+Vivado preferences directory: /home/UFAD/miguel.sanchez1/.Xilinx/Vivado/2021.2/
+Vivado layouts directory: /ecel/UFAD/miguel.sanchez1/.Xilinx/Vivado/2021.2/data/layouts
+PlanAhead jar file: 	/apps/reconfig/tools/Xilinx/Vivado/2021.2/lib/classes/planAhead.jar
+Vivado log file: 	/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/vivado.log
+Vivado journal file: 	/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-3483262-ece-lnx-10
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /apps/reconfig/tools/Xilinx/Vivado/2021.2/ids_lite/ISE
+XILINX_DSP: /apps/reconfig/tools/Xilinx/Vivado/2021.2/ids_lite/ISE
+XILINX_HLS: /apps/reconfig/tools/Xilinx/Vitis_HLS/2021.2
+XILINX_PLANAHEAD: /apps/reconfig/tools/Xilinx/Vivado/2021.2
+XILINX_VITIS: 
+XILINX_VIVADO: /apps/reconfig/tools/Xilinx/Vivado/2021.2
+XILINX_VIVADO_HLS: /apps/reconfig/tools/Xilinx/Vivado/2021.2
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 0 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// HMemoryUtils.trashcanNow. Engine heap size: 0 MB. GUI used memory: 52 MB. Current time: 4/5/26, 11:36:08 PM EDT
+selectButton(PAResourceEtoH.GettingStartedView_OPEN_PROJECT, "Open Project"); // y
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// WARNING: HEventQueue.dispatchEvent() is taking  3085 ms.
+// [GUI Memory]: 93 MB (+94735kb) [00:25:16]
+// HMemoryUtils.trashcanNow. Engine heap size: 0 MB. GUI used memory: 56 MB. Current time: 4/6/26, 12:06:08 AM EDT
