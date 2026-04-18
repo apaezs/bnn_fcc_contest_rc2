@@ -93,7 +93,7 @@ module bnn_fcc_tb #(
     parameter bit      TOGGLE_DATA_OUT_READY                    = 1'b1,
     parameter real     CONFIG_VALID_PROBABILITY                 = 0.8,
     parameter real     DATA_IN_VALID_PROBABILITY                = 0.8,
-    parameter realtime TIMEOUT                                  = 10ms,
+    parameter realtime TIMEOUT                                  = 100ms,
     parameter realtime CLK_PERIOD                               = 10ns,
     parameter bit      DEBUG                                    = 1'b0,
 
@@ -115,7 +115,9 @@ module bnn_fcc_tb #(
     // DUT configuration (can be modified or extended for your own DUT)        
     localparam int NON_INPUT_LAYERS = USE_CUSTOM_TOPOLOGY ? CUSTOM_LAYERS - 1 : TRAINED_LAYERS - 1,
     parameter int PARALLEL_INPUTS = 8,
-    parameter int PARALLEL_NEURONS[NON_INPUT_LAYERS] = '{8, 8, 10}
+    parameter int LAYER_PARALLEL_INPUTS[NON_INPUT_LAYERS] = '{64, 32, 32},
+
+    parameter int PARALLEL_NEURONS[NON_INPUT_LAYERS] = '{32, 32, 10}
 );
     import bnn_fcc_tb_pkg::*;
 
@@ -191,7 +193,9 @@ module bnn_fcc_tb #(
         .TOTAL_LAYERS     (ACTUAL_TOTAL_LAYERS),
         .TOPOLOGY         (ACTUAL_TOPOLOGY),
         .PARALLEL_INPUTS  (PARALLEL_INPUTS),
-        .PARALLEL_NEURONS (PARALLEL_NEURONS)
+        .PARALLEL_NEURONS (PARALLEL_NEURONS),
+        .LAYER_PARALLEL_INPUTS (LAYER_PARALLEL_INPUTS)
+
     ) DUT (
         .clk(clk),
         .rst(rst),
@@ -464,3 +468,4 @@ module bnn_fcc_tb #(
     end
 
 endmodule
+
