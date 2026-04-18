@@ -68,7 +68,10 @@ files:
 
  - ../rtl/without_output_FIFO/Skid_Buffer.sv
  - ../rtl/without_output_FIFO/xpm_memory.sv
- - rtl/bnn_fcc_timing.sv
+
+ - ../verification/axi4_stream_if.sv
+ - ../verification/bnn_fcc_tb_pkg.sv
+ - ../verification/bnn_fcc_tb.sv
 
 parameters:
   USE_CUSTOM_TOPOLOGY: [0]
