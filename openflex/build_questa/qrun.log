@@ -1,10 +1,73 @@
 QuestaSim-64 qrun 2023.3 Utility 2023.07 Jul 17 2023
-Start time: 00:33:05 on Apr 18,2026
-qrun -64 -sv -timescale=1ns/100ps -g USE_CUSTOM_TOPOLOGY=0 -g TOGGLE_DATA_OUT_READY=1 -g CONFIG_VALID_PROBABILITY=1.0 -g DATA_IN_VALID_PROBABILITY=1.0 -g INPUT_DATA_WIDTH=8 -g INPUT_BUS_WIDTH=64 -g CONFIG_BUS_WIDTH=64 -g OUTPUT_DATA_WIDTH=4 -g OUTPUT_BUS_WIDTH=8 -g TOTAL_LAYERS=4 -g BASE_DIR=../../python /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/axi4_stream_if.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb_pkg.sv /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv -top bnn_fcc_tb 
--- Skipping 'vlog -64 -sv -timescale=1ns/100ps /ecel/UFAD/apaezsansonetti...'
+Start time: 20:29:31 on Apr 19,2026
+qrun -64 -sv -timescale=1ns/100ps -g USE_CUSTOM_TOPOLOGY=0 -g TOGGLE_DATA_OUT_READY=1 -g CONFIG_VALID_PROBABILITY=1.0 -g DATA_IN_VALID_PROBABILITY=1.0 -g INPUT_DATA_WIDTH=8 -g INPUT_BUS_WIDTH=64 -g CONFIG_BUS_WIDTH=64 -g OUTPUT_DATA_WIDTH=4 -g OUTPUT_BUS_WIDTH=8 -g TOTAL_LAYERS=4 -g BASE_DIR=../../python /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_fcc.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_output_fifo.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_HiddenLayer_Control.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_OutputLayer_Control.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_Manager.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Arg_MAX.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_StallableInput.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_NoStallInput.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_OutputLayer_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_Stallable.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_NoStall.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_WithThreshold.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_WithThreshold.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse_Delay.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/StickyBit.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Build_W.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Byte_Index.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_SINK.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_SINK.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_FF_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay2_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay3_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/FIFO.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Accum_Unit.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_WithThreshold.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_WithOutputValid.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_WithThreshold.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_WithThreshold.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Pop_unit.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Threshold_Unit.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_XNOR_unit.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Hidden.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer_Unit.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Skid_Buffer.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/xpm_memory.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/axi4_stream_if.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb_pkg.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb.sv -top bnn_fcc_tb 
+QuestaSim-64 vlog 2023.3 Compiler 2023.07 Jul 17 2023
+Start time: 20:29:31 on Apr 19,2026
+vlog -64 -sv -timescale=1ns/100ps /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_fcc.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_output_fifo.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_HiddenLayer_Control.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_OutputLayer_Control.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_Manager.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Arg_MAX.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_StallableInput.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_NoStallInput.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_OutputLayer_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_Stallable.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_NoStall.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_WithThreshold.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_WithThreshold.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse_Delay.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/StickyBit.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Build_W.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Byte_Index.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_SINK.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_SINK.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_FF_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay2_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay3_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/FIFO.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree_ALWAYS.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Accum_Unit.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_WithThreshold.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_WithOutputValid.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_WithThreshold.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_WithThreshold.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_PopcountOnly.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Pop_unit.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Threshold_Unit.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_XNOR_unit.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Hidden.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer_Unit.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Skid_Buffer.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/xpm_memory.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/axi4_stream_if.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb_pkg.sv /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb.sv -work qrun.out/work -statslog qrun.out/stats_log -writesessionid "+qrun.out/top_dus" -csession=incr -csessionid=0 
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_fcc.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_output_fifo.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_HiddenLayer_Control.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_OutputLayer_Control.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_Manager.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Arg_MAX.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_StallableInput.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_NoStallInput.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_OutputLayer_PopcountOnly.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_Stallable.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_NoStall.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_PopcountOnly.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_WithThreshold.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_PopcountOnly.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_WithThreshold.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_PopcountOnly.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse_Delay.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/StickyBit.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Build_W.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Byte_Index.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_SINK.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_SINK.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_ALWAYS.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_FF_ALWAYS.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay2_ALWAYS.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay3_ALWAYS.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register_ALWAYS.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/FIFO.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree_ALWAYS.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Accum_Unit.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_WithThreshold.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_PopcountOnly.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_WithOutputValid.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_PopcountOnly.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_WithThreshold.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_PopcountOnly.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_WithThreshold.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_PopcountOnly.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Pop_unit.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Threshold_Unit.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_XNOR_unit.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Hidden.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer_Unit.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Skid_Buffer.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/xpm_memory.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/axi4_stream_if.sv
+-- Skipping /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb_pkg.sv
+-- Compiling module bnn_fcc_tb
+-- Importing package bnn_fcc_tb_pkg
+
+Top level modules:
+	bnn_fcc_tb
+End time: 20:29:32 on Apr 19,2026, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
 QuestaSim-64 vopt 2023.3 Compiler 2023.07 Jul 17 2023
-Start time: 00:33:05 on Apr 18,2026
-vopt -timescale=1ns/100ps -g USE_CUSTOM_TOPOLOGY=0 -g TOGGLE_DATA_OUT_READY=1 -g CONFIG_VALID_PROBABILITY=1.0 -g DATA_IN_VALID_PROBABILITY=1.0 -g INPUT_DATA_WIDTH=8 -g INPUT_BUS_WIDTH=64 -g CONFIG_BUS_WIDTH=64 -g OUTPUT_DATA_WIDTH=4 -g OUTPUT_BUS_WIDTH=8 -g TOTAL_LAYERS=4 -g BASE_DIR=../../python bnn_fcc_tb -work qrun.out/work -statslog qrun.out/stats_log -o qrun_opt_1 -csession=incr -csessionid=7 
+Start time: 20:29:32 on Apr 19,2026
+vopt -timescale=1ns/100ps -g USE_CUSTOM_TOPOLOGY=0 -g TOGGLE_DATA_OUT_READY=1 -g CONFIG_VALID_PROBABILITY=1.0 -g DATA_IN_VALID_PROBABILITY=1.0 -g INPUT_DATA_WIDTH=8 -g INPUT_BUS_WIDTH=64 -g CONFIG_BUS_WIDTH=64 -g OUTPUT_DATA_WIDTH=4 -g OUTPUT_BUS_WIDTH=8 -g TOTAL_LAYERS=4 -g BASE_DIR=../../python bnn_fcc_tb -work qrun.out/work -statslog qrun.out/stats_log -o qrun_opt -csession=incr -csessionid=1 
 
 Top level modules:
 	bnn_fcc_tb
@@ -21,6 +84,7 @@ Analyzing design...
 -- Loading module FIFO
 -- Loading module BNN_Hidden
 -- Loading module Arg_MAX
+-- Loading module bnn_output_fifo
 -- Loading module BNN_Layer_StallableInput
 -- Loading module Config_HiddenLayer_Control
 -- Loading module Build_W
@@ -62,174 +126,25 @@ Analyzing design...
 -- Loading module NP_FSM_PopcountOnly
 -- Loading module Delay2_ALWAYS
 -- Loading module NP_DP_PopcountOnly
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv(135): (vopt-2241) Connection width does not match width of port 'din'. The port definition is at: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv(7).
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv(135): (vopt-2241) Connection width does not match width of port 'dout'. The port definition is at: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv(8).
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv(126): (vopt-2241) Connection width does not match width of port 'din'. The port definition is at: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv(7).
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv(126): (vopt-2241) Connection width does not match width of port 'dout'. The port definition is at: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv(9).
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv(135): (vopt-2241) Connection width does not match width of port 'din'. The port definition is at: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv(7).
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv(135): (vopt-2241) Connection width does not match width of port 'dout'. The port definition is at: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv(8).
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv(126): (vopt-2241) Connection width does not match width of port 'din'. The port definition is at: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv(7).
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv(126): (vopt-2241) Connection width does not match width of port 'dout'. The port definition is at: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv(9).
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv(120): (vopt-2241) Connection width does not match width of port 'din'. The port definition is at: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv(7).
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv(120): (vopt-2241) Connection width does not match width of port 'dout'. The port definition is at: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv(8).
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv(111): (vopt-2241) Connection width does not match width of port 'din'. The port definition is at: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv(7).
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv(111): (vopt-2241) Connection width does not match width of port 'dout'. The port definition is at: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv(9).
-Optimizing 103 design-units (inlining 4645/4678 module instances):
+** Warning: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv(135): (vopt-2241) Connection width does not match width of port 'din'. The port definition is at: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv(7).
+** Warning: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv(135): (vopt-2241) Connection width does not match width of port 'dout'. The port definition is at: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv(8).
+** Warning: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv(126): (vopt-2241) Connection width does not match width of port 'din'. The port definition is at: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv(7).
+** Warning: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv(126): (vopt-2241) Connection width does not match width of port 'dout'. The port definition is at: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv(9).
+** Warning: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv(135): (vopt-2241) Connection width does not match width of port 'din'. The port definition is at: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv(7).
+** Warning: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv(135): (vopt-2241) Connection width does not match width of port 'dout'. The port definition is at: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv(8).
+** Warning: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv(126): (vopt-2241) Connection width does not match width of port 'din'. The port definition is at: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv(7).
+** Warning: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv(126): (vopt-2241) Connection width does not match width of port 'dout'. The port definition is at: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv(9).
+** Warning: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_PopcountOnly.sv(120): (vopt-2241) Connection width does not match width of port 'din'. The port definition is at: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv(7).
+** Warning: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_PopcountOnly.sv(120): (vopt-2241) Connection width does not match width of port 'dout'. The port definition is at: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv(8).
+** Warning: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_PopcountOnly.sv(111): (vopt-2241) Connection width does not match width of port 'din'. The port definition is at: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv(7).
+** Warning: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_PopcountOnly.sv(111): (vopt-2241) Connection width does not match width of port 'dout'. The port definition is at: /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv(9).
+Incremental compilation check found no design-units have changed.
 ** Warning: (vopt-3040) Command line generic/parameter "TOTAL_LAYERS" not found in design.
--- Optimizing package bnn_fcc_tb_pkg(fast)
--- Inlining interface axi4_stream_if(fast__1)
--- Inlining interface axi4_stream_if(fast__2)
--- Inlining module Config_Manager(fast)
--- Inlining module Skid_Buffer(fast)
--- Inlining module Input_Layer(fast)
--- Inlining module FIFO(fast)
--- Inlining module Input_Layer_Unit(fast)
--- Inlining module Build_W(fast)
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv(19): (vopt-13314) Defaulting port 'neuron_bytes' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
--- Inlining module Byte_Index(fast)
--- Inlining module Register_ALWAYS(fast)
--- Inlining module Delay_ALWAYS(fast)
--- Inlining module Config_HiddenLayer_Control(fast)
--- Inlining module BRAM_LUT_ALWAYS(fast)
--- Inlining module Input_Buffer_Stallable(fast)
--- Inlining module Register(fast)
--- Inlining module Delay(fast)
--- Inlining module Register_ALWAYS(fast__1)
--- Inlining module Delay_ALWAYS(fast__1)
--- Inlining module Layer_Control_WithThreshold(fast)
--- Inlining module Register(fast__1)
--- Inlining module fanout_tree(fast)
--- Inlining module Register_ALWAYS(fast__2)
--- Inlining module fanout_tree_ALWAYS(fast)
--- Inlining module Register_ALWAYS(fast__3)
--- Inlining module fanout_tree_ALWAYS(fast__1)
--- Inlining module Register_ALWAYS(fast__4)
--- Inlining module fanout_tree_ALWAYS(fast__2)
--- Inlining module Register_ALWAYS(fast__5)
--- Inlining module fanout_tree_ALWAYS(fast__3)
--- Inlining module Delay_FF_ALWAYS(fast)
--- Inlining module Delay_ALWAYS(fast__2)
--- Inlining module xpm_memory_base(fast)
--- Inlining module xpm_memory_spram(fast)
--- Inlining module BRAM_SINK(fast)
--- Inlining module BRAM_LUT_SINK(fast)
--- Inlining module Delay_ALWAYS(fast__3)
--- Inlining module Delay3_ALWAYS(fast)
--- Inlining module NP_FSM_WithOutputValid(fast)
--- Inlining module NP_XNOR_unit(fast)
--- Inlining module NP_Pop_unit(fast)
--- Inlining module NP_Accum_Unit(fast)
--- Inlining module NP_Threshold_Unit(fast)
--- Inlining module NP_DP_WithThreshold(fast)
--- Inlining module NP_UNIT_WithThreshold(fast)
--- Inlining module NP_MEM_WithThreshold(fast)
--- Inlining module NP_Layer_WithThreshold(fast)
--- Inlining module Layer_WithThreshold(fast)
--- Inlining module BNN_Layer_StallableInput(fast)
--- Inlining module Build_W(fast__1)
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv(19): (vopt-13314) Defaulting port 'neuron_bytes' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
--- Inlining module Byte_Index(fast__1)
--- Inlining module Config_HiddenLayer_Control(fast__1)
--- Inlining module BRAM_LUT_ALWAYS(fast__1)
--- Inlining module Input_Buffer_NoStall(fast)
--- Inlining module Layer_Control_WithThreshold(fast__1)
--- Inlining module Register_ALWAYS(fast__6)
--- Inlining module fanout_tree_ALWAYS(fast__4)
--- Inlining module fanout_tree_ALWAYS(fast__5)
--- Inlining module NP_Layer_WithThreshold(fast__1)
--- Inlining module Layer_WithThreshold(fast__1)
--- Inlining module BNN_Layer_NoStallInput(fast)
--- Inlining module Config_OutputLayer_Control(fast)
--- Inlining module Input_Buffer_NoStall(fast__1)
--- Inlining module Layer_Control_PopcountOnly(fast)
--- Inlining module fanout_tree(fast__1)
--- Inlining module fanout_tree_ALWAYS(fast__6)
--- Inlining module fanout_tree_ALWAYS(fast__7)
--- Inlining module fanout_tree_ALWAYS(fast__8)
--- Inlining module xpm_memory_base(fast__2)
--- Inlining module xpm_memory_spram(fast__2)
--- Inlining module BRAM_SINK(fast__2)
--- Inlining module Delay2_ALWAYS(fast)
--- Inlining module NP_FSM_PopcountOnly(fast)
--- Inlining module NP_XNOR_unit(fast__1)
--- Inlining module NP_Pop_unit(fast__1)
--- Inlining module NP_Accum_Unit(fast__1)
--- Inlining module NP_DP_PopcountOnly(fast)
--- Inlining module NP_UNIT_PopcountOnly(fast)
--- Inlining module NP_MEM_PopcountOnly(fast)
--- Inlining module NP_MEM_PopcountOnly(fast__1)
--- Inlining module NP_MEM_PopcountOnly(fast__2)
--- Inlining module NP_MEM_PopcountOnly(fast__3)
--- Inlining module NP_MEM_PopcountOnly(fast__4)
--- Inlining module NP_MEM_PopcountOnly(fast__5)
--- Inlining module NP_MEM_PopcountOnly(fast__6)
--- Inlining module NP_MEM_PopcountOnly(fast__7)
--- Inlining module NP_MEM_PopcountOnly(fast__8)
--- Inlining module NP_MEM_PopcountOnly(fast__9)
--- Inlining module NP_Layer_PopcountOnly(fast)
--- Inlining module Layer_PopcountOnly(fast)
--- Inlining module BNN_OutputLayer_PopcountOnly(fast)
--- Inlining module BNN_Hidden(fast)
--- Inlining module Arg_MAX(fast)
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv(12): (vopt-13314) Defaulting port 'popcount' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
--- Inlining module bnn_fcc(fast)
--- Optimizing module bnn_fcc_tb(fast)
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(54): (vopt-2697) Start index 64 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(54): (vopt-2697) End index 71 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(55): (vopt-2697) Start index 72 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(55): (vopt-2697) End index 79 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(56): (vopt-2697) Start index 80 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(56): (vopt-2697) End index 87 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(57): (vopt-2697) Start index 88 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(57): (vopt-2697) End index 95 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(58): (vopt-2697) Start index 96 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(58): (vopt-2697) End index 103 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(59): (vopt-2697) Start index 104 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(59): (vopt-2697) End index 111 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(60): (vopt-2697) Start index 112 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(60): (vopt-2697) End index 119 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(61): (vopt-2697) Start index 120 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(61): (vopt-2697) End index 127 of part-select into 'assembled_word' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(75): (vopt-2697) Start index 64 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(75): (vopt-2697) End index 71 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(76): (vopt-2697) Start index 72 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(76): (vopt-2697) End index 79 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(77): (vopt-2697) Start index 80 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(77): (vopt-2697) End index 87 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(78): (vopt-2697) Start index 88 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(78): (vopt-2697) End index 95 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(79): (vopt-2697) Start index 96 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(79): (vopt-2697) End index 103 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(80): (vopt-2697) Start index 104 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(80): (vopt-2697) End index 111 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(81): (vopt-2697) Start index 112 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(81): (vopt-2697) End index 119 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(82): (vopt-2697) Start index 120 of part-select into 'pack_buf_next' is out of bounds.
-** Warning: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv(82): (vopt-2697) End index 127 of part-select into 'pack_buf_next' is out of bounds.
--- Inlining module Register_ALWAYS(fast__2)
--- Inlining module Delay_FF_ALWAYS(fast)
--- Inlining module Register_ALWAYS(fast__4)
--- Inlining module Delay_ALWAYS(fast__2)
--- Inlining module xpm_memory_base(fast__1)
--- Inlining module xpm_memory_spram(fast__1)
--- Inlining module BRAM_SINK(fast__1)
--- Inlining module BRAM_LUT_SINK(fast)
--- Inlining module Delay_ALWAYS(fast__3)
--- Inlining module Delay3_ALWAYS(fast)
--- Inlining module NP_FSM_WithOutputValid(fast)
--- Inlining module NP_XNOR_unit(fast__1)
--- Inlining module NP_Pop_unit(fast__1)
--- Inlining module NP_Accum_Unit(fast__1)
--- Inlining module NP_Threshold_Unit(fast__1)
--- Inlining module NP_DP_WithThreshold(fast__1)
--- Inlining module NP_UNIT_WithThreshold(fast__1)
--- Optimizing module NP_MEM_WithThreshold(fast__1)
--- Optimizing interface axi4_stream_if(fast)
-Optimized design name is qrun_opt_1
-End time: 00:33:10 on Apr 18,2026, Elapsed time: 0:00:05
-Errors: 0, Warnings: 48
-# vsim -64 -lib qrun.out/work -c -do "run -all; quit -f" -statslog qrun.out/stats_log qrun_opt_1 -appendlog -l qrun.log -csession=incr -csessionid=8 
-# Start time: 00:33:10 on Apr 18,2026
+Optimized design name is qrun_opt
+End time: 20:29:34 on Apr 19,2026, Elapsed time: 0:00:02
+Errors: 0, Warnings: 13
+# vsim -64 -lib qrun.out/work -c -do "run -all; quit -f" -statslog qrun.out/stats_log qrun_opt -appendlog -l qrun.log -csession=incr -csessionid=2 
+# Start time: 20:29:35 on Apr 19,2026
 # //  Questa Sim-64
 # //  Version 2023.3 linux_x86_64 Jul 17 2023
 # //
@@ -314,15 +229,16 @@ Errors: 0, Warnings: 48
 # [1903755 ns] SUCCESS: all 50 tests completed successfully.
 # 
 # Stats:
-# Avg latency (cycles) per image: 394.4 cycles
-# Avg latency (time) per image: 3943.8 ns
+# Avg latency (cycles) per image: 395.4 cycles
+# Avg latency (time) per image: 3954.2 ns
 # Avg throughput (outputs/sec): 888730.9
 # Avg throughput (cycles/output): 112.5
 #  quit -f
-# End time: 00:33:14 on Apr 18,2026, Elapsed time: 0:00:04
+# End time: 20:29:39 on Apr 19,2026, Elapsed time: 0:00:04
 # Errors: 0, Warnings: 0
 # *** Summary *********************************************
 #     qrun: Errors:   0, Warnings:   0
-#     vopt: Errors:   0, Warnings:  48
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:  13
 #     vsim: Errors:   0, Warnings:   0
-#   Totals: Errors:   0, Warnings:  48
+#   Totals: Errors:   0, Warnings:  13
