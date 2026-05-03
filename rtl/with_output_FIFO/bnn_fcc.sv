@@ -3,16 +3,16 @@
 module bnn_fcc #(
     parameter int INPUT_DATA_WIDTH  = 8,
     parameter int INPUT_BUS_WIDTH   = 64,
-    parameter int CONFIG_BUS_WIDTH  = 32,
+    parameter int CONFIG_BUS_WIDTH  = 64,
     parameter int OUTPUT_DATA_WIDTH = 4,
     parameter int OUTPUT_BUS_WIDTH  = 8,
     parameter int TOTAL_LAYERS = 4,
-    parameter int TOPOLOGY[0:TOTAL_LAYERS-1] = '{0:784, 1:256, 2:256, 3:10, default:0},
+    parameter logic [TOTAL_LAYERS*32-1:0] TOPOLOGY_PACKED = {32'd10, 32'd256, 32'd256, 32'd784},
     parameter int PARALLEL_INPUTS = 8,
-    parameter int PARALLEL_NEURONS[0:TOTAL_LAYERS-2] = '{0:32, 1:256, 2:10, default:8},
-    parameter int LAYER_PARALLEL_INPUTS[0:TOTAL_LAYERS-2] = '{0:784, 1:32, 2:256, default:8},
+    parameter logic [(TOTAL_LAYERS-1)*32-1:0] PARALLEL_NEURONS_PACKED = {32'd10, 32'd32, 32'd32},
+    parameter logic [(TOTAL_LAYERS-1)*32-1:0] LAYER_PARALLEL_INPUTS_PACKED = {32'd32, 32'd32, 32'd64},
     parameter int THRESHOLD_WIDTH = 32,
-    parameter int LAYER_LATENCY[0:TOTAL_LAYERS-2] = '{default:14}
+    parameter logic [(TOTAL_LAYERS-1)*32-1:0] LAYER_LATENCY_PACKED = {32'd14, 32'd14, 32'd14}
 )(
     input  logic clk,
     input  logic rst,
@@ -38,6 +38,34 @@ module bnn_fcc #(
 
     localparam int LAYERS = TOTAL_LAYERS - 1;
     localparam int LAYER_W = (LAYERS <= 1) ? 1 : $clog2(LAYERS);
+    typedef int topology_t [0:TOTAL_LAYERS-1];
+    typedef int layer_param_t [0:LAYERS-1];
+
+    function automatic topology_t unpack_topology(input logic [TOTAL_LAYERS*32-1:0] packed_words);
+        topology_t unpacked;
+
+        for (int idx = 0; idx < TOTAL_LAYERS; idx++) begin
+            unpacked[idx] = int'(packed_words[idx*32 +: 32]);
+        end
+
+        return unpacked;
+    endfunction
+
+    function automatic layer_param_t unpack_layer_params(input logic [LAYERS*32-1:0] packed_words);
+        layer_param_t unpacked;
+
+        for (int idx = 0; idx < LAYERS; idx++) begin
+            unpacked[idx] = int'(packed_words[idx*32 +: 32]);
+        end
+
+        return unpacked;
+    endfunction
+
+    localparam topology_t TOPOLOGY = unpack_topology(TOPOLOGY_PACKED);
+    localparam layer_param_t PARALLEL_NEURONS = unpack_layer_params(PARALLEL_NEURONS_PACKED);
+    localparam layer_param_t LAYER_PARALLEL_INPUTS = unpack_layer_params(LAYER_PARALLEL_INPUTS_PACKED);
+    localparam layer_param_t LAYER_LATENCY = unpack_layer_params(LAYER_LATENCY_PACKED);
+
     localparam int FINAL_LAYER_TN = TOPOLOGY[LAYERS-1];
     localparam int FINAL_POP_W = $clog2(FINAL_LAYER_TN + 1);
 

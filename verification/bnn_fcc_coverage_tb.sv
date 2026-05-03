@@ -58,6 +58,32 @@ module bnn_fcc_coverage_tb #(
     // Topology and file paths
     localparam int ACTUAL_TOTAL_LAYERS = USE_CUSTOM_TOPOLOGY ? CUSTOM_LAYERS : TRAINED_LAYERS;
     localparam int ACTUAL_TOPOLOGY[ACTUAL_TOTAL_LAYERS] = USE_CUSTOM_TOPOLOGY ? CUSTOM_TOPOLOGY : TRAINED_TOPOLOGY;
+    typedef int actual_topology_t [0:ACTUAL_TOTAL_LAYERS-1];
+    typedef int non_input_layer_t [0:NON_INPUT_LAYERS-1];
+
+    function automatic logic [ACTUAL_TOTAL_LAYERS*32-1:0] pack_topology(input actual_topology_t unpacked);
+        logic [ACTUAL_TOTAL_LAYERS*32-1:0] packed_words;
+
+        for (int idx = 0; idx < ACTUAL_TOTAL_LAYERS; idx++) begin
+            packed_words[idx*32 +: 32] = unpacked[idx];
+        end
+
+        return packed_words;
+    endfunction
+
+    function automatic logic [NON_INPUT_LAYERS*32-1:0] pack_layer_params(input non_input_layer_t unpacked);
+        logic [NON_INPUT_LAYERS*32-1:0] packed_words;
+
+        for (int idx = 0; idx < NON_INPUT_LAYERS; idx++) begin
+            packed_words[idx*32 +: 32] = unpacked[idx];
+        end
+
+        return packed_words;
+    endfunction
+
+    localparam logic [ACTUAL_TOTAL_LAYERS*32-1:0] ACTUAL_TOPOLOGY_PACKED = pack_topology(ACTUAL_TOPOLOGY);
+    localparam logic [NON_INPUT_LAYERS*32-1:0] LAYER_PARALLEL_INPUTS_PACKED = pack_layer_params(LAYER_PARALLEL_INPUTS);
+    localparam logic [NON_INPUT_LAYERS*32-1:0] PARALLEL_NEURONS_PACKED = pack_layer_params(PARALLEL_NEURONS);
 
     localparam string MNIST_TEST_VECTOR_INPUT_PATH  = "test_vectors/inputs.hex";
     localparam string MNIST_TEST_VECTOR_OUTPUT_PATH = "test_vectors/expected_outputs.txt";
@@ -133,10 +159,10 @@ localparam int DIRECTED_INPUT_TESTS =
         .OUTPUT_DATA_WIDTH     (OUTPUT_DATA_WIDTH),
         .OUTPUT_BUS_WIDTH      (OUTPUT_BUS_WIDTH),
         .TOTAL_LAYERS          (ACTUAL_TOTAL_LAYERS),
-        .TOPOLOGY              (ACTUAL_TOPOLOGY),
+        .TOPOLOGY_PACKED       (ACTUAL_TOPOLOGY_PACKED),
         .PARALLEL_INPUTS       (PARALLEL_INPUTS),
-        .LAYER_PARALLEL_INPUTS (LAYER_PARALLEL_INPUTS),
-        .PARALLEL_NEURONS      (PARALLEL_NEURONS)
+        .LAYER_PARALLEL_INPUTS_PACKED (LAYER_PARALLEL_INPUTS_PACKED),
+        .PARALLEL_NEURONS_PACKED      (PARALLEL_NEURONS_PACKED)
     ) DUT (
         .clk(clk),
         .rst(rst),

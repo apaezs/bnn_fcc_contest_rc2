@@ -49,6 +49,33 @@ module bnn_fcc_timing #(
     output logic [OUTPUT_BUS_WIDTH/8-1:0] data_out_keep,
     output logic                          data_out_last
 );
+    typedef int topology_t [0:TOTAL_LAYERS-1];
+    typedef int layer_param_t [0:TOTAL_LAYERS-2];
+
+    function automatic logic [TOTAL_LAYERS*32-1:0] pack_topology(input topology_t unpacked);
+        logic [TOTAL_LAYERS*32-1:0] packed_words;
+
+        for (int idx = 0; idx < TOTAL_LAYERS; idx++) begin
+            packed_words[idx*32 +: 32] = unpacked[idx];
+        end
+
+        return packed_words;
+    endfunction
+
+    function automatic logic [(TOTAL_LAYERS-1)*32-1:0] pack_layer_params(input layer_param_t unpacked);
+        logic [(TOTAL_LAYERS-1)*32-1:0] packed_words;
+
+        for (int idx = 0; idx < TOTAL_LAYERS-1; idx++) begin
+            packed_words[idx*32 +: 32] = unpacked[idx];
+        end
+
+        return packed_words;
+    endfunction
+
+    localparam logic [TOTAL_LAYERS*32-1:0] TOPOLOGY_PACKED = pack_topology(TOPOLOGY);
+    localparam logic [(TOTAL_LAYERS-1)*32-1:0] LAYER_PARALLEL_INPUTS_PACKED = pack_layer_params(LAYER_PARALLEL_INPUTS);
+    localparam logic [(TOTAL_LAYERS-1)*32-1:0] PARALLEL_NEURONS_PACKED = pack_layer_params(PARALLEL_NEURONS);
+
     logic                          config_valid_r;
     logic                          config_ready_s;
     logic [  CONFIG_BUS_WIDTH-1:0] config_data_r;
@@ -72,11 +99,12 @@ module bnn_fcc_timing #(
         .INPUT_BUS_WIDTH  (INPUT_BUS_WIDTH),
         .CONFIG_BUS_WIDTH (CONFIG_BUS_WIDTH),
         .OUTPUT_DATA_WIDTH(OUTPUT_DATA_WIDTH),
+        .OUTPUT_BUS_WIDTH (OUTPUT_BUS_WIDTH),
         .TOTAL_LAYERS     (TOTAL_LAYERS),
-        .TOPOLOGY         (TOPOLOGY),
+        .TOPOLOGY_PACKED  (TOPOLOGY_PACKED),
         .PARALLEL_INPUTS  (PARALLEL_INPUTS),
-        .LAYER_PARALLEL_INPUTS (LAYER_PARALLEL_INPUTS),
-        .PARALLEL_NEURONS (PARALLEL_NEURONS)
+        .LAYER_PARALLEL_INPUTS_PACKED (LAYER_PARALLEL_INPUTS_PACKED),
+        .PARALLEL_NEURONS_PACKED (PARALLEL_NEURONS_PACKED)
     ) DUT (
         .clk          (clk),
         .rst          (rst),
