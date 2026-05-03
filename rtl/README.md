@@ -17,8 +17,6 @@ The `bnn_fcc` module is a parameterized, fully-connected binary neural network c
 | `PARALLEL_NEURONS` | Number of neurons calculated in parallel in each non-input layer (optional). |
 ---
 
-Your design most support all parameters except the parallelization configuration options. You can change those however you want to best support your specific architectural strategy. Make sure to change the parameter mapping in the testbench also, which is the only change that is allowed for you submission.
-
 ### Interface
 
 #### Global Signals
@@ -144,6 +142,6 @@ upstream source can provide an arbitrary number of images at any rate. You can a
 sized according to the configured topology. Adding a panic signal for a mismatch would be a good
 practice, but is not a design requirement.
 
-You can assume that the module must be reset before a new configuration.
+The module must be reset before a new configuration.
 
 
