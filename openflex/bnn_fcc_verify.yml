@@ -1,0 +1,84 @@
+mode: sim
+tool: questa
+top: bnn_fcc_tb
+clock: clk
+
+files:
+  # These are common to all projects.
+ - ../rtl/with_output_FIFO/bnn_fcc.sv
+ - ../rtl/with_output_FIFO/bnn_output_fifo.sv
+
+ - ../rtl/with_output_FIFO/Config_HiddenLayer_Control.sv
+ - ../rtl/with_output_FIFO/Config_OutputLayer_Control.sv
+ - ../rtl/with_output_FIFO/Config_Manager.sv
+
+ - ../rtl/with_output_FIFO/Arg_MAX.sv
+ - ../rtl/with_output_FIFO/BNN_Layer_StallableInput.sv
+ - ../rtl/with_output_FIFO/BNN_Layer_NoStallInput.sv
+ - ../rtl/with_output_FIFO/BNN_OutputLayer_PopcountOnly.sv
+ - ../rtl/with_output_FIFO/Input_Buffer_Stallable.sv
+ - ../rtl/with_output_FIFO/Input_Buffer_NoStall.sv
+ - ../rtl/with_output_FIFO/Input_Layer.sv
+ - ../rtl/with_output_FIFO/Layer_Control_WithThreshold.sv
+ - ../rtl/with_output_FIFO/Layer_Control_PopcountOnly.sv
+ - ../rtl/with_output_FIFO/Layer_WithThreshold.sv
+ - ../rtl/with_output_FIFO/Layer_PopcountOnly.sv
+ - ../rtl/with_output_FIFO/NP_Layer_WithThreshold.sv
+ - ../rtl/with_output_FIFO/NP_Layer_PopcountOnly.sv
+
+ - ../rtl/with_output_FIFO/Delay.sv
+ - ../rtl/with_output_FIFO/Pulse.sv
+ - ../rtl/with_output_FIFO/Pulse_Delay.sv
+ - ../rtl/with_output_FIFO/StickyBit.sv
+ - ../rtl/with_output_FIFO/Build_W.sv
+ - ../rtl/with_output_FIFO/Byte_Index.sv
+ - ../rtl/with_output_FIFO/BRAM_SINK.sv
+ - ../rtl/with_output_FIFO/BRAM_LUT_SINK.sv
+ - ../rtl/with_output_FIFO/BRAM_LUT_ALWAYS.sv
+ - ../rtl/with_output_FIFO/Delay_ALWAYS.sv
+ - ../rtl/with_output_FIFO/Delay_FF_ALWAYS.sv
+ - ../rtl/with_output_FIFO/Delay2_ALWAYS.sv
+ - ../rtl/with_output_FIFO/Delay3_ALWAYS.sv
+ - ../rtl/with_output_FIFO/Register.sv
+ - ../rtl/with_output_FIFO/Register_ALWAYS.sv
+ - ../rtl/with_output_FIFO/FIFO.sv
+ - ../rtl/with_output_FIFO/fanout_tree.sv
+ - ../rtl/with_output_FIFO/fanout_tree_ALWAYS.sv
+
+ - ../rtl/with_output_FIFO/NP_Accum_Unit.sv
+ - ../rtl/with_output_FIFO/NP_DP_WithThreshold.sv
+ - ../rtl/with_output_FIFO/NP_DP_PopcountOnly.sv
+ - ../rtl/with_output_FIFO/NP_FSM_WithOutputValid.sv
+ - ../rtl/with_output_FIFO/NP_FSM_PopcountOnly.sv
+ - ../rtl/with_output_FIFO/NP_UNIT_WithThreshold.sv
+ - ../rtl/with_output_FIFO/NP_UNIT_PopcountOnly.sv
+ - ../rtl/with_output_FIFO/NP_MEM_WithThreshold.sv
+ - ../rtl/with_output_FIFO/NP_MEM_PopcountOnly.sv
+ - ../rtl/with_output_FIFO/NP_Pop_unit.sv
+ - ../rtl/with_output_FIFO/NP_Threshold_Unit.sv
+ - ../rtl/with_output_FIFO/NP_XNOR_unit.sv
+
+ - ../rtl/with_output_FIFO/BNN_Hidden.sv
+ - ../rtl/with_output_FIFO/Input_Layer_Unit.sv
+
+ - ../rtl/with_output_FIFO/Skid_Buffer.sv
+ - ../rtl/with_output_FIFO/xpm_memory.sv
+
+ - ../verification/axi4_stream_if.sv
+ - ../verification/bnn_fcc_tb_pkg.sv
+ - ../verification/bnn_fcc_tb.sv
+
+parameters:
+  USE_CUSTOM_TOPOLOGY: [0]
+  TOGGLE_DATA_OUT_READY: [1]
+  CONFIG_VALID_PROBABILITY: [1.0]
+  DATA_IN_VALID_PROBABILITY: [1.0]
+  INPUT_DATA_WIDTH: [8]
+  INPUT_BUS_WIDTH: [64]
+  CONFIG_BUS_WIDTH: [64]
+  OUTPUT_DATA_WIDTH: [4]
+  OUTPUT_BUS_WIDTH: [8]
+  TOTAL_LAYERS: [4]
+  BASE_DIR: ["../../python"]
+
+# TODO: Make sure implementation-specific parameters have appropriate defaults in bnn_fcc_tb.sv

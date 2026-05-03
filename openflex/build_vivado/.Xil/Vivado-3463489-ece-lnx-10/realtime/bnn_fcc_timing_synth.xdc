@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:/ecel/UFAD/miguel.sanchez1/BNN_actual/openflex/build_vivado/vivado.xdc rfile:../../../vivado.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
+create_clock -period 1.000 -name clk [get_ports clk]
+set_property src_info {type:XDC file:1 line:3 export:INPUT save:INPUT read:READ} [current_design]
+set_property HD.CLK_SRC BUFGCTRL_X0Y0 [get_ports clk]

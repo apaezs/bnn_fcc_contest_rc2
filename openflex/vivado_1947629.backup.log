@@ -1,0 +1,88 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Apr  6 23:37:09 2026
+# Process ID: 1947629
+# Current directory: /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex
+# Command line: vivado -mode tcl
+# Log file: /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/vivado.log
+# Journal file: /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/vivado.jou
+# Running On: ece-lnx-10, OS: Linux, CPU Frequency: 3192.499 MHz, CPU Physical cores: 24, Host memory: 100809 MB
+#-----------------------------------------------------------
+open_checkpoint build_vivado/outputs/post_route.dcp
+Command: open_checkpoint build_vivado/outputs/post_route.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2924.125 ; gain = 0.000 ; free physical = 20844 ; free virtual = 61370
+INFO: [Device 21-403] Loading part xcu250-figd2104-2L-e
+Netlist sorting complete. Time (s): cpu = 00:00:00.39 ; elapsed = 00:00:00.41 . Memory (MB): peak = 3281.059 ; gain = 0.000 ; free physical = 19916 ; free virtual = 60483
+INFO: [Netlist 29-17] Analyzing 1126 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3848.965 ; gain = 44.883 ; free physical = 19387 ; free virtual = 59954
+Restored from archive | CPU: 2.120000 secs | Memory: 43.348274 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3848.965 ; gain = 44.883 ; free physical = 19386 ; free virtual = 59954
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4110.598 ; gain = 0.000 ; free physical = 19100 ; free virtual = 59671
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 869 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 864 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 5 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2021.2 (64-bit) build 3367213
+open_checkpoint: Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 4110.598 ; gain = 1186.473 ; free physical = 19100 ; free virtual = 59671
+checkpoint_post_route
+report_high_fanout_nets -max_nets 20report_high_fanout_nets -max_nets 20
+ERROR: [Common 17-161] Invalid option value '20report_high_fanout_nets' specified for 'max_nets'.
+report_high_fanout_nets -max_nets 20
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
+| Date         : Mon Apr  6 23:38:51 2026
+| Host         : ece-lnx-10 running 64-bit Red Hat Enterprise Linux release 8.10 (Ootpa)
+| Command      : report_high_fanout_nets -max_nets 20
+| Design       : bnn_fcc_timing
+| Device       : xcu250
+-----------------------------------------------------------------------------------------
+
+High Fan-out Nets Information
+
+1. Summary
+----------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------------+
+| Net Name                                                                                                                                                            | Fanout | Driver Type |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------------+
+| rst                                                                                                                                                                 |   8009 | PORT        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_shift_next                                                                           |    785 | LUT4        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_adv_last_beat_r                                                                      |    779 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_shift_r[255]_i_1__0_n_0                                                              |    256 | LUT4        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_cfg_ctrl/w_shift_r[255]_i_1_n_0                                                                    |    256 | LUT4        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg_n_0_[10]                                                           |    252 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_adv_last_beat_r                                                                      |    234 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_cfg_ctrl/w_adv_last_beat_r                                                                         |    234 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[23].u_np_mem/u_np/valid_in_r_reg_0                                      |    161 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/valid_in_r_reg_0                                      |    161 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[23].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].ff_i/q_reg_0        |    140 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[23].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].ff_i/q_reg_rep_0    |    140 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[23].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].ff_i/q_reg_rep__0_0 |    140 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg_n_0_[10]                                                        |    133 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].ff_i/q_reg_rep_0    |    130 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].ff_i/q_reg_rep__0_0 |    130 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[25].u_np_mem/u_np/u_fsm/u_valid_align/GEN_DELAY[10].ff_i/q_reg_0        |    129 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg[10]_rep_n_0                                                     |    128 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg[10]_rep__0_n_0                                                  |    118 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg[10]_rep__1_n_0                                                  |    118 | FDCE        |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+-------------+
+
+
+report_high_fanout_nets: Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 4110.598 ; gain = 0.000 ; free physical = 19327 ; free virtual = 59797

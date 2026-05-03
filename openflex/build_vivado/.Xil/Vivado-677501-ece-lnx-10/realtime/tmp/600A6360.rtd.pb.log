@@ -1,0 +1,17 @@
+xilinx rtfpga
+rt::do_reinfer_area_combined 1
+INFO: [Synth 8-4471] merging register 'beat_idx_s0_reg[3:0]' into 'beat_idx_s0_reg[3:0]' [/ecel/UFAD/miguel.sanchez1/BNN_actual/rtl/Used/Not_Divided/Build_W.sv:122]
+INFO: [Synth 8-3886] merging instance 'u_cfg_ctrl/u_build_w/base_byte_s1_reg[6]' (FD) to 'u_cfg_ctrl/u_build_w/beat_idx_s1_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_cfg_ctrl/u_build_w/base_byte_s1_reg[5]' (FD) to 'u_cfg_ctrl/u_build_w/beat_idx_s1_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_cfg_ctrl/u_build_w/base_byte_s1_reg[4]' (FD) to 'u_cfg_ctrl/u_build_w/beat_idx_s1_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_cfg_ctrl/u_build_w/base_byte_s1_reg[3]' (FD) to 'u_cfg_ctrl/u_build_w/beat_idx_s1_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_cfg_ctrl/u_build_w /\base_byte_s1_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_cfg_ctrl/u_build_w /\base_byte_s1_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_cfg_ctrl/u_build_w /\base_byte_s1_reg[1] )
+INFO: [Synth 8-3886] merging instance 'u_cfg_ctrl/u_build_w/base_byte_s2_reg[6]' (FD) to 'u_cfg_ctrl/u_build_w/beat_idx_s2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'u_cfg_ctrl/u_build_w/base_byte_s2_reg[5]' (FD) to 'u_cfg_ctrl/u_build_w/beat_idx_s2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'u_cfg_ctrl/u_build_w/base_byte_s2_reg[4]' (FD) to 'u_cfg_ctrl/u_build_w/beat_idx_s2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'u_cfg_ctrl/u_build_w/base_byte_s2_reg[3]' (FD) to 'u_cfg_ctrl/u_build_w/beat_idx_s2_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_cfg_ctrl/u_build_w /\base_byte_s2_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_cfg_ctrl/u_build_w /\base_byte_s2_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u_cfg_ctrl/u_build_w /\base_byte_s2_reg[1] )

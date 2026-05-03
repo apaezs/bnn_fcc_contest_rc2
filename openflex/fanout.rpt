@@ -1,0 +1,31 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.2 (lin64) Build 3367213 Tue Oct 19 02:47:39 MDT 2021
+| Date         : Mon Apr  6 23:36:20 2026
+| Host         : ece-lnx-10 running 64-bit Red Hat Enterprise Linux release 8.10 (Ootpa)
+| Command      : report_high_fanout_nets -fanout_greater_than 100 -file fanout.rpt
+| Design       : bnn_fcc_timing
+| Device       : xcu250
+-----------------------------------------------------------------------------------------
+
+High Fan-out Nets Information
+
+1. Summary
+----------
+
++--------------------------------------------------------------------------------------------------------------------------------+--------+-------------+
+| Net Name                                                                                                                       | Fanout | Driver Type |
++--------------------------------------------------------------------------------------------------------------------------------+--------+-------------+
+| rst                                                                                                                            |  12619 | PORT        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_shift_next                                      |    785 | LUT4        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_adv_last_beat_r                                 |    779 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_shift_r[255]_i_1__0_n_0                         |    256 | LUT4        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_cfg_ctrl/w_shift_r[255]_i_1_n_0                               |    256 | LUT4        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg_n_0_[10]                      |    245 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[1].GEN_HN.GEN_HN_NONFINAL.u_bnn_layer/u_cfg_ctrl/w_adv_last_beat_r                                 |    234 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[2].GEN_HN.GEN_HN_FINAL.u_bnn_layer/u_cfg_ctrl/w_adv_last_beat_r                                    |    212 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_cfg_ctrl/FSM_onehot_state_r_reg[10]_rep_n_0                |    168 | FDCE        |
+| DUT/u_bnn_hidden/GEN_LAYERS[0].GEN_H0.GEN_H0_NONFINAL.u_bnn_layer/u_layer/u_np_layer/GEN_NP[23].u_np_mem/u_np/valid_in_r_reg_0 |    161 | FDCE        |
++--------------------------------------------------------------------------------------------------------------------------------+--------+-------------+
+
+

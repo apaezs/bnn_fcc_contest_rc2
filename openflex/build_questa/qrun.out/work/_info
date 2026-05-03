@@ -1,0 +1,2265 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/build_questa
+vAccum_Unit
+Z2 2/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SINK.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/fanout_tree.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SPLIT2.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT_SINK.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_MEM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv
+Z3 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z4 !s110 1775022628
+!i10b 1
+!s100 K8YQmdCjD]2=:9ADSl=Je0
+I8[QSgFWglLHMB]3@?cf6a3
+S1
+R1
+w1774149981
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv
+!i122 3
+Z5 L0 1 25
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z8 !s108 1775022628.000000
+Z9 !s107 /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_MEM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT_SINK.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SPLIT2.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/fanout_tree.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SINK.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv|
+Z10 !s90 -64|-sv|-timescale=1ns/100ps|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/bnn_fcc.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SINK.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_2D.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FIFO.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/fanout_tree.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SPLIT2.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT_SINK.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_MEM.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/rtl/bnn_fcc_timing.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-writesessionid|+qrun.out/top_dus|-csession=incr|-csessionid=0|
+!i113 0
+Z11 o-64 -sv -timescale=1ns/100ps -work qrun.out/work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0
+n@accum_@unit
+vArg_MAX
+Z13 2/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_fcc.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_output_fifo.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/StickyBit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Build_W.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Byte_Index.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/FIFO.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/xpm_memory.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/axi4_stream_if.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb_pkg.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb.sv
+R3
+Z14 !s110 1776644867
+!i10b 1
+!s100 jS>]MDUSXNeQne5mjkgk43
+IU606X[l6^Fa;Wgd>:9m4F1
+S1
+Z15 d/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/openflex/build_questa
+w1776644779
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Arg_MAX.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Arg_MAX.sv
+!i122 10
+L0 3 330
+R6
+R7
+r1
+!s85 0
+31
+Z16 !s108 1776644866.000000
+Z17 !s107 /ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb_pkg.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/axi4_stream_if.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/xpm_memory.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/FIFO.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Byte_Index.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Build_W.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/StickyBit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_output_fifo.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_fcc.sv|
+Z18 !s90 -64|-sv|-timescale=1ns/100ps|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_fcc.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_output_fifo.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_Manager.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Arg_MAX.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/StickyBit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Build_W.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Byte_Index.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/FIFO.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/xpm_memory.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/axi4_stream_if.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb_pkg.sv|/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-writesessionid|+qrun.out/top_dus|-csession=incr|-csessionid=0|
+!i113 0
+R11
+R12
+n@arg_@m@a@x
+vasym_bwe_bb
+R13
+R3
+Z19 !s110 1776644868
+!i10b 1
+!s100 2RSJ4ID4Sid6oD>HgZJ_]1
+IcWkW6]D3Jd9dDSe?<LKE_2
+S1
+R15
+Z20 w1776644781
+Z21 8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/xpm_memory.sv
+Z22 F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/xpm_memory.sv
+!i122 10
+L0 8179 56
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+Yaxi4_stream_if
+R13
+R3
+R19
+!i10b 1
+!s100 a?WJ5i;W7<a[68;3ZfmNh1
+IH`HgUBUB21:YjiiVcoNgm3
+S1
+R15
+R20
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/axi4_stream_if.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/axi4_stream_if.sv
+!i122 10
+L0 8 0
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+vbnn_fcc
+R13
+R3
+R14
+!i10b 1
+!s100 ]Ek[lmc]BN[?gZkiT@FVJ0
+IiY@_jC^44<TLQhGA?cSPR1
+S1
+R15
+Z23 w1776644780
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_fcc.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_fcc.sv
+!i122 10
+L0 3 174
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+vbnn_fcc_tb
+R13
+R3
+DXx4 work 14 bnn_fcc_tb_pkg 0 22 UB86]N<J3fb5If2nZ>g@X2
+!s110 1776644972
+!i10b 1
+!s100 ?RonH[=a`12ZB`7F:Moh21
+Ija>H0@D3QVS6o;=;XWDYk1
+S1
+R15
+w1776644967
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb.sv
+!i122 12
+L0 85 386
+R6
+R7
+r1
+!s85 0
+31
+!s108 1776644971.000000
+R17
+R18
+!i113 0
+R11
+R12
+Xbnn_fcc_tb_pkg
+R13
+R3
+R19
+!i10b 1
+!s100 <m15F_^79o5Z8jcmK]7;z0
+IUB86]N<J3fb5If2nZ>g@X2
+S1
+R15
+R20
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb_pkg.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/verification/bnn_fcc_tb_pkg.sv
+!i122 10
+L0 13 0
+VUB86]N<J3fb5If2nZ>g@X2
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+vbnn_fcc_timing
+2/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/openflex/rtl/bnn_fcc_timing.sv
+R3
+!s110 1776484549
+!i10b 1
+!s100 ;24<jU?Xa@J6o^0n19o910
+IJlMzHk`;V?IJnW27HMYP60
+S1
+d/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/openflex/build_questa
+w1776484029
+8/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/openflex/rtl/bnn_fcc_timing.sv
+F/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/openflex/rtl/bnn_fcc_timing.sv
+!i122 7
+L0 13 109
+R6
+R7
+r1
+!s85 0
+31
+!s108 1776484549.000000
+!s107 /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/openflex/rtl/bnn_fcc_timing.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv|
+!s90 -64|-sv|-timescale=1ns/100ps|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/bnn_fcc.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_HiddenLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_OutputLayer_Control.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Config_Manager.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Arg_MAX.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_StallableInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Layer_NoStallInput.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_OutputLayer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_Stallable.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Buffer_NoStall.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_Control_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Layer_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Pulse_Delay.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/StickyBit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Build_W.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Byte_Index.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_SINK.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BRAM_LUT_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay_FF_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay2_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Delay3_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Register_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/FIFO.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/fanout_tree_ALWAYS.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Accum_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_DP_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_WithOutputValid.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_FSM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_UNIT_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_WithThreshold.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_MEM_PopcountOnly.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Pop_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_Threshold_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/NP_XNOR_unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/BNN_Hidden.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Input_Layer_Unit.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/Skid_Buffer.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/rtl/without_output_FIFO/xpm_memory.sv|/ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/openflex/rtl/bnn_fcc_timing.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-writesessionid|+qrun.out/top_dus|-csession=incr|-csessionid=4|
+!i113 0
+R11
+R12
+vBNN_Hidden
+R13
+R3
+R19
+!i10b 1
+!s100 lLEOc0diTG9[kF5CkJgfW3
+ICiK@WNiX8Kg5KW_IR9]640
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Hidden.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Hidden.sv
+!i122 10
+Z24 L0 3 226
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@b@n@n_@hidden
+vBNN_Layer
+R2
+R3
+R4
+!i10b 1
+!s100 S5Ci7TBgL2[SF^]MM3N973
+IfI>]VL`O6o2VBne]CCPL41
+S1
+R1
+w1775003785
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/BNN_Layer.sv
+!i122 3
+R24
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@b@n@n_@layer
+vBNN_Layer_NoStallInput
+R13
+R3
+R14
+!i10b 1
+!s100 3CXS2WK:616lkmb>LEkGc0
+IaO1EU7UZei4_WAEkFFooV3
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_NoStallInput.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_NoStallInput.sv
+!i122 10
+L0 3 144
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@b@n@n_@layer_@no@stall@input
+vBNN_Layer_StallableInput
+R13
+R3
+R14
+!i10b 1
+!s100 ^3W7@173O:BoilAJWjOVW0
+IaAIT_92oAg6b<K@EM?g7z1
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_StallableInput.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_Layer_StallableInput.sv
+!i122 10
+Z25 L0 3 146
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@b@n@n_@layer_@stallable@input
+vbnn_output_fifo
+R13
+R3
+R14
+!i10b 1
+!s100 OS:ok>Z[317T6[R;knoPF3
+I1@iP[WDonBHIXBVOO8R`O2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_output_fifo.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/bnn_output_fifo.sv
+!i122 10
+L0 1 125
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+vBNN_OutputLayer_PopcountOnly
+R13
+R3
+R14
+!i10b 1
+!s100 MlBLoM^][;2Ve;[[?AYYJ2
+Ij;QCEIXRBgR07RdK<LMdR3
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_OutputLayer_PopcountOnly.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BNN_OutputLayer_PopcountOnly.sv
+!i122 10
+L0 3 123
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@b@n@n_@output@layer_@popcount@only
+vBRAM
+R2
+R3
+R4
+!i10b 1
+!s100 6o0QjaTFfa]o=fja1P=KZ0
+I?]FcHh9dQXj^?A;[1I@k72
+S1
+R1
+w1775020794
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM.sv
+!i122 3
+L0 3 54
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@b@r@a@m
+vBRAM_LUT
+R2
+R3
+R4
+!i10b 1
+!s100 LVIY;6<khTX00@HgmTf8K3
+Ij^^]IGU@D0gf9EIT5g^g82
+S1
+R1
+w1775016546
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_LUT.sv
+!i122 3
+L0 3 26
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@b@r@a@m_@l@u@t
+vBRAM_LUT_ALWAYS
+R13
+R3
+R14
+!i10b 1
+!s100 0]12eVH<fU4njJk^UPVXL1
+I_ZDaOHD94@D^>:_mleP>91
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_ALWAYS.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_ALWAYS.sv
+!i122 10
+L0 3 21
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@b@r@a@m_@l@u@t_@a@l@w@a@y@s
+vBRAM_LUT_SINK
+R13
+R3
+R14
+!i10b 1
+!s100 ?d]Q[gK?3<USGh68OEjO91
+IE`QYL13]GIbdZNm2lR9QG0
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_SINK.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_LUT_SINK.sv
+!i122 10
+L0 4 36
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@b@r@a@m_@l@u@t_@s@i@n@k
+vBRAM_SINK
+R13
+R3
+R14
+!i10b 1
+!s100 SCYZn?K;bn?RIU;BCgbz_2
+IoBNROMPJ1WS`2V<2Ra>7O2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_SINK.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/BRAM_SINK.sv
+!i122 10
+Z26 L0 3 61
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@b@r@a@m_@s@i@n@k
+vBRAM_SPLIT2
+R2
+R3
+R4
+!i10b 1
+!s100 _hHhda_Q2:EblNUC39M1n3
+IA6Wgi7;^[0]9nSCB`fAIQ1
+S1
+R1
+w1774836056
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SPLIT2.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/BRAM_SPLIT2.sv
+!i122 3
+L0 3 75
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@b@r@a@m_@s@p@l@i@t2
+vBuild_W
+R13
+R3
+R14
+!i10b 1
+!s100 7U6`fNimS96eS]IK@Sk5j1
+IIYQY>4cJd_4[9BE^KE9YQ0
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Build_W.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Build_W.sv
+!i122 10
+Z27 L0 3 165
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@build_@w
+vByte_Index
+R13
+R3
+R14
+!i10b 1
+!s100 :N4Hgi@ohg3o0=TBomZ9e3
+IgAM]1o9oWdz_>G<U@REC]2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Byte_Index.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Byte_Index.sv
+!i122 10
+L0 3 103
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@byte_@index
+vConfig_HiddenLayer_Control
+R13
+R3
+R14
+!i10b 1
+!s100 L`X>2jYQ0WEAc>`?XX?Mj1
+If;AmH79LG_GKRLW8<`D7O2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_HiddenLayer_Control.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_HiddenLayer_Control.sv
+!i122 10
+L0 3 446
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@config_@hidden@layer_@control
+vConfig_Layer_Control
+R2
+R3
+R4
+!i10b 1
+!s100 Qg8aYIJhHQ<OzYdDO=o<B1
+IKRE`@YbGVcZlX23cd6CPe0
+S1
+R1
+w1775010830
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/config/Config_Layer_Control.sv
+!i122 3
+L0 3 644
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@config_@layer_@control
+vConfig_Manager
+R13
+R3
+R14
+!i10b 1
+!s100 fdQFUQR?Z_`J6ZJzhYHl@3
+I<kC3cOXDQPTO3Wdijn75<1
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_Manager.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_Manager.sv
+!i122 10
+L0 3 274
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@config_@manager
+vConfig_OutputLayer_Control
+R13
+R3
+R14
+!i10b 1
+!s100 ADJL1QZjZ_oAmY@WO[[V<2
+In2YP31a6]g[NIO8S66:az2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_OutputLayer_Control.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Config_OutputLayer_Control.sv
+!i122 10
+L0 3 316
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@config_@output@layer_@control
+vDelay
+R13
+R3
+R14
+!i10b 1
+!s100 ;n<Nl;;anKbkaXYdfdAS01
+I2^T5<?WQOM]MfEL_I2ANV2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay.sv
+!i122 10
+L0 1 32
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@delay
+vDelay2_ALWAYS
+R13
+R3
+R14
+!i10b 1
+!s100 3HU_9nd@2j@Jf`^naIiSb3
+I`R;hPH9Y8<ELfjnm`BBUE0
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay2_ALWAYS.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay2_ALWAYS.sv
+!i122 10
+L0 3 34
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@delay2_@a@l@w@a@y@s
+vDelay3_ALWAYS
+R13
+R3
+R14
+!i10b 1
+!s100 mXm1bg;V3zAd;P1gl:2Zm2
+IVbbIBWn6GgPL@>Q]QCS913
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay3_ALWAYS.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay3_ALWAYS.sv
+!i122 10
+L0 3 39
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@delay3_@a@l@w@a@y@s
+vDelay_2D
+R2
+R3
+R4
+!i10b 1
+!s100 WLQ7A]caTob?:fC9lRL610
+IHDY5jbGg:e3L;efKB3VOl2
+S1
+R1
+w1774400790
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_2D.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_2D.sv
+!i122 3
+L0 1 33
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@delay_2@d
+vDelay_ALWAYS
+R13
+R3
+R14
+!i10b 1
+!s100 3keGE]eQ>=W``lKDLU>C>1
+IB=If02`S1^?JLaigA:B5i1
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_ALWAYS.sv
+!i122 10
+L0 1 30
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@delay_@a@l@w@a@y@s
+vDelay_FF
+R2
+R3
+R4
+!i10b 1
+!s100 Lz3A8@IRRGF>4TQQZgfn43
+I`_9CB;Jg`e`kGMZ6f>oRd2
+S1
+R1
+w1774399996
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF.sv
+!i122 3
+L0 1 28
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@delay_@f@f
+vDelay_FF_2D
+R2
+R3
+R4
+!i10b 1
+!s100 C:=OaFkmGQKa;VcfJd6]L2
+IU;ZfO[RRBA[W?e6z<VnBE3
+S1
+R1
+w1774400800
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF_2D.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Delay_FF_2D.sv
+!i122 3
+L0 1 31
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@delay_@f@f_2@d
+vDelay_FF_ALWAYS
+R13
+R3
+R14
+!i10b 1
+!s100 NiY_Hk<ZTiiz`g9V5J7^I3
+ITcfg8nXaMLY>Cj`g;4MKN2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_FF_ALWAYS.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Delay_FF_ALWAYS.sv
+!i122 10
+L0 1 29
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@delay_@f@f_@a@l@w@a@y@s
+vfanout_tree
+R13
+R3
+R14
+!i10b 1
+!s100 _]N3F`O4`mbe>GF^nMMnJ0
+Ia^MbJ@Q@@E5=A:>JTC9F]2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree.sv
+!i122 10
+L0 3 70
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+vfanout_tree_ALWAYS
+R13
+R3
+R14
+!i10b 1
+!s100 X7Y[baG5@V6GKZ=BG1>dN0
+I=ViAS>k6jLdWLlJoXKPS]3
+S1
+R15
+R20
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree_ALWAYS.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/fanout_tree_ALWAYS.sv
+!i122 10
+L0 3 65
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+nfanout_tree_@a@l@w@a@y@s
+vFF
+R2
+R3
+R4
+!i10b 1
+!s100 If[HjCnQK]5km`_lOCbO;0
+IiiHNhP]F9RNzWS<hEdQ090
+S1
+R1
+w1774399930
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF.sv
+!i122 3
+L0 1 15
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@f@f
+vFF_2D
+R2
+R3
+R4
+!i10b 1
+!s100 IC9JdIEN5?A=0[HJlLg7:1
+Im7EW:hRKj>ZT2]f]8?5lo3
+S1
+R1
+w1774400716
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF_2D.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/FF_2D.sv
+!i122 3
+R5
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@f@f_2@d
+vFIFO
+R13
+R3
+R14
+!i10b 1
+!s100 7T3jdJ7zJ74I2V;Y^h6`O2
+IR?l^nBBIO?^]Q7D6a4fVl0
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/FIFO.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/FIFO.sv
+!i122 10
+Z28 L0 3 130
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@f@i@f@o
+vInput_Buffer_NoStall
+R13
+R3
+R14
+!i10b 1
+!s100 XoR2gh8U1LYT]ZUjb[10Z0
+IKg6bOcoMilEa<]K?QZV2g0
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_NoStall.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_NoStall.sv
+!i122 10
+L0 3 217
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@input_@buffer_@no@stall
+vInput_Buffer_Stallable
+R13
+R3
+R14
+!i10b 1
+!s100 E7?Y3h<7UGmQjFMGQNhFO1
+I^T5H:DE6fi57Sm4D_@8[G3
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_Stallable.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Buffer_Stallable.sv
+!i122 10
+L0 3 246
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@input_@buffer_@stallable
+vInput_Bufferv1
+R2
+R3
+R4
+!i10b 1
+!s100 iGb3SOY6VA]<?^az];68T1
+IBW4W2HH:Ce4BIZ`eP:nOc0
+S1
+R1
+w1774994017
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Input_Bufferv1.sv
+!i122 3
+L0 3 334
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@input_@bufferv1
+vInput_Layer
+R13
+R3
+R14
+!i10b 1
+!s100 Jk1C58n0O:M9<NkmP9T4e0
+IkI6eTWZ^U>K5Ngb88j81O0
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer.sv
+!i122 10
+L0 1 45
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@input_@layer
+vInput_Layer_Unit
+R13
+R3
+R19
+!i10b 1
+!s100 ^4gQee:UzTPWGf_SNl:O=0
+IoGNfII@LHNH1SjeTh@YDE0
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer_Unit.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Input_Layer_Unit.sv
+!i122 10
+L0 3 122
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@input_@layer_@unit
+vLayer
+R2
+R3
+R4
+!i10b 1
+!s100 InjC1H]VDzJEXgn<NUE7K1
+IUa<SE61LA=;H:Gk3K<E_m3
+S1
+R1
+w1774993326
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer.sv
+!i122 3
+L0 3 150
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@layer
+vLayer_Control
+R2
+R3
+R4
+!i10b 1
+!s100 [gj6AV;B4Y=bXYLKYHZdE1
+IoO87<Ge__[L3Sgkc?VIMm1
+S1
+R1
+w1774823121
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/Layer_Control.sv
+!i122 3
+L0 3 238
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@layer_@control
+vLayer_Control_PopcountOnly
+R13
+R3
+R14
+!i10b 1
+!s100 L6^GoVX>C>lEP5fJ@@Wa:2
+I;V9L7Z0QN]1z66hl<U@AJ2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_PopcountOnly.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_PopcountOnly.sv
+!i122 10
+L0 3 142
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@layer_@control_@popcount@only
+vLayer_Control_WithThreshold
+R13
+R3
+R14
+!i10b 1
+!s100 F7U[F?l`Uc0BNUjA:jl0^3
+Ic4jG]9JjOWCh=X4l[X17d0
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_Control_WithThreshold.sv
+!i122 10
+L0 3 171
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@layer_@control_@with@threshold
+vLayer_PopcountOnly
+R13
+R3
+R14
+!i10b 1
+!s100 >Cmo<9XfgMMeG6C7b:UFj0
+I;YlFg4?VNoFlVh3kP^bjK2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_PopcountOnly.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_PopcountOnly.sv
+!i122 10
+L0 3 93
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@layer_@popcount@only
+vLayer_WithThreshold
+R13
+R3
+R14
+!i10b 1
+!s100 1;>QU0<>G2EX03U`iKmgk0
+IL;Gk9z;_UX=jE5mWl]LTa0
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_WithThreshold.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Layer_WithThreshold.sv
+!i122 10
+L0 3 124
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@layer_@with@threshold
+vNP_Accum_Unit
+R13
+R3
+R14
+!i10b 1
+!s100 EMH6i@oz3[bY`aMO0EkX:3
+I8eJ`6hjUkDHBUVbac0ioV2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Accum_Unit.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Accum_Unit.sv
+!i122 10
+L0 1 39
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@accum_@unit
+vNP_DP
+R2
+R3
+R4
+!i10b 1
+!s100 G0<miz_JW@n?g`U:?Ff?_3
+Io3:BRLEelGF>3:Td8<?ic3
+S1
+R1
+w1774400443
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_DP.sv
+!i122 3
+L0 1 68
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@n@p_@d@p
+vNP_DP_PopcountOnly
+R13
+R3
+R14
+!i10b 1
+!s100 ]eFCOkVI1Xb_^z7k]4b<]2
+I=4H^f4Y<dm7E_nHe8YCOW3
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_PopcountOnly.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_PopcountOnly.sv
+!i122 10
+Z29 L0 3 49
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@d@p_@popcount@only
+vNP_DP_WithThreshold
+R13
+R3
+R14
+!i10b 1
+!s100 [64JmGP0a<iBZk?3RJBdz0
+IOzABWKTfm24TLaQaom7891
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_WithThreshold.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_DP_WithThreshold.sv
+!i122 10
+L0 1 59
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@d@p_@with@threshold
+vNP_FSM
+R2
+R3
+R4
+!i10b 1
+!s100 K9mRKm:ZmeU=fdOSj;2[N0
+I=PL=Tb>ij7k^N<H;o]0hA1
+S1
+R1
+w1774400195
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_FSM.sv
+!i122 3
+R27
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@n@p_@f@s@m
+vNP_FSM_PopcountOnly
+R13
+R3
+R19
+!i10b 1
+!s100 Ujk6KDDfQilddBF4Xe<ic2
+IW=7g0R2AL`1HkR6SV:GWz1
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_PopcountOnly.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_PopcountOnly.sv
+!i122 10
+R28
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@f@s@m_@popcount@only
+vNP_FSM_WithOutputValid
+R13
+R3
+R14
+!i10b 1
+!s100 M7j?bKi^0`8A5]WMSEG<a3
+IHhDX6TUXT6bI`?m4Z5[ML0
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_WithOutputValid.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_FSM_WithOutputValid.sv
+!i122 10
+R25
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@f@s@m_@with@output@valid
+vNP_Layer
+R2
+R3
+R4
+!i10b 1
+!s100 @ePeJFT`e0^7b4B4XRH731
+I9<<EiAPDPOG?Ogzh9>H[f3
+S1
+R1
+w1774994082
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Layer/NP_Layer.sv
+!i122 3
+L0 3 252
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@n@p_@layer
+vNP_Layer_PopcountOnly
+R13
+R3
+R14
+!i10b 1
+!s100 zC;B6EG@S9J`eTWQNZB^b1
+IabH>]0c`=L=:d=EgL>g8O1
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_PopcountOnly.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_PopcountOnly.sv
+!i122 10
+L0 3 139
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@layer_@popcount@only
+vNP_Layer_WithThreshold
+R13
+R3
+R14
+!i10b 1
+!s100 OP48FWZWWn[LhTjmVHUR00
+IHooNOC55M<E=jL9`N6MEF0
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_WithThreshold.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Layer_WithThreshold.sv
+!i122 10
+L0 3 202
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@layer_@with@threshold
+vNP_MEM
+R2
+R3
+R4
+!i10b 1
+!s100 jH1P7EFGE9RjA[eDoA5gI2
+I0cU8>P_[lLY7NdSzS8N<B1
+S1
+R1
+w1775021047
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_MEM.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_MEM.sv
+!i122 3
+L0 2 215
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@n@p_@m@e@m
+vNP_MEM_PopcountOnly
+R13
+R3
+R19
+!i10b 1
+!s100 TCz7n9zUJZf3fU4mazJnf2
+IQH=AIRE;MGEo3B>h<L=QI2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_PopcountOnly.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_PopcountOnly.sv
+!i122 10
+L0 3 133
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@m@e@m_@popcount@only
+vNP_MEM_WithThreshold
+R13
+R3
+R19
+!i10b 1
+!s100 ;O0`;JE?VCPfNZOaN_2B@2
+Iif`]Yd<c9H_?Ec5QUX9I]0
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_WithThreshold.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_MEM_WithThreshold.sv
+!i122 10
+L0 3 208
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@m@e@m_@with@threshold
+vNP_Pop_unit
+R13
+R3
+R19
+!i10b 1
+!s100 R:Ki`oN2MS2L>_Y>`[gnY1
+IQcKHJ[>YYM@[cef7;Y3481
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Pop_unit.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Pop_unit.sv
+!i122 10
+L0 1 229
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@pop_unit
+vNP_Threshold_Unit
+R13
+R3
+R19
+!i10b 1
+!s100 Bl<;SOjCN]7Q<8UoeYihR1
+IW<a4b8C[OH]fQY5A`LF3E1
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Threshold_Unit.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_Threshold_Unit.sv
+!i122 10
+Z30 L0 1 26
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@threshold_@unit
+vNP_UNIT
+R2
+R3
+R4
+!i10b 1
+!s100 h6@hf^NNPga`VnIz:fe>n3
+IW:h8L9YY]kAMZ;Nd53TEb1
+S1
+R1
+w1775016736
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/NP_UNIT.sv
+!i122 3
+L0 1 80
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@n@p_@u@n@i@t
+vNP_UNIT_PopcountOnly
+R13
+R3
+R19
+!i10b 1
+!s100 cLADXf[E1SL?VRHH0ERZ81
+Ii;k>KeW3G`PgQicNS?=Nl3
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_PopcountOnly.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_PopcountOnly.sv
+!i122 10
+R26
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@u@n@i@t_@popcount@only
+vNP_UNIT_WithThreshold
+R13
+R3
+R19
+!i10b 1
+!s100 M4`9Pe6SoiMH:K;_aZ?n?2
+IAnn9[d`jSW39H3?lbTMIA2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_WithThreshold.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_UNIT_WithThreshold.sv
+!i122 10
+L0 1 71
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@u@n@i@t_@with@threshold
+vNP_XNOR_unit
+R13
+R3
+R19
+!i10b 1
+!s100 V7;O:imMWcL4dk9C@>JRE1
+IR:abi?7@K][C@_G23N9l[2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_XNOR_unit.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/NP_XNOR_unit.sv
+!i122 10
+L0 3 22
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@n@p_@x@n@o@r_unit
+vPop_unit
+R2
+R3
+R4
+!i10b 1
+!s100 e86>ZjOne0^kLWc<f@M2j2
+IGM<U1S_m3TE30EfY?i?OP0
+S1
+R1
+w1774469747
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Pop_unit.sv
+!i122 3
+L0 1 250
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@pop_unit
+vPulse
+R13
+R3
+R14
+!i10b 1
+!s100 _N43PegobgLWU_ElZg^gI3
+IYjYRbEOFcCIUc6>VajS4K3
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse.sv
+!i122 10
+L0 3 16
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@pulse
+vPulse_Delay
+R13
+R3
+R14
+!i10b 1
+!s100 j8Y76oHIGQeBFLTJicLe22
+IZS;heKgUzKcZfj`ojLFH[2
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse_Delay.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Pulse_Delay.sv
+!i122 10
+Z31 L0 1 24
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@pulse_@delay
+Tqrun_opt
+!s110 1776644974
+V`LYa:3?SR5lX?VEg1iflf2
+Z32 04 10 4 work bnn_fcc_tb fast 0
+R0
+Z33 !s12b OEM100
+Z34 !s124 OEM100
+Z35 o-timescale=1ns/100ps -g USE_CUSTOM_TOPOLOGY=0 -g TOGGLE_DATA_OUT_READY=1 -g CONFIG_VALID_PROBABILITY=1.0 -g DATA_IN_VALID_PROBABILITY=1.0 -g INPUT_DATA_WIDTH=8 -g INPUT_BUS_WIDTH=64 -g CONFIG_BUS_WIDTH=64 -g OUTPUT_DATA_WIDTH=4 -g OUTPUT_BUS_WIDTH=8 -g TOTAL_LAYERS=4 -g BASE_DIR=../../python -work qrun.out/work
+R12
+nqrun_opt
+Z36 OL;O;2023.3;77
+Tqrun_opt_1
+!s110 1776486786
+VKemegz;SP>DhWU7:20MJO0
+R32
+R0
+R33
+R34
+R35
+R12
+nqrun_opt_1
+R36
+R1
+vRegister
+R13
+R3
+R14
+!i10b 1
+!s100 hcWjcmW6BbWef6Dh:26Vo3
+I`zT9B;k_nZfg5EOad`=gk1
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register.sv
+!i122 10
+Z37 L0 1 18
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@register
+vRegister_2D
+R2
+R3
+R4
+!i10b 1
+!s100 R2I7]JEmlgP5?XoThFaKa0
+Id3l5`DdI<k>XOV<o]271O0
+S1
+R1
+w1774400764
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/Memory_Delay/Register_2D.sv
+!i122 3
+R30
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@register_2@d
+vRegister_ALWAYS
+R13
+R3
+R14
+!i10b 1
+!s100 <DgEHznHHXVO_nMm@^<H`2
+IMBG3QBEQ_PA>l2bhTY3[20
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register_ALWAYS.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Register_ALWAYS.sv
+!i122 10
+L0 1 14
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@register_@a@l@w@a@y@s
+vSkid_Buffer
+R13
+R3
+R19
+!i10b 1
+!s100 _XL[EYTC`HhiL2F_:HO4d0
+I[WkgGP]`FHd1ngzV7VdQI1
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Skid_Buffer.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/Skid_Buffer.sv
+!i122 10
+R29
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@skid_@buffer
+vStickyBit
+R13
+R3
+R14
+!i10b 1
+!s100 cifW7HGZWQTUfCFSL1hJA0
+I;f<Wd<[dIdL@VF:]BLTf10
+S1
+R15
+R23
+8/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/StickyBit.sv
+F/ecel/UFAD/miguel.sanchez1/bnn_fcc_contest_rc2/rtl/with_output_FIFO/StickyBit.sv
+!i122 10
+R37
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+n@sticky@bit
+vThreshold_Unit
+R2
+R3
+R4
+!i10b 1
+!s100 W^5m8L5AW8Gmf<G^3z0T^1
+IKP2a_;oN9nbhQn_KACjk:1
+S1
+R1
+w1774135339
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/Threshold_Unit.sv
+!i122 3
+R31
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@threshold_@unit
+vXNOR_unit
+R2
+R3
+R4
+!i10b 1
+!s100 5Gbi1=m:KQa5ABIP`hiU73
+ID0nIe2P@8k:J;2Q31oRIK2
+S1
+R1
+w1770328996
+8/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv
+F/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/rtl/personal_synth_files/NP/XNOR_unit.sv
+!i122 3
+R37
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+n@x@n@o@r_unit
+vxpm_memory_base
+R13
+R3
+R19
+!i10b 1
+!s100 fNNAEP1fi8ETeR9=fLNUG2
+I=1M2`RgfPB]aK9Ob4DF<B0
+S1
+R15
+R20
+R21
+R22
+!i122 10
+L0 55 8117
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+vxpm_memory_dpdistram
+R13
+R3
+R19
+!i10b 1
+!s100 Pm@Q6`DbFWF@0z7UhW`iF0
+IK5Z^`cn?=64K0H:NmD41U3
+S1
+R15
+R20
+R21
+R22
+!i122 10
+L0 8240 138
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+vxpm_memory_dprom
+R13
+R3
+R19
+!i10b 1
+!s100 n]?7]OlLNdLJlJT1T;d8X2
+I4R3Mb7G<?ST[P2FB9MNQe1
+S1
+R15
+R20
+R21
+R22
+!i122 10
+L0 8384 167
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+vxpm_memory_sdpram
+R13
+R3
+R19
+!i10b 1
+!s100 Vc:jIe3:Gn@Rik=?_<NVl3
+Ig^L7F]K=_`VJf<kkE:7^O3
+S1
+R15
+R20
+R21
+R22
+!i122 10
+L0 8557 170
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+vxpm_memory_spram
+R13
+R3
+R19
+!i10b 1
+!s100 b>7Q:6Ud:WBTn6zh5[2=Q2
+IP<g8cUAQdOInm<`n^Jej90
+S1
+R15
+R20
+R21
+R22
+!i122 10
+L0 8733 159
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+vxpm_memory_sprom
+R13
+R3
+R19
+!i10b 1
+!s100 Im`:;ln1W7zQb8J@AAMn?0
+IUhF5zlFA;T]ASER^g<DPJ3
+S1
+R15
+R20
+R21
+R22
+!i122 10
+L0 8898 147
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12
+vxpm_memory_tdpram
+R13
+R3
+R19
+!i10b 1
+!s100 R9MH^U4;JWV^LJhz>f2?l3
+ILb>YK0zP7=OI]8b3?G;Kj3
+S1
+R15
+R20
+R21
+R22
+!i122 10
+L0 9051 188
+R6
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!i113 0
+R11
+R12

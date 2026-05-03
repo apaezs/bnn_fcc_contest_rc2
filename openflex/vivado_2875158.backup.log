@@ -1,0 +1,87 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Apr  7 15:06:25 2026
+# Process ID: 2875158
+# Current directory: /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex
+# Command line: vivado -mode tcl
+# Log file: /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/vivado.log
+# Journal file: /ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/vivado.jou
+# Running On: ece-lnx-10, OS: Linux, CPU Frequency: 3192.499 MHz, CPU Physical cores: 24, Host memory: 100809 MB
+#-----------------------------------------------------------
+open_checkpoint build_vivado/outputs/post_route.dcp
+Command: open_checkpoint build_vivado/outputs/post_route.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2934.035 ; gain = 0.000 ; free physical = 10944 ; free virtual = 59271
+INFO: [Device 21-403] Loading part xcu250-figd2104-2L-e
+Netlist sorting complete. Time (s): cpu = 00:00:00.39 ; elapsed = 00:00:00.40 . Memory (MB): peak = 3280.969 ; gain = 0.000 ; free physical = 9654 ; free virtual = 57990
+INFO: [Netlist 29-17] Analyzing 1131 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3849.906 ; gain = 44.883 ; free physical = 9209 ; free virtual = 57541
+Restored from archive | CPU: 2.170000 secs | Memory: 42.961273 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3849.906 ; gain = 44.883 ; free physical = 9209 ; free virtual = 57541
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4110.578 ; gain = 0.000 ; free physical = 8959 ; free virtual = 57292
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 869 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 864 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 5 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2021.2 (64-bit) build 3367213
+open_checkpoint: Time (s): cpu = 00:00:30 ; elapsed = 00:00:37 . Memory (MB): peak = 4110.578 ; gain = 1176.543 ; free physical = 8959 ; free virtual = 57292
+checkpoint_post_route
+report_high_fanout_nets -max_nets 200 -timing -load_types -file high_fanout.rpt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2L, Temperature grade: E, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 10 -nworst 1 -delay_type max -sort_by slack.
+report_high_fanout_nets: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 4250.043 ; gain = 139.465 ; free physical = 8764 ; free virtual = 57108
+report_high_fanout_nets: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 4250.043 ; gain = 139.465 ; free physical = 8766 ; free virtual = 57111
+/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/high_fanout.rpt
+open_checkpoint build_vivado/outputs/post_route.dcp
+Command: open_checkpoint build_vivado/outputs/post_route.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 4250.043 ; gain = 0.000 ; free physical = 14439 ; free virtual = 60750
+Netlist sorting complete. Time (s): cpu = 00:00:00.41 ; elapsed = 00:00:00.41 . Memory (MB): peak = 4318.910 ; gain = 0.000 ; free physical = 14379 ; free virtual = 60691
+INFO: [Netlist 29-17] Analyzing 1131 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2021.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 4699.473 ; gain = 22.398 ; free physical = 14038 ; free virtual = 60353
+Restored from archive | CPU: 2.130000 secs | Memory: 41.755745 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 4699.473 ; gain = 22.398 ; free physical = 14037 ; free virtual = 60352
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 4699.473 ; gain = 0.000 ; free physical = 14048 ; free virtual = 60345
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 869 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 864 instances
+  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 5 instances
+
+INFO: [Project 1-604] Checkpoint was created with Vivado v2021.2 (64-bit) build 3367213
+open_checkpoint: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 4703.473 ; gain = 453.430 ; free physical = 14049 ; free virtual = 60347
+checkpoint_post_route
+report_high_fanout_nets -max_nets 200 -timing -load_types -file high_fanout.rpt
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2L, Temperature grade: E, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 10 -nworst 1 -delay_type max -sort_by slack.
+report_high_fanout_nets: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 4761.785 ; gain = 58.312 ; free physical = 13957 ; free virtual = 60274
+report_high_fanout_nets: Time (s): cpu = 00:00:17 ; elapsed = 00:00:07 . Memory (MB): peak = 4761.785 ; gain = 58.312 ; free physical = 13961 ; free virtual = 60277
+/ecel/UFAD/miguel.sanchez1/BNN_Contest/Apple_comp/openflex/high_fanout.rpt

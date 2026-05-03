@@ -1,0 +1,268 @@
+# //  Questa Sim-64
+# //  Version 2023.3 linux_x86_64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project questa
+# Compile of Arg_MAX.sv was successful with warnings.
+# Compile of bnn_fcc.sv was successful.
+# Compile of BNN_Hidden.sv was successful.
+# Compile of BNN_Layer_NoStallInput.sv was successful.
+# Compile of BNN_Layer_StallableInput.sv was successful.
+# Compile of bnn_output_fifo.sv was successful.
+# Compile of BNN_OutputLayer_PopcountOnly.sv was successful.
+# Compile of BRAM_LUT_ALWAYS.sv was successful.
+# Compile of BRAM_LUT_SINK.sv was successful.
+# Compile of BRAM_SINK.sv was successful.
+# Compile of Build_W.sv was successful with warnings.
+# Compile of Byte_Index.sv was successful.
+# Compile of Config_HiddenLayer_Control.sv was successful.
+# Compile of Config_Manager.sv was successful.
+# Compile of Config_OutputLayer_Control.sv was successful.
+# Compile of Delay.sv was successful.
+# Compile of Delay2_ALWAYS.sv was successful.
+# Compile of Delay3_ALWAYS.sv was successful.
+# Compile of Delay_ALWAYS.sv was successful.
+# Compile of Delay_FF_ALWAYS.sv was successful.
+# Compile of fanout_tree.sv was successful.
+# Compile of fanout_tree_ALWAYS.sv was successful.
+# Compile of FIFO.sv was successful.
+# Compile of Input_Buffer_NoStall.sv was successful.
+# Compile of Input_Buffer_Stallable.sv was successful.
+# Compile of Input_Layer.sv was successful.
+# Compile of Input_Layer_Unit.sv was successful.
+# Compile of Layer_Control_PopcountOnly.sv was successful.
+# Compile of Layer_Control_WithThreshold.sv was successful.
+# Compile of Layer_PopcountOnly.sv was successful.
+# Compile of Layer_WithThreshold.sv was successful.
+# Compile of NP_Accum_Unit.sv was successful.
+# Compile of NP_DP_PopcountOnly.sv was successful.
+# Compile of NP_DP_WithThreshold.sv was successful.
+# Compile of NP_FSM_PopcountOnly.sv was successful.
+# Compile of NP_FSM_WithOutputValid.sv was successful.
+# Compile of NP_Layer_PopcountOnly.sv was successful.
+# Compile of NP_Layer_WithThreshold.sv was successful.
+# Compile of NP_MEM_PopcountOnly.sv was successful.
+# Compile of NP_MEM_WithThreshold.sv was successful.
+# Compile of NP_Pop_unit.sv was successful.
+# Compile of NP_Threshold_Unit.sv was successful.
+# Compile of NP_UNIT_PopcountOnly.sv was successful.
+# Compile of NP_UNIT_WithThreshold.sv was successful.
+# Compile of NP_XNOR_unit.sv was successful.
+# Compile of Pulse.sv was successful.
+# Compile of Pulse_Delay.sv was successful.
+# Compile of Register.sv was successful.
+# Compile of Register_ALWAYS.sv was successful.
+# Compile of Skid_Buffer.sv was successful.
+# Compile of StickyBit.sv was successful.
+# Compile of xpm_memory.sv was successful.
+# Compile of bnn_fcc.sv was successful.
+# Compile of axi4_stream_if.sv was successful.
+# Compile of bnn_fcc_coverage_tb.sv failed with 8 errors.
+# Compile of bnn_fcc_tb.sv failed with 5 errors.
+# Compile of bnn_fcc_tb_pkg.sv was successful.
+# 57 compiles, 2 failed with 13 errors.
+# Compile of bnn_fcc_coverage_tb.sv was successful.
+# Compile of bnn_fcc_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.bnn_fcc_tb
+# vsim work.bnn_fcc_tb 
+# Start time: 00:18:02 on Apr 18,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading sv_std.std
+# Loading work.bnn_fcc_tb_pkg(fast)
+# Loading work.bnn_fcc_tb(fast)
+run -all
+# --- Loading Trained Model ---
+# BNN_FCC_Stimulus: Loaded 100 vectors from ../python/test_vectors/inputs.hex
+# SV model successfully verified.
+# --- Configuration created: 4466 words (64-bit wide) ---
+# --- Loading Test Vectors ---
+# BNN_FCC_Stimulus: Loaded 50 vectors from ../python/test_vectors/inputs.hex
+# BNN Model: 3 Layers, 784 Inputs
+#   Layer 0 (hidden): 256 Neurons
+#   Layer 1 (hidden): 256 Neurons
+#   Layer 2 (output): 10 Neurons
+# [95 ns] Streaming weights and thresholds.
+# [55415 ns] Streaming image 0.
+# [56605 ns] Streaming image 1.
+# [57865 ns] Streaming image 2.
+# [59035 ns] Streaming image 3.
+# [60295 ns] Streaming image 4.
+# [61505 ns] Streaming image 5.
+# [62665 ns] Streaming image 6.
+# [63895 ns] Streaming image 7.
+# [65125 ns] Streaming image 8.
+# [66375 ns] Streaming image 9.
+# [67725 ns] Streaming image 10.
+# [69005 ns] Streaming image 11.
+# [70245 ns] Streaming image 12.
+# [71555 ns] Streaming image 13.
+# [72695 ns] Streaming image 14.
+# [73925 ns] Streaming image 15.
+# [75055 ns] Streaming image 16.
+# [76285 ns] Streaming image 17.
+# [77605 ns] Streaming image 18.
+# [78745 ns] Streaming image 19.
+# [79975 ns] Streaming image 20.
+# [81145 ns] Streaming image 21.
+# [82355 ns] Streaming image 22.
+# [83555 ns] Streaming image 23.
+# [84785 ns] Streaming image 24.
+# [86025 ns] Streaming image 25.
+# [87375 ns] Streaming image 26.
+# [88735 ns] Streaming image 27.
+# [89935 ns] Streaming image 28.
+# [91185 ns] Streaming image 29.
+# [92485 ns] Streaming image 30.
+# [93685 ns] Streaming image 31.
+# [94985 ns] Streaming image 32.
+# [96175 ns] Streaming image 33.
+# [97405 ns] Streaming image 34.
+# [98625 ns] Streaming image 35.
+# [99825 ns] Streaming image 36.
+# [101035 ns] Streaming image 37.
+# [102245 ns] Streaming image 38.
+# [103445 ns] Streaming image 39.
+# [104605 ns] Streaming image 40.
+# [105845 ns] Streaming image 41.
+# [107155 ns] Streaming image 42.
+# [108415 ns] Streaming image 43.
+# [109605 ns] Streaming image 44.
+# [110855 ns] Streaming image 45.
+# [112025 ns] Streaming image 46.
+# [113225 ns] Streaming image 47.
+# [114465 ns] Streaming image 48.
+# [115735 ns] Streaming image 49.
+# [116905 ns] All images loaded, waiting for outputs.
+# ** Fatal: Simulation failed due to timeout of 10000000 ns.
+#    Time: 10 ms  Scope: bnn_fcc_tb.l_timeout File: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv Line: 463
+# ** Note: $finish    : /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv(463)
+#    Time: 10 ms  Iteration: 0  Instance: /bnn_fcc_tb
+# 1
+# Break at /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv line 463
+# Compile of bnn_fcc_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.bnn_fcc_tb_pkg(fast)
+# Loading work.bnn_fcc_tb(fast)
+run -all
+# --- Loading Trained Model ---
+# BNN_FCC_Stimulus: Loaded 100 vectors from ../python/test_vectors/inputs.hex
+# SV model successfully verified.
+# --- Configuration created: 4466 words (64-bit wide) ---
+# --- Loading Test Vectors ---
+# BNN_FCC_Stimulus: Loaded 50 vectors from ../python/test_vectors/inputs.hex
+# BNN Model: 3 Layers, 784 Inputs
+#   Layer 0 (hidden): 256 Neurons
+#   Layer 1 (hidden): 256 Neurons
+#   Layer 2 (output): 10 Neurons
+# [95 ns] Streaming weights and thresholds.
+# [55415 ns] Streaming image 0.
+# [56605 ns] Streaming image 1.
+# [57865 ns] Streaming image 2.
+# [59035 ns] Streaming image 3.
+# [60295 ns] Streaming image 4.
+# [61505 ns] Streaming image 5.
+# [62665 ns] Streaming image 6.
+# [63895 ns] Streaming image 7.
+# [65125 ns] Streaming image 8.
+# [66375 ns] Streaming image 9.
+# [67725 ns] Streaming image 10.
+# [69005 ns] Streaming image 11.
+# [70245 ns] Streaming image 12.
+# [71555 ns] Streaming image 13.
+# [72695 ns] Streaming image 14.
+# [73925 ns] Streaming image 15.
+# [75055 ns] Streaming image 16.
+# [76285 ns] Streaming image 17.
+# [77605 ns] Streaming image 18.
+# [78745 ns] Streaming image 19.
+# [79975 ns] Streaming image 20.
+# [81145 ns] Streaming image 21.
+# [82355 ns] Streaming image 22.
+# [83555 ns] Streaming image 23.
+# [84785 ns] Streaming image 24.
+# [86025 ns] Streaming image 25.
+# [87375 ns] Streaming image 26.
+# [88735 ns] Streaming image 27.
+# [89935 ns] Streaming image 28.
+# [91185 ns] Streaming image 29.
+# [92485 ns] Streaming image 30.
+# [93685 ns] Streaming image 31.
+# [94985 ns] Streaming image 32.
+# [96175 ns] Streaming image 33.
+# [97405 ns] Streaming image 34.
+# [98625 ns] Streaming image 35.
+# [99825 ns] Streaming image 36.
+# [101035 ns] Streaming image 37.
+# [102245 ns] Streaming image 38.
+# [103445 ns] Streaming image 39.
+# [104605 ns] Streaming image 40.
+# [105845 ns] Streaming image 41.
+# [107155 ns] Streaming image 42.
+# [108415 ns] Streaming image 43.
+# [109605 ns] Streaming image 44.
+# [110855 ns] Streaming image 45.
+# [112025 ns] Streaming image 46.
+# [113225 ns] Streaming image 47.
+# [114465 ns] Streaming image 48.
+# [115735 ns] Streaming image 49.
+# [116905 ns] All images loaded, waiting for outputs.
+# ** Fatal: Simulation failed due to timeout of 100000000 ns.
+#    Time: 100 ms  Scope: bnn_fcc_tb.l_timeout File: /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv Line: 463
+# ** Note: $finish    : /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv(463)
+#    Time: 100 ms  Iteration: 0  Instance: /bnn_fcc_tb
+# 1
+# Break at /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv line 463
+# Compile of bnn_fcc_tb.sv failed with 1 errors.
+# Compile of bnn_fcc_tb.sv was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Error (suppressible): /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv(197): (vopt-2732) Module parameter 'LAYER_PARALLEL_INPUTS' not found for override.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+vsim work.bnn_fcc_tb
+# vsim work.bnn_fcc_tb 
+# Start time: 00:18:02 on Apr 18,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv(197): (vopt-2732) Module parameter 'LAYER_PARALLEL_INPUTS' not found for override.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=2, Warnings=0.
+# Error loading design
+# End time: 00:25:28 on Apr 18,2026, Elapsed time: 0:07:26
+# Errors: 2, Warnings: 1
+# Compile of bnn_fcc_tb.sv was successful.
+vsim work.bnn_fcc_tb
+# vsim work.bnn_fcc_tb 
+# Start time: 00:27:52 on Apr 18,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv(197): (vopt-2732) Module parameter 'LAYER_PARALLEL_INPUTS' not found for override.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 00:27:52 on Apr 18,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of bnn_fcc_tb.sv was successful.
+vsim work.bnn_fcc_tb
+# vsim work.bnn_fcc_tb 
+# Start time: 00:32:38 on Apr 18,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): /ecel/UFAD/apaezsansonetti/Desktop/here/bnn_fcc_contest_rc2/bnn_fcc_contest-main/verification/bnn_fcc_tb.sv(197): (vopt-2732) Module parameter 'LAYER_PARALLEL_INPUTS' not found for override.
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 00:32:39 on Apr 18,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
