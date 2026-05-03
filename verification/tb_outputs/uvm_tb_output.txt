@@ -1,0 +1,498 @@
+
+# 2023.3
+
+# vsim -c -debugDB -voptargs="+acc" "+UVM_NO_RELNOTES" "+UVM_VERBOSITY=UVM_MEDIUM" "+UVM_TESTNAME=bnn_fcc_coverage_test" -do "run -all" bnn_fcc_uvm_tb_opt
+# Start time: 15:45:27 on May 03,2026
+# //  Questa Sim-64
+# //  Version 2023.3 linux_x86_64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.axi4_stream_if(fast)
+# Loading work.bnn_fcc_ctrl_if(fast)
+# Loading work.bnn_fcc_tb_pkg(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.axi4_stream_pkg(fast)
+# Loading work.bnn_fcc_uvm_pkg(fast)
+# Loading work.bnn_fcc_tb_pkg_sv_unit(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.bnn_fcc_uvm_tb(fast)
+# Loading work.bnn_fcc_ctrl_if(fast__2)
+# Loading work.axi4_stream_if(fast__4)
+# Loading work.axi4_stream_if(fast__5)
+# Loading work.bnn_fcc(fast)
+# Loading work.Config_Manager(fast)
+# Loading work.Input_Layer_Unit(fast)
+# Loading work.Skid_Buffer(fast)
+# Loading work.Input_Layer(fast)
+# Loading work.FIFO(fast)
+# Loading work.BNN_Hidden(fast)
+# Loading work.BNN_Layer_StallableInput(fast)
+# Loading work.Config_HiddenLayer_Control(fast)
+# Loading work.Build_W(fast)
+# Loading work.Byte_Index(fast)
+# Loading work.Delay_ALWAYS(fast)
+# Loading work.Register_ALWAYS(fast)
+# Loading work.Input_Buffer_Stallable(fast)
+# Loading work.BRAM_LUT_ALWAYS(fast)
+# Loading work.Layer_WithThreshold(fast)
+# Loading work.Layer_Control_WithThreshold(fast)
+# Loading work.Delay(fast)
+# Loading work.Register(fast)
+# Loading work.Delay_ALWAYS(fast__1)
+# Loading work.Register_ALWAYS(fast__1)
+# Loading work.NP_Layer_WithThreshold(fast)
+# Loading work.fanout_tree(fast)
+# Loading work.Register(fast__1)
+# Loading work.fanout_tree_ALWAYS(fast)
+# Loading work.Register_ALWAYS(fast__2)
+# Loading work.fanout_tree_ALWAYS(fast__1)
+# Loading work.Register_ALWAYS(fast__3)
+# Loading work.fanout_tree_ALWAYS(fast__2)
+# Loading work.Register_ALWAYS(fast__4)
+# Loading work.fanout_tree_ALWAYS(fast__3)
+# Loading work.Register_ALWAYS(fast__5)
+# Loading work.NP_MEM_WithThreshold(fast)
+# Loading work.Delay_FF_ALWAYS(fast)
+# Loading work.Delay_ALWAYS(fast__2)
+# Loading work.BRAM_SINK(fast)
+# Loading work.xpm_memory_spram(fast)
+# Loading work.xpm_memory_base(fast)
+# Loading work.BRAM_LUT_SINK(fast)
+# Loading work.NP_UNIT_WithThreshold(fast)
+# Loading work.NP_FSM_WithOutputValid(fast)
+# Loading work.Delay_ALWAYS(fast__3)
+# Loading work.Delay3_ALWAYS(fast)
+# Loading work.NP_DP_WithThreshold(fast)
+# Loading work.NP_XNOR_unit(fast)
+# Loading work.NP_Pop_unit(fast)
+# Loading work.NP_Accum_Unit(fast)
+# Loading work.NP_Threshold_Unit(fast)
+# Loading work.BNN_Layer_NoStallInput(fast)
+# Loading work.Config_HiddenLayer_Control(fast__1)
+# Loading work.Build_W(fast__1)
+# Loading work.Byte_Index(fast__1)
+# Loading work.Input_Buffer_NoStall(fast)
+# Loading work.BRAM_LUT_ALWAYS(fast__1)
+# Loading work.Layer_WithThreshold(fast__1)
+# Loading work.Layer_Control_WithThreshold(fast__1)
+# Loading work.NP_Layer_WithThreshold(fast__1)
+# Loading work.fanout_tree_ALWAYS(fast__4)
+# Loading work.Register_ALWAYS(fast__6)
+# Loading work.fanout_tree_ALWAYS(fast__5)
+# Loading work.NP_MEM_WithThreshold(fast__1)
+# Loading work.BRAM_SINK(fast__1)
+# Loading work.xpm_memory_spram(fast__1)
+# Loading work.xpm_memory_base(fast__1)
+# Loading work.NP_UNIT_WithThreshold(fast__1)
+# Loading work.NP_DP_WithThreshold(fast__1)
+# Loading work.NP_XNOR_unit(fast__1)
+# Loading work.NP_Pop_unit(fast__1)
+# Loading work.NP_Accum_Unit(fast__1)
+# Loading work.NP_Threshold_Unit(fast__1)
+# Loading work.BNN_OutputLayer_PopcountOnly(fast)
+# Loading work.Config_OutputLayer_Control(fast)
+# Loading work.Input_Buffer_NoStall(fast__1)
+# Loading work.Layer_PopcountOnly(fast)
+# Loading work.Layer_Control_PopcountOnly(fast)
+# Loading work.NP_Layer_PopcountOnly(fast)
+# Loading work.fanout_tree(fast__1)
+# Loading work.fanout_tree_ALWAYS(fast__6)
+# Loading work.fanout_tree_ALWAYS(fast__7)
+# Loading work.fanout_tree_ALWAYS(fast__8)
+# Loading work.NP_MEM_PopcountOnly(fast)
+# Loading work.BRAM_SINK(fast__2)
+# Loading work.xpm_memory_spram(fast__2)
+# Loading work.xpm_memory_base(fast__2)
+# Loading work.NP_UNIT_PopcountOnly(fast)
+# Loading work.NP_FSM_PopcountOnly(fast)
+# Loading work.Delay2_ALWAYS(fast)
+# Loading work.NP_DP_PopcountOnly(fast)
+# Loading work.NP_MEM_PopcountOnly(fast__1)
+# Loading work.NP_UNIT_PopcountOnly(fast__1)
+# Loading work.NP_MEM_PopcountOnly(fast__2)
+# Loading work.NP_UNIT_PopcountOnly(fast__2)
+# Loading work.NP_MEM_PopcountOnly(fast__3)
+# Loading work.NP_UNIT_PopcountOnly(fast__3)
+# Loading work.NP_MEM_PopcountOnly(fast__4)
+# Loading work.NP_UNIT_PopcountOnly(fast__4)
+# Loading work.NP_MEM_PopcountOnly(fast__5)
+# Loading work.NP_UNIT_PopcountOnly(fast__5)
+# Loading work.NP_MEM_PopcountOnly(fast__6)
+# Loading work.NP_UNIT_PopcountOnly(fast__6)
+# Loading work.NP_MEM_PopcountOnly(fast__7)
+# Loading work.NP_UNIT_PopcountOnly(fast__7)
+# Loading work.NP_MEM_PopcountOnly(fast__8)
+# Loading work.NP_UNIT_PopcountOnly(fast__8)
+# Loading work.NP_MEM_PopcountOnly(fast__9)
+# Loading work.NP_UNIT_PopcountOnly(fast__9)
+# Loading work.Arg_MAX(fast)
+# Loading work.bnn_output_fifo(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'din'. The port definition is at: ../../rtl/Delay.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /bnn_fcc_uvm_tb/DUT/u_bnn_hidden/GEN_LAYERS[0]/GEN_H0/GEN_H0_NONFINAL/u_bnn_layer/u_layer/u_ctrl/u_valid_in_delay File: ../../rtl/Layer_Control_WithThreshold.sv Line: 126
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'dout'. The port definition is at: ../../rtl/Delay.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /bnn_fcc_uvm_tb/DUT/u_bnn_hidden/GEN_LAYERS[0]/GEN_H0/GEN_H0_NONFINAL/u_bnn_layer/u_layer/u_ctrl/u_valid_in_delay File: ../../rtl/Layer_Control_WithThreshold.sv Line: 126
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'din'. The port definition is at: ../../rtl/Delay_ALWAYS.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /bnn_fcc_uvm_tb/DUT/u_bnn_hidden/GEN_LAYERS[0]/GEN_H0/GEN_H0_NONFINAL/u_bnn_layer/u_layer/u_ctrl/u_last_in_delay File: ../../rtl/Layer_Control_WithThreshold.sv Line: 135
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'dout'. The port definition is at: ../../rtl/Delay_ALWAYS.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /bnn_fcc_uvm_tb/DUT/u_bnn_hidden/GEN_LAYERS[0]/GEN_H0/GEN_H0_NONFINAL/u_bnn_layer/u_layer/u_ctrl/u_last_in_delay File: ../../rtl/Layer_Control_WithThreshold.sv Line: 135
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'din'. The port definition is at: ../../rtl/Delay.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /bnn_fcc_uvm_tb/DUT/u_bnn_hidden/GEN_LAYERS[1]/GEN_HN/GEN_HN_NONFINAL/u_bnn_layer/u_layer/u_ctrl/u_valid_in_delay File: ../../rtl/Layer_Control_WithThreshold.sv Line: 126
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'dout'. The port definition is at: ../../rtl/Delay.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /bnn_fcc_uvm_tb/DUT/u_bnn_hidden/GEN_LAYERS[1]/GEN_HN/GEN_HN_NONFINAL/u_bnn_layer/u_layer/u_ctrl/u_valid_in_delay File: ../../rtl/Layer_Control_WithThreshold.sv Line: 126
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'din'. The port definition is at: ../../rtl/Delay_ALWAYS.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /bnn_fcc_uvm_tb/DUT/u_bnn_hidden/GEN_LAYERS[1]/GEN_HN/GEN_HN_NONFINAL/u_bnn_layer/u_layer/u_ctrl/u_last_in_delay File: ../../rtl/Layer_Control_WithThreshold.sv Line: 135
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'dout'. The port definition is at: ../../rtl/Delay_ALWAYS.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /bnn_fcc_uvm_tb/DUT/u_bnn_hidden/GEN_LAYERS[1]/GEN_HN/GEN_HN_NONFINAL/u_bnn_layer/u_layer/u_ctrl/u_last_in_delay File: ../../rtl/Layer_Control_WithThreshold.sv Line: 135
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'din'. The port definition is at: ../../rtl/Delay.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /bnn_fcc_uvm_tb/DUT/u_bnn_hidden/GEN_LAYERS[2]/GEN_HN/GEN_HN_FINAL/u_bnn_layer/u_layer/u_ctrl/u_valid_in_delay File: ../../rtl/Layer_Control_PopcountOnly.sv Line: 111
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'dout'. The port definition is at: ../../rtl/Delay.sv(9).
+#    Time: 0 ps  Iteration: 0  Instance: /bnn_fcc_uvm_tb/DUT/u_bnn_hidden/GEN_LAYERS[2]/GEN_HN/GEN_HN_FINAL/u_bnn_layer/u_layer/u_ctrl/u_valid_in_delay File: ../../rtl/Layer_Control_PopcountOnly.sv Line: 111
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'din'. The port definition is at: ../../rtl/Delay_ALWAYS.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /bnn_fcc_uvm_tb/DUT/u_bnn_hidden/GEN_LAYERS[2]/GEN_HN/GEN_HN_FINAL/u_bnn_layer/u_layer/u_ctrl/u_last_in_delay File: ../../rtl/Layer_Control_PopcountOnly.sv Line: 120
+# ** Warning: (vsim-3015) [PCDPC] - Port size (32) does not match connection size (1) for port 'dout'. The port definition is at: ../../rtl/Delay_ALWAYS.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /bnn_fcc_uvm_tb/DUT/u_bnn_hidden/GEN_LAYERS[2]/GEN_HN/GEN_HN_FINAL/u_bnn_layer/u_layer/u_ctrl/u_last_in_delay File: ../../rtl/Layer_Control_PopcountOnly.sv Line: 120
+# Loading /apps/reconfig/tools/siemens/questasim/2023.3/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+# It appears vopt was not run with -debugdb option on this design.
+# Advanced Causality and Schematic debug features will not be available.
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test bnn_fcc_coverage_test...
+# BNN_FCC_Stimulus: Loaded 100 vectors from ../../python/test_vectors/inputs.hex
+# UVM_INFO bnn_fcc_base_test.svh(89) @ 0 ns: uvm_test_top [bnn_fcc_coverage_test] SV reference model verified against expected_outputs.txt.
+# BNN_FCC_Stimulus: Loaded 50 vectors from ../../python/test_vectors/inputs.hex
+# BNN Model: 3 Layers, 784 Inputs
+#   Layer 0 (hidden): 256 Neurons
+#   Layer 1 (hidden): 256 Neurons
+#   Layer 2 (output): 10 Neurons
+# BNN_FCC_Stimulus: Loaded 100 vectors from ../../python/test_vectors/inputs.hex
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 1851505 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 0: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 1852615 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 1: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 1853925 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 2: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 1855105 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 3: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 1856355 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 4: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 1857775 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 5: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 1858925 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 6: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 3710435 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 7: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 3711585 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 8: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 3712815 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 9: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 3713995 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 10: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 3715195 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 11: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 3716565 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 12: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 3717745 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 13: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 5569915 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 14: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 5571155 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 15: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 5572405 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 16: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 5573645 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 17: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 5574795 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 18: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 5575985 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 19: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 5577135 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 20: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 7428845 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 21: actual=3 expected=3
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 7429995 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 22: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 7431195 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 23: actual=3 expected=3
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 7432365 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 24: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 7433595 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 25: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 7434805 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 26: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 7436035 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 27: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 9288355 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 28: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 9289515 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 29: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 9290805 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 30: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 9292035 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 31: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 9293335 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 32: actual=3 expected=3
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 9294645 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 33: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 9295895 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 34: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 9297115 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 35: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 9298365 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 36: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 9299635 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 37: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 12997355 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 38: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 12998545 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 39: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 12999795 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 40: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 13001115 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 41: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24089605 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 42: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24090855 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 43: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24091995 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 44: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24093195 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 45: actual=3 expected=3
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24094355 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 46: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24095585 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 47: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24096835 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 48: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24098045 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 49: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24099235 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 50: actual=8 expected=8
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24100465 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 51: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24104605 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 52: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24105915 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 53: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24110125 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 54: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24111345 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 55: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 24112595 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 56: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29659105 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 57: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29662955 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 58: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29664025 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 59: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29665095 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 60: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29666175 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 61: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29667275 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 62: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29668305 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 63: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29672635 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 64: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29675895 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 65: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29677475 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 66: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29680645 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 67: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29684815 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 68: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29686045 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 69: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29687305 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 70: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29688595 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 71: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29689815 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 72: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29691115 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 73: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29692365 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 74: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29693635 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 75: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29694865 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 76: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29696005 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 77: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29697245 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 78: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29698405 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 79: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29699575 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 80: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29700765 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 81: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29701995 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 82: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29703185 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 83: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29704395 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 84: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29705495 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 85: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29706875 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 86: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29708095 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 87: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29709385 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 88: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29710645 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 89: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29711825 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 90: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29713095 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 91: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29714365 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 92: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29715585 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 93: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29716805 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 94: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29718075 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 95: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29719375 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 96: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29720615 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 97: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29721725 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 98: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29722845 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 99: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29724015 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 100: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29725215 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 101: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29726485 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 102: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29727635 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 103: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29728785 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 104: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29730075 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 105: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29731305 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 106: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29732545 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 107: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29733885 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 108: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29735005 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 109: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29736245 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 110: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29737425 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 111: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29738645 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 112: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29739905 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 113: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29741085 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 114: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29742215 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 115: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29743465 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 116: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29744735 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 117: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29745975 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 118: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29747175 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 119: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29748435 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 120: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29749655 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 121: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29750835 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 122: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29752065 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 123: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29753275 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 124: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29754455 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 125: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29755575 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 126: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29756815 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 127: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29757975 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 128: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29759215 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 129: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29760375 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 130: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29761615 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 131: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29762865 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 132: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29764105 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 133: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29765405 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 134: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29766555 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 135: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29767875 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 136: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29769115 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 137: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29770375 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 138: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29771565 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 139: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29772745 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 140: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29774025 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 141: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29775325 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 142: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29776595 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 143: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29777905 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 144: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29779045 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 145: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29780235 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 146: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29781425 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 147: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29782605 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 148: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29783845 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 149: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29785075 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 150: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29786275 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 151: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29787485 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 152: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29788665 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 153: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29789815 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 154: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29790965 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 155: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29792135 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 156: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29793355 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 157: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29794535 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 158: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29795755 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 159: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29796915 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 160: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29798195 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 161: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29799445 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 162: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29800685 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 163: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29801975 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 164: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29803225 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 165: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29804495 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 166: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29805755 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 167: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29806905 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 168: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29808135 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 169: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29809295 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 170: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29810545 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 171: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29811765 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 172: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29813015 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 173: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29814195 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 174: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29815525 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 175: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29816675 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 176: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29817885 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 177: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29819065 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 178: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29820335 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 179: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29821635 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 180: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29822845 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 181: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29824115 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 182: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29825265 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 183: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29826485 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 184: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29827835 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 185: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29829035 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 186: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29830265 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 187: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29834655 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 188: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29839005 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 189: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29843515 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 190: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29847865 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 191: actual=3 expected=3
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29852235 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 192: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29856715 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 193: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29861175 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 194: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29865775 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 195: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29870375 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 196: actual=8 expected=8
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29874895 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 197: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29880455 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 198: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29886095 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 199: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29891715 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 200: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29897335 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 201: actual=3 expected=3
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29902905 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 202: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29908545 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 203: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29914115 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 204: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29919715 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 205: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29925275 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 206: actual=8 expected=8
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29930895 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 207: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29935035 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 208: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29936335 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 209: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29940595 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 210: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29944755 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 211: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29948805 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 212: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29953015 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 213: actual=3 expected=3
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29957175 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 214: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29961245 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 215: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29965315 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 216: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29969415 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 217: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29973485 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 218: actual=8 expected=8
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29977605 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 219: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 29989235 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 220: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 30000835 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 221: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 30012445 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 222: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 30024065 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 223: actual=3 expected=3
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 30035695 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 224: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 30047275 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 225: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 30058975 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 226: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 30070595 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 227: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 30082115 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 228: actual=8 expected=8
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 30093725 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 229: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 30101315 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 230: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 30105465 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 231: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 30106875 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 232: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 30113015 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 233: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 31965145 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 234: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 31969385 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 235: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 31973505 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 236: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 31977625 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 237: actual=3 expected=3
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 31981765 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 238: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 31985865 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 239: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 31989945 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 240: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 31994095 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 241: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 31998215 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 242: actual=8 expected=8
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32002275 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 243: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32006555 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 244: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32010785 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 245: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32014925 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 246: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32019095 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 247: actual=3 expected=3
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32023245 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 248: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32027455 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 249: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32031605 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 250: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32035825 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 251: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32039985 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 252: actual=8 expected=8
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32044155 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 253: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32048275 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 254: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32052425 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 255: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32056695 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 256: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32060875 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 257: actual=3 expected=3
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32065045 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 258: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32069275 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 259: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32073575 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 260: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32077725 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 261: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32081855 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 262: actual=8 expected=8
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32086025 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 263: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32090695 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 264: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32095425 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 265: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32100095 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 266: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32104845 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 267: actual=3 expected=3
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32109555 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 268: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32114235 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 269: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32118995 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 270: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32123645 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 271: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32128295 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 272: actual=8 expected=8
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32132965 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 273: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32136865 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 274: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32140945 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 275: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32144995 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 276: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32149175 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 277: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32153275 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 278: actual=3 expected=3
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32157565 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 279: actual=4 expected=4
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32162025 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 280: actual=5 expected=5
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32166905 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 281: actual=6 expected=6
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32172495 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 282: actual=7 expected=7
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32180165 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 283: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32191805 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 284: actual=9 expected=9
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32203405 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 285: actual=0 expected=0
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32203415 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 286: actual=1 expected=1
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32203425 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 287: actual=2 expected=2
+# UVM_INFO bnn_fcc_scoreboard.svh(130) @ 32203435 ns: uvm_test_top.env.scoreboard [SCOREBOARD] PASSED image 288: actual=3 expected=3
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 41450895 ns: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO bnn_fcc_base_test.svh(1103) @ 41450895 ns: uvm_test_top [bnn_fcc_coverage_test] ---------------------------
+# UVM_INFO bnn_fcc_base_test.svh(1104) @ 41450895 ns: uvm_test_top [bnn_fcc_coverage_test] ---     TEST PASSED     ---
+# UVM_INFO bnn_fcc_base_test.svh(1105) @ 41450895 ns: uvm_test_top [bnn_fcc_coverage_test] ---------------------------
+#
+# --- UVM Report Summary ---
+#
+# ** Report counts by severity
+# UVM_INFO :  297
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Questa UVM]     2
+# [RNTST]     1
+# [SCOREBOARD]   289
+# [TEST_DONE]     1
+# [bnn_fcc_coverage_test]     4
+# ** Note: $finish    : /apps/reconfig/tools/siemens/questasim/2023.3/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 41450895 ns  Iteration: 56  Instance: /bnn_fcc_uvm_tb
+# End time: 15:47:42 on May 03,2026, Elapsed time: 0:02:15
+# Errors: 0, Warnings: 12

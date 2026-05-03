@@ -1,0 +1,351 @@
+# 2023.3
+
+# vsim -64 -lib qrun.out/work -c -do "run -all; quit -f" -statslog qrun.out/stats_log qrun_opt_1 -appendlog -l qrun.log -csession=incr -csessionid=5
+# Start time: 14:08:06 on May 03,2026
+# //  Questa Sim-64
+# //  Version 2023.3 linux_x86_64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.bnn_fcc_tb_pkg(fast)
+# Loading work.bnn_fcc_coverage_tb(fast)
+# Loading work.NP_MEM_WithThreshold(fast__1)
+# run -all
+# --- Loading Trained Model ---
+# BNN_FCC_Stimulus: Loaded 100 vectors from ../../python/test_vectors/inputs.hex
+# SV model successfully verified.
+# --- Configuration created: 4466 words (64-bit wide) ---
+# --- Loading Test Vectors ---
+# BNN_FCC_Stimulus: Loaded 50 vectors from ../../python/test_vectors/inputs.hex
+# BNN Model: 3 Layers, 784 Inputs
+#   Layer 0 (hidden): 256 Neurons
+#   Layer 1 (hidden): 256 Neurons
+#   Layer 2 (output): 10 Neurons
+# BNN_FCC_Stimulus: Loaded 100 vectors from ../../python/test_vectors/inputs.hex
+# [95 ns] Streaming weights and thresholds.
+# [1851235 ns] PASSED: image 0
+# [1852305 ns] PASSED: image 1
+# [1853425 ns] PASSED: image 2
+# [1854465 ns] PASSED: image 3
+# [1855515 ns] PASSED: image 4
+# [1856585 ns] PASSED: image 5
+# [1857655 ns] PASSED: image 6
+# [3708485 ns] PASSED: image 7
+# [3709555 ns] PASSED: image 8
+# [3710665 ns] PASSED: image 9
+# [3711705 ns] PASSED: image 10
+# [3712775 ns] PASSED: image 11
+# [3713835 ns] PASSED: image 12
+# [3714905 ns] PASSED: image 13
+# [5566505 ns] PASSED: image 14
+# [5567525 ns] PASSED: image 15
+# [5568595 ns] PASSED: image 16
+# [5569665 ns] PASSED: image 17
+# [5570745 ns] PASSED: image 18
+# [5571835 ns] PASSED: image 19
+# [5572885 ns] PASSED: image 20
+# [7423705 ns] PASSED: image 21
+# [7424775 ns] PASSED: image 22
+# [7425845 ns] PASSED: image 23
+# [7426915 ns] PASSED: image 24
+# [7427985 ns] PASSED: image 25
+# [7429065 ns] PASSED: image 26
+# [7430125 ns] PASSED: image 27
+# [9281705 ns] PASSED: image 28
+# [9282745 ns] PASSED: image 29
+# [9283815 ns] PASSED: image 30
+# [9284895 ns] PASSED: image 31
+# [9285955 ns] PASSED: image 32
+# [9287025 ns] PASSED: image 33
+# [9288105 ns] PASSED: image 34
+# [9288395 ns] Main image sweep done, waiting for outputs.
+# [9289175 ns] PASSED: image 35
+# [9290235 ns] PASSED: image 36
+# [9291335 ns] PASSED: image 37
+# [9291385 ns] Starting directed coverage phase.
+# [11138115 ns] Running directed threshold-first config test.
+# [12988665 ns] PASSED: image 38
+# [12989025 ns] All images loaded, waiting for outputs.
+# [12989745 ns] PASSED: image 39
+# [12990805 ns] PASSED: image 40
+# [12991875 ns] PASSED: image 41
+# [12991925 ns] Starting directed edge-case tests.
+# [25925245 ns] directed one-per-class output sweep.
+# [25929095 ns] PASSED: image 42
+# [25930145 ns] PASSED: image 43
+# [25931185 ns] PASSED: image 44
+# [25932265 ns] PASSED: image 45
+# [25933365 ns] PASSED: image 46
+# [25934395 ns] PASSED: image 47
+# [25935465 ns] PASSED: image 48
+# [25935780 ns] Directed class sweep sent, waiting for outputs.
+# [25936555 ns] PASSED: image 49
+# [25937605 ns] PASSED: image 50
+# [25938695 ns] PASSED: image 51
+# [25938745 ns] directed data_in inter-image gap_2_10.
+# [25942565 ns] PASSED: image 52
+# [25943615 ns] PASSED: image 53
+# [25943665 ns] directed made-up images input-diversity sweep.
+# [25947465 ns] PASSED: image 54
+# [25951315 ns] PASSED: image 55
+# [25955175 ns] PASSED: image 56
+# [33348975 ns] PASSED: image 57
+# [33350055 ns] PASSED: image 58
+# [33353915 ns] PASSED: image 59
+# [33357795 ns] PASSED: image 60
+# [33358885 ns] PASSED: image 61
+# [33359945 ns] PASSED: image 62
+# [33361005 ns] PASSED: image 63
+# [33362075 ns] PASSED: image 64
+# [33363155 ns] PASSED: image 65
+# [33367305 ns] PASSED: image 66
+# [33370315 ns] PASSED: image 67
+# [33371595 ns] PASSED: image 68
+# [33374605 ns] PASSED: image 69
+# [33378485 ns] PASSED: image 70
+# [33379525 ns] PASSED: image 71
+# [33380595 ns] PASSED: image 72
+# [33381675 ns] PASSED: image 73
+# [33382735 ns] PASSED: image 74
+# [33383835 ns] PASSED: image 75
+# [33384885 ns] PASSED: image 76
+# [33385945 ns] PASSED: image 77
+# [33387025 ns] PASSED: image 78
+# [33388085 ns] PASSED: image 79
+# [33389155 ns] PASSED: image 80
+# [33390225 ns] PASSED: image 81
+# [33391305 ns] PASSED: image 82
+# [33392365 ns] PASSED: image 83
+# [33393435 ns] PASSED: image 84
+# [33394545 ns] PASSED: image 85
+# [33395605 ns] PASSED: image 86
+# [33396665 ns] PASSED: image 87
+# [33397715 ns] PASSED: image 88
+# [33398785 ns] PASSED: image 89
+# [33399875 ns] PASSED: image 90
+# [33400925 ns] PASSED: image 91
+# [33402005 ns] PASSED: image 92
+# [33403125 ns] PASSED: image 93
+# [33404145 ns] PASSED: image 94
+# [33405245 ns] PASSED: image 95
+# [33406285 ns] PASSED: image 96
+# [33407345 ns] PASSED: image 97
+# [33408475 ns] PASSED: image 98
+# [33409485 ns] PASSED: image 99
+# [33410575 ns] PASSED: image 100
+# [33411655 ns] PASSED: image 101
+# [33412695 ns] PASSED: image 102
+# [33413775 ns] PASSED: image 103
+# [33414835 ns] PASSED: image 104
+# [33415905 ns] PASSED: image 105
+# [33416975 ns] PASSED: image 106
+# [33418065 ns] PASSED: image 107
+# [33419145 ns] PASSED: image 108
+# [33420215 ns] PASSED: image 109
+# [33421255 ns] PASSED: image 110
+# [33422395 ns] PASSED: image 111
+# [33423395 ns] PASSED: image 112
+# [33424465 ns] PASSED: image 113
+# [33425535 ns] PASSED: image 114
+# [33426605 ns] PASSED: image 115
+# [33427685 ns] PASSED: image 116
+# [33428745 ns] PASSED: image 117
+# [33429835 ns] PASSED: image 118
+# [33430885 ns] PASSED: image 119
+# [33431955 ns] PASSED: image 120
+# [33433025 ns] PASSED: image 121
+# [33434095 ns] PASSED: image 122
+# [33435165 ns] PASSED: image 123
+# [33436255 ns] PASSED: image 124
+# [33437335 ns] PASSED: image 125
+# [33438405 ns] PASSED: image 126
+# [33439455 ns] PASSED: image 127
+# [33440525 ns] PASSED: image 128
+# [33441585 ns] PASSED: image 129
+# [33442655 ns] PASSED: image 130
+# [33443725 ns] PASSED: image 131
+# [33444795 ns] PASSED: image 132
+# [33445875 ns] PASSED: image 133
+# [33446935 ns] PASSED: image 134
+# [33448005 ns] PASSED: image 135
+# [33449075 ns] PASSED: image 136
+# [33450215 ns] PASSED: image 137
+# [33451215 ns] PASSED: image 138
+# [33452285 ns] PASSED: image 139
+# [33453365 ns] PASSED: image 140
+# [33454465 ns] PASSED: image 141
+# [33455495 ns] PASSED: image 142
+# [33456595 ns] PASSED: image 143
+# [33457665 ns] PASSED: image 144
+# [33458715 ns] PASSED: image 145
+# [33459785 ns] PASSED: image 146
+# [33460885 ns] PASSED: image 147
+# [33461935 ns] PASSED: image 148
+# [33462995 ns] PASSED: image 149
+# [33464055 ns] PASSED: image 150
+# [33465125 ns] PASSED: image 151
+# [33466195 ns] PASSED: image 152
+# [33467265 ns] PASSED: image 153
+# [33468335 ns] PASSED: image 154
+# [33469415 ns] PASSED: image 155
+# [33470475 ns] PASSED: image 156
+# [33471555 ns] PASSED: image 157
+# [33472615 ns] PASSED: image 158
+# [33473685 ns] PASSED: image 159
+# [33474755 ns] PASSED: image 160
+# [33475835 ns] PASSED: image 161
+# [33476895 ns] PASSED: image 162
+# [33477965 ns] PASSED: image 163
+# [33479035 ns] PASSED: image 164
+# [33480105 ns] PASSED: image 165
+# [33481185 ns] PASSED: image 166
+# [33482245 ns] PASSED: image 167
+# [33483315 ns] PASSED: image 168
+# [33484385 ns] PASSED: image 169
+# [33485455 ns] PASSED: image 170
+# [33486555 ns] PASSED: image 171
+# [33487655 ns] PASSED: image 172
+# [33488665 ns] PASSED: image 173
+# [33489735 ns] PASSED: image 174
+# [33490825 ns] PASSED: image 175
+# [33491875 ns] PASSED: image 176
+# [33492945 ns] PASSED: image 177
+# [33494025 ns] PASSED: image 178
+# [33495085 ns] PASSED: image 179
+# [33496175 ns] PASSED: image 180
+# [33497255 ns] PASSED: image 181
+# [33498305 ns] PASSED: image 182
+# [33499365 ns] PASSED: image 183
+# [33500435 ns] PASSED: image 184
+# [33501515 ns] PASSED: image 185
+# [33502575 ns] PASSED: image 186
+# [33503645 ns] PASSED: image 187
+# [33504715 ns] PASSED: image 188
+# [33505785 ns] PASSED: image 189
+# [33510035 ns] PASSED: image 190
+# [33514295 ns] PASSED: image 191
+# [33518555 ns] PASSED: image 192
+# [33522815 ns] PASSED: image 193
+# [33527075 ns] PASSED: image 194
+# [33531335 ns] PASSED: image 195
+# [33535595 ns] PASSED: image 196
+# [33539855 ns] PASSED: image 197
+# [33544115 ns] PASSED: image 198
+# [33548375 ns] PASSED: image 199
+# [33553735 ns] PASSED: image 200
+# [33559095 ns] PASSED: image 201
+# [33564455 ns] PASSED: image 202
+# [33569815 ns] PASSED: image 203
+# [33575175 ns] PASSED: image 204
+# [33580535 ns] PASSED: image 205
+# [33585895 ns] PASSED: image 206
+# [33591255 ns] PASSED: image 207
+# [33596615 ns] PASSED: image 208
+# [33601975 ns] PASSED: image 209
+# [33605845 ns] PASSED: image 210
+# [33606925 ns] PASSED: image 211
+# [33610785 ns] PASSED: image 212
+# [33614655 ns] PASSED: image 213
+# [33618525 ns] PASSED: image 214
+# [33622395 ns] PASSED: image 215
+# [33626265 ns] PASSED: image 216
+# [33630135 ns] PASSED: image 217
+# [33634005 ns] PASSED: image 218
+# [33637875 ns] PASSED: image 219
+# [33641745 ns] PASSED: image 220
+# [33645615 ns] PASSED: image 221
+# [33656975 ns] PASSED: image 222
+# [33668335 ns] PASSED: image 223
+# [33679695 ns] PASSED: image 224
+# [33691055 ns] PASSED: image 225
+# [33702415 ns] PASSED: image 226
+# [33713775 ns] PASSED: image 227
+# [33725135 ns] PASSED: image 228
+# [33736495 ns] PASSED: image 229
+# [33747855 ns] PASSED: image 230
+# [33759215 ns] PASSED: image 231
+# [33766575 ns] PASSED: image 232
+# [33770445 ns] PASSED: image 233
+# [33771635 ns] PASSED: image 234
+# [33777645 ns] PASSED: image 235
+# [35625725 ns] directed extra per-class stall tests.
+# [35629555 ns] PASSED: image 236
+# [35633445 ns] PASSED: image 237
+# [35637335 ns] PASSED: image 238
+# [35641225 ns] PASSED: image 239
+# [35645115 ns] PASSED: image 240
+# [35649005 ns] PASSED: image 241
+# [35652895 ns] PASSED: image 242
+# [35656785 ns] PASSED: image 243
+# [35660675 ns] PASSED: image 244
+# [35664565 ns] PASSED: image 245
+# [35668505 ns] PASSED: image 246
+# [35672445 ns] PASSED: image 247
+# [35676385 ns] PASSED: image 248
+# [35680325 ns] PASSED: image 249
+# [35684265 ns] PASSED: image 250
+# [35688205 ns] PASSED: image 251
+# [35692145 ns] PASSED: image 252
+# [35696085 ns] PASSED: image 253
+# [35700025 ns] PASSED: image 254
+# [35703965 ns] PASSED: image 255
+# [35707945 ns] PASSED: image 256
+# [35711925 ns] PASSED: image 257
+# [35715905 ns] PASSED: image 258
+# [35719885 ns] PASSED: image 259
+# [35723865 ns] PASSED: image 260
+# [35727845 ns] PASSED: image 261
+# [35731825 ns] PASSED: image 262
+# [35735805 ns] PASSED: image 263
+# [35739785 ns] PASSED: image 264
+# [35743765 ns] PASSED: image 265
+# [35748225 ns] PASSED: image 266
+# [35752685 ns] PASSED: image 267
+# [35757145 ns] PASSED: image 268
+# [35761605 ns] PASSED: image 269
+# [35766065 ns] PASSED: image 270
+# [35770525 ns] PASSED: image 271
+# [35774985 ns] PASSED: image 272
+# [35779445 ns] PASSED: image 273
+# [35783905 ns] PASSED: image 274
+# [35788365 ns] PASSED: image 275
+# [35788420 ns] directed valid_before_ready x last_beat test.
+# [35792335 ns] PASSED: image 276
+# [35792435 ns] Running directed output backpressure tests.
+# [35796235 ns] PASSED: image 277
+# [35800105 ns] PASSED: image 278
+# [35804005 ns] PASSED: image 279
+# [35807945 ns] PASSED: image 280
+# [35812005 ns] PASSED: image 281
+# [35816265 ns] PASSED: image 282
+# [35820875 ns] PASSED: image 283
+# [35826235 ns] PASSED: image 284
+# [35833595 ns] PASSED: image 285
+# [35844955 ns] PASSED: image 286
+# [35845010 ns] Running multi-image long-stall output stress test.
+# [35856315 ns] PASSED: image 287
+# [35856325 ns] PASSED: image 288
+# [35856335 ns] PASSED: image 289
+# [35856345 ns] PASSED: image 290
+# [41412015 ns] directed single-beat config messages.
+# [45107115 ns] Directed coverage phase complete.
+# [45107115 ns] SUCCESS: all 303 tests completed successfully.
+#  quit -f
+# End time: 14:08:58 on May 03,2026, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   2
+#     vopt: Errors:   0, Warnings:  48
+#     vsim: Errors:   0, Warnings:   0
+#   Totals: Errors:   0, Warnings:  50

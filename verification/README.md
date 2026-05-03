@@ -30,12 +30,20 @@ cd ../openflex
 openflex bnn_fcc_verify.yml
 ```
 
-#### CLI Mode (Custom TB)
+#### CLI Mode (Custom Coverage TB)
 
 ```bash
 cd ../openflex
 openflex bnn_fcc_coverage_verify.yml
 ```
+
+#### CLI Mode (UVM TB)
+
+```bash
+cd ../verification/uvm
+make sim
+```
+
 
 ## Expanded Coverage
 

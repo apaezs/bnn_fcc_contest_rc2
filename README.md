@@ -6,9 +6,6 @@ This repository provides our submission that placed **second** in the EEL6935 Re
 
 We implemented an binary neural network in SystemVerilog with the top-level [bnn_fcc](rtl/bnn_fcc.sv) module, optimizing it for maximum throughput with no constraint on latency.
 
-A top-level interface and testing framework for the binary neural network (BNN), specifically the module implements a fully connected classifier (FCC) was provided by Dr. Stitt, but we designed a more advanced testbench which reaches more coverage over edge cases with directed tests. Our design passes both.
-
-
 ## Design Performance and Area
 - **Max Frequency (Out-of-context & Non-restricted):** 945.179 MHz
 - **LUT:** 15,568
@@ -19,6 +16,14 @@ A top-level interface and testing framework for the binary neural network (BNN),
 Measured with probability of configuration and input data stream being valid set to 100%:
 - **Throughput:** 112.5 cycles/output
 - **Latency:** 394.4 cycles
+
+## Verification
+A top-level interface and testing framework for the binary neural network (BNN), specifically the fully connected classifier (FCC), was provided by Dr. Stitt in [verification/bnn_fcc_tb.sv](verification/bnn_fcc_tb.sv). We designed a more advanced directed testbench in [verification/bnn_fcc_coverage_tb.sv](verification/bnn_fcc_coverage_tb.sv) to improve coverage with tests for edge cases: reset timing, message ordering, partial `tkeep`, inter-message gaps, inter-image gaps, backpressure etc. Our design passes both.
+### UVM
+After the contest concluded, we expanded the verification effort by designing a full UVM testbench in [verification/uvm](verification/uvm). It is a structured UVM version of the original directed coverage testbench that preserves the same verification intent while using standard UVM components. During one of the labs throughout the course Dr. Stitt provided us with a mostly complete AXI agent to complete. This was reused for all the AXI4-Stream interfaces. 
+
+At the top level, [bnn_fcc_uvm_tb.sv](verification/uvm/bnn_fcc_uvm_tb.sv) instantiates the DUT, a shared configuration object, and three AXI4-Stream interfaces. The environment contains two AXI agents for driving configuration and input images, one monitor for observing DUT outputs, a ready controller for generating output backpressure, a scoreboard for reference checking, and a coverage component for functional coverage collection. The main test flow is implemented in [bnn_fcc_base_test.svh](verification/uvm/bnn_fcc_base_test.svh), where the trained BNN model and stimulus vectors are loaded, the DUT is configured, the main image sweep is run, and the edge cases tests are run. The scoreboard in [bnn_fcc_scoreboard.svh](verification/uvm/bnn_fcc_scoreboard.svh) reconstructs images from `data_in` beats, computes the expected class using the reference model, and compares that result against the class observed on `data_out`.
+
 ## Overview
 
 This section provides an overview of the required functionality. See [doc/README.md](doc/README.md) for the original README made for the contest repo. See [rtl/README.md](rtl/README.md) for a detailed description of the bnn_fcc interface. See [verification/README.md](verification/README.md) for a detailed description of the provided testbench and advanced testbench made to reach more coverage.

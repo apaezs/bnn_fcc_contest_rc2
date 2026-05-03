@@ -1,0 +1,102 @@
+
+# 2023.3
+
+# vsim -64 -lib qrun.out/work -c -do "run -all; quit -f" -statslog qrun.out/stats_log qrun_opt -appendlog -l qrun.log -csession=incr -csessionid=2
+# Start time: 14:07:45 on May 03,2026
+# //  Questa Sim-64
+# //  Version 2023.3 linux_x86_64 Jul 17 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.bnn_fcc_tb_pkg(fast)
+# Loading work.bnn_fcc_tb(fast)
+# Loading work.NP_MEM_WithThreshold(fast__1)
+# run -all
+# --- Loading Trained Model ---
+# BNN_FCC_Stimulus: Loaded 100 vectors from ../../python/test_vectors/inputs.hex
+# SV model successfully verified.
+# --- Configuration created: 4466 words (64-bit wide) ---
+# --- Loading Test Vectors ---
+# BNN_FCC_Stimulus: Loaded 50 vectors from ../../python/test_vectors/inputs.hex
+# BNN Model: 3 Layers, 784 Inputs
+#   Layer 0 (hidden): 256 Neurons
+#   Layer 1 (hidden): 256 Neurons
+#   Layer 2 (output): 10 Neurons
+# [95 ns] Streaming weights and thresholds.
+# [1847435 ns] Streaming image 0.
+# [1848425 ns] Streaming image 1.
+# [1849415 ns] Streaming image 2.
+# [1850485 ns] Streaming image 3.
+# [1851555 ns] Streaming image 4.
+# [1852625 ns] Streaming image 5.
+# [1853695 ns] Streaming image 6.
+# [1854765 ns] Streaming image 7.
+# [1855835 ns] Streaming image 8.
+# [1856905 ns] Streaming image 9.
+# [1857975 ns] Streaming image 10.
+# [1859045 ns] Streaming image 11.
+# [1860115 ns] Streaming image 12.
+# [1861185 ns] Streaming image 13.
+# [1862255 ns] Streaming image 14.
+# [1863325 ns] Streaming image 15.
+# [1864395 ns] Streaming image 16.
+# [1865465 ns] Streaming image 17.
+# [1866535 ns] Streaming image 18.
+# [1867605 ns] Streaming image 19.
+# [1868675 ns] Streaming image 20.
+# [1869745 ns] Streaming image 21.
+# [1870815 ns] Streaming image 22.
+# [1871885 ns] Streaming image 23.
+# [1872955 ns] Streaming image 24.
+# [1874025 ns] Streaming image 25.
+# [1875095 ns] Streaming image 26.
+# [1876165 ns] Streaming image 27.
+# [1877235 ns] Streaming image 28.
+# [1878305 ns] Streaming image 29.
+# [1879375 ns] Streaming image 30.
+# [1880445 ns] Streaming image 31.
+# [1881515 ns] Streaming image 32.
+# [1882585 ns] Streaming image 33.
+# [1883655 ns] Streaming image 34.
+# [1884725 ns] Streaming image 35.
+# [1885795 ns] Streaming image 36.
+# [1886865 ns] Streaming image 37.
+# [1887935 ns] Streaming image 38.
+# [1889005 ns] Streaming image 39.
+# [1890075 ns] Streaming image 40.
+# [1891145 ns] Streaming image 41.
+# [1892215 ns] Streaming image 42.
+# [1893285 ns] Streaming image 43.
+# [1894355 ns] Streaming image 44.
+# [1895425 ns] Streaming image 45.
+# [1896495 ns] Streaming image 46.
+# [1897565 ns] Streaming image 47.
+# [1898635 ns] Streaming image 48.
+# [1899705 ns] Streaming image 49.
+# [1900775 ns] All images loaded, waiting for outputs.
+# [1903755 ns] SUCCESS: all 50 tests completed successfully.
+#
+# Stats:
+# Avg latency (cycles) per image: 395.4 cycles
+# Avg latency (time) per image: 3954.2 ns
+# Avg throughput (outputs/sec): 888730.9
+# Avg throughput (cycles/output): 112.5
+#  quit -f
+# End time: 14:07:48 on May 03,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   2
+#     vopt: Errors:   0, Warnings:  48
+#     vsim: Errors:   0, Warnings:   0
+#   Totals: Errors:   0, Warnings:  50
