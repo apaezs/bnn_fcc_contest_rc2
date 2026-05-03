@@ -122,6 +122,7 @@ module Layer_Control_WithThreshold #(
     end
 
     Delay #(
+        .DWIDTH(1),
         .DELAY(3)
     ) u_valid_in_delay (
         .clk (clk),
@@ -131,6 +132,7 @@ module Layer_Control_WithThreshold #(
     );
 
     Delay_ALWAYS #(
+        .DWIDTH(1),
         .DELAY(3)
     ) u_last_in_delay (
         .clk (clk),

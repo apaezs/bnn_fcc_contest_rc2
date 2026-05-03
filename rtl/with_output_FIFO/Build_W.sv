@@ -29,7 +29,6 @@ module Build_W #(
     logic [7:0]        neuron_bytes_s0 [0:W_BYTES_PER_NEURON-1];
     logic              valid_s0;
 
-    logic [BASE_BYTE_W-1:0] base_byte_s1;
     logic [BEAT_W-1:0]      beat_idx_s1;
     logic [7:0]             beat_bytes_s1 [0:PW_BYTES-1];
     logic                   valid_s1;
@@ -109,7 +108,6 @@ module Build_W #(
         integer i;
         integer src_idx;
 
-        base_byte_s1 <= beat_idx_s0 * PW_BYTES;
         beat_idx_s1  <= beat_idx_s0;
 
         for (i = 0; i < PW_BYTES; i++) begin

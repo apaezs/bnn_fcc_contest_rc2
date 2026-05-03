@@ -127,7 +127,9 @@ module Arg_MAX #(
         end else begin
             en_s <= en;
         end
+    end
 
+    always_ff @(posedge clk) begin
         for (i = 0; i < act_w; i = i + 1) begin
             popcount_s[i] <= popcount[i];
         end

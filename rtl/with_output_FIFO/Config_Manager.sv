@@ -69,43 +69,8 @@ module Config_Manager #(
     logic       selected_byte_valid_c;
 
     always_comb begin
-        selected_byte_data_c  = beat_data_r[63:56];
-        selected_byte_valid_c = beat_keep_r[7];
-
-        unique case (byte_select_idx_r)
-            BYTE_IDX_W'(0): begin
-                selected_byte_data_c  = beat_data_r[7:0];
-                selected_byte_valid_c = beat_keep_r[0];
-            end
-            BYTE_IDX_W'(1): begin
-                selected_byte_data_c  = beat_data_r[15:8];
-                selected_byte_valid_c = beat_keep_r[1];
-            end
-            BYTE_IDX_W'(2): begin
-                selected_byte_data_c  = beat_data_r[23:16];
-                selected_byte_valid_c = beat_keep_r[2];
-            end
-            BYTE_IDX_W'(3): begin
-                selected_byte_data_c  = beat_data_r[31:24];
-                selected_byte_valid_c = beat_keep_r[3];
-            end
-            BYTE_IDX_W'(4): begin
-                selected_byte_data_c  = beat_data_r[39:32];
-                selected_byte_valid_c = beat_keep_r[4];
-            end
-            BYTE_IDX_W'(5): begin
-                selected_byte_data_c  = beat_data_r[47:40];
-                selected_byte_valid_c = beat_keep_r[5];
-            end
-            BYTE_IDX_W'(6): begin
-                selected_byte_data_c  = beat_data_r[55:48];
-                selected_byte_valid_c = beat_keep_r[6];
-            end
-            default: begin
-                selected_byte_data_c  = beat_data_r[63:56];
-                selected_byte_valid_c = beat_keep_r[7];
-            end
-        endcase
+        selected_byte_data_c  = beat_data_r[8*byte_select_idx_r +: 8];
+        selected_byte_valid_c = beat_keep_r[byte_select_idx_r];
     end
 
     always_comb begin

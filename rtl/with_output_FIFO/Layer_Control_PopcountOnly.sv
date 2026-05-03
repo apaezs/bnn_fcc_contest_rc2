@@ -107,6 +107,7 @@ module Layer_Control_PopcountOnly #(
     end
 
     Delay #(
+        .DWIDTH(1),
         .DELAY(3)
     ) u_valid_in_delay (
         .clk (clk),
@@ -116,6 +117,7 @@ module Layer_Control_PopcountOnly #(
     );
 
     Delay_ALWAYS #(
+        .DWIDTH(1),
         .DELAY(3)
     ) u_last_in_delay (
         .clk (clk),
