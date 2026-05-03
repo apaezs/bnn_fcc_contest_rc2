@@ -7,12 +7,12 @@ module bnn_fcc #(
     parameter int OUTPUT_DATA_WIDTH = 4,
     parameter int OUTPUT_BUS_WIDTH  = 8,
     parameter int TOTAL_LAYERS = 4,
-    parameter logic [TOTAL_LAYERS*32-1:0] TOPOLOGY_PACKED = {32'd10, 32'd256, 32'd256, 32'd784},
+    parameter logic [TOTAL_LAYERS*32-1:0] TOPOLOGY_PACKED = 'h0000000A000001000000010000000310,
     parameter int PARALLEL_INPUTS = 8,
-    parameter logic [(TOTAL_LAYERS-1)*32-1:0] PARALLEL_NEURONS_PACKED = {32'd10, 32'd32, 32'd32},
-    parameter logic [(TOTAL_LAYERS-1)*32-1:0] LAYER_PARALLEL_INPUTS_PACKED = {32'd32, 32'd32, 32'd64},
+    parameter logic [(TOTAL_LAYERS-1)*32-1:0] PARALLEL_NEURONS_PACKED = 'h0000000A0000002000000020,
+    parameter logic [(TOTAL_LAYERS-1)*32-1:0] LAYER_PARALLEL_INPUTS_PACKED = 'h000000200000002000000040,
     parameter int THRESHOLD_WIDTH = 32,
-    parameter logic [(TOTAL_LAYERS-1)*32-1:0] LAYER_LATENCY_PACKED = {32'd14, 32'd14, 32'd14}
+    parameter logic [(TOTAL_LAYERS-1)*32-1:0] LAYER_LATENCY_PACKED = 'h0000000E0000000E0000000E
 )(
     input  logic clk,
     input  logic rst,
