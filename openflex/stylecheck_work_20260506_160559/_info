@@ -1,0 +1,1548 @@
+m255
+K4
+z2
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/aleja/Documents/Coursework/ReconfigurableComputing2/bnn_fcc_final_submission/cloned_repo/bnn_fcc_contest_rc2/openflex
+vArg_MAX
+Z1 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z2 !s110 1778097961
+!i10b 1
+!s100 `dViI=cg^]HhGgdAlTgj;0
+I[6M?fPDB^OQ9S3VOHG_9]0
+S1
+R0
+Z3 w1778010904
+8../rtl/Arg_MAX.sv
+F../rtl/Arg_MAX.sv
+!i122 0
+L0 3 330
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z6 !s108 1778097960.000000
+!s107 ../verification/bnn_fcc_fashion_tb.sv|../verification/bnn_fcc_tb_pkg.sv|../verification/axi4_stream_if.sv|../rtl/xpm_memory.sv|../rtl/Skid_Buffer.sv|../rtl/Input_Layer_Unit.sv|../rtl/BNN_Hidden.sv|../rtl/NP_XNOR_unit.sv|../rtl/NP_Threshold_Unit.sv|../rtl/NP_Pop_unit.sv|../rtl/NP_MEM_PopcountOnly.sv|../rtl/NP_MEM_WithThreshold.sv|../rtl/NP_UNIT_PopcountOnly.sv|../rtl/NP_UNIT_WithThreshold.sv|../rtl/NP_FSM_PopcountOnly.sv|../rtl/NP_FSM_WithOutputValid.sv|../rtl/NP_DP_PopcountOnly.sv|../rtl/NP_DP_WithThreshold.sv|../rtl/NP_Accum_Unit.sv|../rtl/fanout_tree_ALWAYS.sv|../rtl/fanout_tree.sv|../rtl/FIFO.sv|../rtl/Register_ALWAYS.sv|../rtl/Register.sv|../rtl/Delay3_ALWAYS.sv|../rtl/Delay2_ALWAYS.sv|../rtl/Delay_FF_ALWAYS.sv|../rtl/Delay_ALWAYS.sv|../rtl/BRAM_LUT_ALWAYS.sv|../rtl/BRAM_LUT_SINK.sv|../rtl/BRAM_SINK.sv|../rtl/Byte_Index.sv|../rtl/Build_W.sv|../rtl/StickyBit.sv|../rtl/Pulse_Delay.sv|../rtl/Pulse.sv|../rtl/Delay.sv|../rtl/NP_Layer_PopcountOnly.sv|../rtl/NP_Layer_WithThreshold.sv|../rtl/Layer_PopcountOnly.sv|../rtl/Layer_WithThreshold.sv|../rtl/Layer_Control_PopcountOnly.sv|../rtl/Layer_Control_WithThreshold.sv|../rtl/Input_Layer.sv|../rtl/Input_Buffer_NoStall.sv|../rtl/Input_Buffer_Stallable.sv|../rtl/BNN_OutputLayer_PopcountOnly.sv|../rtl/BNN_Layer_NoStallInput.sv|../rtl/BNN_Layer_StallableInput.sv|../rtl/Arg_MAX.sv|../rtl/Config_Manager.sv|../rtl/Config_OutputLayer_Control.sv|../rtl/Config_HiddenLayer_Control.sv|../rtl/bnn_output_fifo.sv|../rtl/bnn_fcc.sv|
+Z7 !s90 -sv|-work|.\stylecheck_work_20260506_160559|../rtl/bnn_fcc.sv|../rtl/bnn_output_fifo.sv|../rtl/Config_HiddenLayer_Control.sv|../rtl/Config_OutputLayer_Control.sv|../rtl/Config_Manager.sv|../rtl/Arg_MAX.sv|../rtl/BNN_Layer_StallableInput.sv|../rtl/BNN_Layer_NoStallInput.sv|../rtl/BNN_OutputLayer_PopcountOnly.sv|../rtl/Input_Buffer_Stallable.sv|../rtl/Input_Buffer_NoStall.sv|../rtl/Input_Layer.sv|../rtl/Layer_Control_WithThreshold.sv|../rtl/Layer_Control_PopcountOnly.sv|../rtl/Layer_WithThreshold.sv|../rtl/Layer_PopcountOnly.sv|../rtl/NP_Layer_WithThreshold.sv|../rtl/NP_Layer_PopcountOnly.sv|../rtl/Delay.sv|../rtl/Pulse.sv|../rtl/Pulse_Delay.sv|../rtl/StickyBit.sv|../rtl/Build_W.sv|../rtl/Byte_Index.sv|../rtl/BRAM_SINK.sv|../rtl/BRAM_LUT_SINK.sv|../rtl/BRAM_LUT_ALWAYS.sv|../rtl/Delay_ALWAYS.sv|../rtl/Delay_FF_ALWAYS.sv|../rtl/Delay2_ALWAYS.sv|../rtl/Delay3_ALWAYS.sv|../rtl/Register.sv|../rtl/Register_ALWAYS.sv|../rtl/FIFO.sv|../rtl/fanout_tree.sv|../rtl/fanout_tree_ALWAYS.sv|../rtl/NP_Accum_Unit.sv|../rtl/NP_DP_WithThreshold.sv|../rtl/NP_DP_PopcountOnly.sv|../rtl/NP_FSM_WithOutputValid.sv|../rtl/NP_FSM_PopcountOnly.sv|../rtl/NP_UNIT_WithThreshold.sv|../rtl/NP_UNIT_PopcountOnly.sv|../rtl/NP_MEM_WithThreshold.sv|../rtl/NP_MEM_PopcountOnly.sv|../rtl/NP_Pop_unit.sv|../rtl/NP_Threshold_Unit.sv|../rtl/NP_XNOR_unit.sv|../rtl/BNN_Hidden.sv|../rtl/Input_Layer_Unit.sv|../rtl/Skid_Buffer.sv|../rtl/xpm_memory.sv|../verification/axi4_stream_if.sv|../verification/bnn_fcc_tb_pkg.sv|../verification/bnn_fcc_fashion_tb.sv|
+!i113 0
+Z8 o-sv -work {.\stylecheck_work_20260506_160559} -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 tCvgOpt 0
+n@arg_@m@a@x
+vasym_bwe_bb
+R1
+R2
+!i10b 1
+!s100 JKQ<EiPUR84zaKh;g6F?V0
+IF`9I9l9;L4VDT@a90AH`83
+S1
+R0
+R3
+Z10 8../rtl/xpm_memory.sv
+Z11 F../rtl/xpm_memory.sv
+!i122 0
+L0 8179 56
+R4
+R5
+r1
+!s85 0
+31
+R6
+Z12 !s107 ../verification/bnn_fcc_fashion_tb.sv|../verification/bnn_fcc_tb_pkg.sv|../verification/axi4_stream_if.sv|../rtl/xpm_memory.sv|../rtl/Skid_Buffer.sv|../rtl/Input_Layer_Unit.sv|../rtl/BNN_Hidden.sv|../rtl/NP_XNOR_unit.sv|../rtl/NP_Threshold_Unit.sv|../rtl/NP_Pop_unit.sv|../rtl/NP_MEM_PopcountOnly.sv|../rtl/NP_MEM_WithThreshold.sv|../rtl/NP_UNIT_PopcountOnly.sv|../rtl/NP_UNIT_WithThreshold.sv|../rtl/NP_FSM_PopcountOnly.sv|../rtl/NP_FSM_WithOutputValid.sv|../rtl/NP_DP_PopcountOnly.sv|../rtl/NP_DP_WithThreshold.sv|../rtl/NP_Accum_Unit.sv|../rtl/fanout_tree_ALWAYS.sv|../rtl/fanout_tree.sv|../rtl/FIFO.sv|../rtl/Register_ALWAYS.sv|../rtl/Register.sv|../rtl/Delay3_ALWAYS.sv|../rtl/Delay2_ALWAYS.sv|../rtl/Delay_FF_ALWAYS.sv|../rtl/Delay_ALWAYS.sv|../rtl/BRAM_LUT_ALWAYS.sv|../rtl/BRAM_LUT_SINK.sv|../rtl/BRAM_SINK.sv|../rtl/Byte_Index.sv|../rtl/Build_W.sv|../rtl/StickyBit.sv|../rtl/Pulse_Delay.sv|../rtl/Pulse.sv|../rtl/Delay.sv|../rtl/NP_Layer_PopcountOnly.sv|../rtl/NP_Layer_WithThreshold.sv|../rtl/Layer_PopcountOnly.sv|../rtl/Layer_WithThreshold.sv|../rtl/Layer_Control_PopcountOnly.sv|../rtl/Layer_Control_WithThreshold.sv|../rtl/Input_Layer.sv|../rtl/Input_Buffer_NoStall.sv|../rtl/Input_Buffer_Stallable.sv|../rtl/BNN_OutputLayer_PopcountOnly.sv|../rtl/BNN_Layer_NoStallInput.sv|../rtl/BNN_Layer_StallableInput.sv|../rtl/Arg_MAX.sv|../rtl/Config_Manager.sv|../rtl/Config_OutputLayer_Control.sv|../rtl/Config_HiddenLayer_Control.sv|../rtl/bnn_output_fifo.sv|../rtl/bnn_fcc.sv|
+R7
+!i113 0
+R8
+R9
+Yaxi4_stream_if
+R1
+R2
+!i10b 1
+!s100 Z7DNHI7]VnhS@@X9DMkmX1
+I=g<RIP1Fcd?HdM9Rz`][[3
+S1
+R0
+R3
+8../verification/axi4_stream_if.sv
+F../verification/axi4_stream_if.sv
+!i122 0
+L0 8 0
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+vbnn_fcc
+R1
+R2
+!i10b 1
+!s100 a?]0bo`52<IgfbQJOO9Ai2
+I`4m4eSEc0POoCZ?b^V3K?2
+S1
+R0
+R3
+8../rtl/bnn_fcc.sv
+F../rtl/bnn_fcc.sv
+!i122 0
+L0 3 174
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+vbnn_fcc_fashion_tb
+R1
+DXx4 work 14 bnn_fcc_tb_pkg 0 22 e1WWE?VP]OZaICgh6ZnJ80
+R2
+!i10b 1
+!s100 DR<`P`E4_jLHB>T:1;RjK3
+I=DOPGUdfd;L[Jz2BEj57d0
+S1
+R0
+w1778097870
+8../verification/bnn_fcc_fashion_tb.sv
+F../verification/bnn_fcc_fashion_tb.sv
+!i122 0
+L0 88 611
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+Xbnn_fcc_tb_pkg
+R1
+R2
+!i10b 1
+!s100 C_6hNi[d3_T1Y03:mWgEo1
+Ie1WWE?VP]OZaICgh6ZnJ80
+S1
+R0
+R3
+8../verification/bnn_fcc_tb_pkg.sv
+F../verification/bnn_fcc_tb_pkg.sv
+!i122 0
+L0 13 0
+Ve1WWE?VP]OZaICgh6ZnJ80
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+vBNN_Hidden
+R1
+R2
+!i10b 1
+!s100 ?hUO@I[G@?09^_R6ACo3h0
+I6eT=iLVD8`BQE?8ncW96k2
+S1
+R0
+R3
+8../rtl/BNN_Hidden.sv
+F../rtl/BNN_Hidden.sv
+!i122 0
+L0 3 226
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@b@n@n_@hidden
+vBNN_Layer_NoStallInput
+R1
+R2
+!i10b 1
+!s100 9]0:[eVZH3GQdFIQze9UQ0
+II^agUE>8Z?98fLkW?YCh_2
+S1
+R0
+R3
+8../rtl/BNN_Layer_NoStallInput.sv
+F../rtl/BNN_Layer_NoStallInput.sv
+!i122 0
+L0 3 144
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@b@n@n_@layer_@no@stall@input
+vBNN_Layer_StallableInput
+R1
+R2
+!i10b 1
+!s100 R0i_kc3:75:@h1zWBRh571
+I:6i;cI8YjBMf6c9?3Xg`O1
+S1
+R0
+R3
+8../rtl/BNN_Layer_StallableInput.sv
+F../rtl/BNN_Layer_StallableInput.sv
+!i122 0
+Z13 L0 3 146
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@b@n@n_@layer_@stallable@input
+vbnn_output_fifo
+R1
+R2
+!i10b 1
+!s100 A>`B=KdN2:SgGma6@5[?l3
+Ib61HQ0:f5[PHzYT:7EEI03
+S1
+R0
+R3
+8../rtl/bnn_output_fifo.sv
+F../rtl/bnn_output_fifo.sv
+!i122 0
+L0 1 125
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+vBNN_OutputLayer_PopcountOnly
+R1
+R2
+!i10b 1
+!s100 gcZGgJ6g0hEIYQ_8aG<O83
+I:GgPjNd@FZ5iGaU@248c32
+S1
+R0
+R3
+8../rtl/BNN_OutputLayer_PopcountOnly.sv
+F../rtl/BNN_OutputLayer_PopcountOnly.sv
+!i122 0
+L0 3 123
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@b@n@n_@output@layer_@popcount@only
+vBRAM_LUT_ALWAYS
+R1
+R2
+!i10b 1
+!s100 QU?DS]FMc8gjLVN@b`^LY1
+IQnNTQheaA_6og33`?oTRk3
+S1
+R0
+R3
+8../rtl/BRAM_LUT_ALWAYS.sv
+F../rtl/BRAM_LUT_ALWAYS.sv
+!i122 0
+L0 3 21
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@b@r@a@m_@l@u@t_@a@l@w@a@y@s
+vBRAM_LUT_SINK
+R1
+R2
+!i10b 1
+!s100 M^J3b93PQ34BR0X?6TYQ80
+IVoBobQ0ebzQTh>:ol;S1E0
+S1
+R0
+R3
+8../rtl/BRAM_LUT_SINK.sv
+F../rtl/BRAM_LUT_SINK.sv
+!i122 0
+L0 4 36
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@b@r@a@m_@l@u@t_@s@i@n@k
+vBRAM_SINK
+R1
+R2
+!i10b 1
+!s100 S=Ce6lJ;YnQT0a0i`Hg852
+ISD@IO9z9d95eggAVdE2oB3
+S1
+R0
+R3
+8../rtl/BRAM_SINK.sv
+F../rtl/BRAM_SINK.sv
+!i122 0
+Z14 L0 3 61
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@b@r@a@m_@s@i@n@k
+vBuild_W
+R1
+R2
+!i10b 1
+!s100 >FnP1?CGgddDc[ZV08G:O3
+IO8eZ4]8N6`F^TPj1COdSL0
+S1
+R0
+R3
+8../rtl/Build_W.sv
+F../rtl/Build_W.sv
+!i122 0
+L0 3 165
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@build_@w
+vByte_Index
+R1
+R2
+!i10b 1
+!s100 KB8B]E3bQzbg;P`0Nc?kY0
+IngdA975CXXaQ8zT7?S>=_3
+S1
+R0
+R3
+8../rtl/Byte_Index.sv
+F../rtl/Byte_Index.sv
+!i122 0
+L0 3 103
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@byte_@index
+vConfig_HiddenLayer_Control
+R1
+R2
+!i10b 1
+!s100 9^6I@U>VUm6^h=bkK@6Yk3
+I;1=^HU]@:ngdMnbEhYdcR1
+S1
+R0
+R3
+8../rtl/Config_HiddenLayer_Control.sv
+F../rtl/Config_HiddenLayer_Control.sv
+!i122 0
+L0 3 446
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@config_@hidden@layer_@control
+vConfig_Manager
+R1
+R2
+!i10b 1
+!s100 noODl7M0VWS4Bd0OM[RZ^1
+IcEM9d9;@^?J^ORJNZKFSb3
+S1
+R0
+R3
+8../rtl/Config_Manager.sv
+F../rtl/Config_Manager.sv
+!i122 0
+L0 3 274
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@config_@manager
+vConfig_OutputLayer_Control
+R1
+R2
+!i10b 1
+!s100 Fb>M1ThIUFgTNJ2aL23_h1
+IzR=;6oik^0YVI=A=Sj;XY2
+S1
+R0
+R3
+8../rtl/Config_OutputLayer_Control.sv
+F../rtl/Config_OutputLayer_Control.sv
+!i122 0
+L0 3 316
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@config_@output@layer_@control
+vDelay
+R1
+R2
+!i10b 1
+!s100 HZzHKzn2kMDc9=WT`9:6R1
+I2V0>EGZM^z0?ZY8lMl[`e0
+S1
+R0
+R3
+8../rtl/Delay.sv
+F../rtl/Delay.sv
+!i122 0
+L0 1 32
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@delay
+vDelay2_ALWAYS
+R1
+R2
+!i10b 1
+!s100 7B3oLDAQOS_UW<TUkkG]83
+I_]JeGRd`<K<FUH[O0_oD^3
+S1
+R0
+R3
+8../rtl/Delay2_ALWAYS.sv
+F../rtl/Delay2_ALWAYS.sv
+!i122 0
+L0 3 34
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@delay2_@a@l@w@a@y@s
+vDelay3_ALWAYS
+R1
+R2
+!i10b 1
+!s100 7A8I4HP0@oE]2nc5RZHgU2
+IJP<ofId>Cf8VG:`_czoUe2
+S1
+R0
+R3
+8../rtl/Delay3_ALWAYS.sv
+F../rtl/Delay3_ALWAYS.sv
+!i122 0
+L0 3 39
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@delay3_@a@l@w@a@y@s
+vDelay_ALWAYS
+R1
+R2
+!i10b 1
+!s100 81;JN6km8khFnl_LmIX5z3
+I41[HbHJlh3>kk?TRXEBBD0
+S1
+R0
+R3
+8../rtl/Delay_ALWAYS.sv
+F../rtl/Delay_ALWAYS.sv
+!i122 0
+L0 1 30
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@delay_@a@l@w@a@y@s
+vDelay_FF_ALWAYS
+R1
+R2
+!i10b 1
+!s100 nkYVA?nA_W]bMI;E^8:R70
+IKn7Q21AUfXfHGL5]5zSU:1
+S1
+R0
+R3
+8../rtl/Delay_FF_ALWAYS.sv
+F../rtl/Delay_FF_ALWAYS.sv
+!i122 0
+L0 1 29
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@delay_@f@f_@a@l@w@a@y@s
+vfanout_tree
+R1
+R2
+!i10b 1
+!s100 ;?WPUXA@TC:z;0AXh8JMk3
+IJ0^RTE9Mj`2QRJh6=Tk9O1
+S1
+R0
+R3
+8../rtl/fanout_tree.sv
+F../rtl/fanout_tree.sv
+!i122 0
+L0 3 70
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+vfanout_tree_ALWAYS
+R1
+R2
+!i10b 1
+!s100 GaY5@F194l1U?j2<NFLbO2
+I3N^UV[`4_g9cO>17@cIRZ2
+S1
+R0
+R3
+8../rtl/fanout_tree_ALWAYS.sv
+F../rtl/fanout_tree_ALWAYS.sv
+!i122 0
+L0 3 65
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+nfanout_tree_@a@l@w@a@y@s
+vFIFO
+R1
+R2
+!i10b 1
+!s100 9l5g`R>PUKjZb8n@5nVP70
+IQ`<P36kKzW9bZJPV9^F`?3
+S1
+R0
+R3
+8../rtl/FIFO.sv
+F../rtl/FIFO.sv
+!i122 0
+Z15 L0 3 130
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@f@i@f@o
+vInput_Buffer_NoStall
+R1
+R2
+!i10b 1
+!s100 RYz^X0L]^^BHhn_]2RBRN0
+IH]=ziJ_dh6A3nALUE:Cch1
+S1
+R0
+R3
+8../rtl/Input_Buffer_NoStall.sv
+F../rtl/Input_Buffer_NoStall.sv
+!i122 0
+L0 3 217
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@input_@buffer_@no@stall
+vInput_Buffer_Stallable
+R1
+R2
+!i10b 1
+!s100 `94W@RV63=jgNfIj?VBAT0
+IQKI1H45;C57DF=_llSfCc1
+S1
+R0
+R3
+8../rtl/Input_Buffer_Stallable.sv
+F../rtl/Input_Buffer_Stallable.sv
+!i122 0
+L0 3 246
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@input_@buffer_@stallable
+vInput_Layer
+R1
+R2
+!i10b 1
+!s100 Sl2K^[Ie=8E?>Z[GOLKR:2
+IN?IWBizem>_nN_;7F3diZ1
+S1
+R0
+R3
+8../rtl/Input_Layer.sv
+F../rtl/Input_Layer.sv
+!i122 0
+L0 1 45
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@input_@layer
+vInput_Layer_Unit
+R1
+R2
+!i10b 1
+!s100 i[albdF]W>B8[OY@AnW7^0
+II?HV@_T5AmeB>Im4RW`B`1
+S1
+R0
+R3
+8../rtl/Input_Layer_Unit.sv
+F../rtl/Input_Layer_Unit.sv
+!i122 0
+L0 3 122
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@input_@layer_@unit
+vLayer_Control_PopcountOnly
+R1
+R2
+!i10b 1
+!s100 Y53j>Bzcj]4a5]i;oflS72
+IYJ4E1DW;8<n1hPEUPS7PN0
+S1
+R0
+R3
+8../rtl/Layer_Control_PopcountOnly.sv
+F../rtl/Layer_Control_PopcountOnly.sv
+!i122 0
+L0 3 142
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@layer_@control_@popcount@only
+vLayer_Control_WithThreshold
+R1
+R2
+!i10b 1
+!s100 24DVIan>MoY2faShBoeD?3
+IK^`L5>dg[>4QZ_]9jHCEe1
+S1
+R0
+R3
+8../rtl/Layer_Control_WithThreshold.sv
+F../rtl/Layer_Control_WithThreshold.sv
+!i122 0
+L0 3 171
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@layer_@control_@with@threshold
+vLayer_PopcountOnly
+R1
+R2
+!i10b 1
+!s100 S`:86lVeVaaQH5j<MblJz0
+IikfT:I`lj8:Q?_[W18BZ;3
+S1
+R0
+R3
+8../rtl/Layer_PopcountOnly.sv
+F../rtl/Layer_PopcountOnly.sv
+!i122 0
+L0 3 93
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@layer_@popcount@only
+vLayer_WithThreshold
+R1
+R2
+!i10b 1
+!s100 TKUWTbQ<GQKJIMC<5Pgk;3
+IGbn2ckhfimgNHTG680jc30
+S1
+R0
+R3
+8../rtl/Layer_WithThreshold.sv
+F../rtl/Layer_WithThreshold.sv
+!i122 0
+L0 3 124
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@layer_@with@threshold
+vNP_Accum_Unit
+R1
+R2
+!i10b 1
+!s100 Z0mdWWTKSYU5`NPbfVRzg1
+IUHA:jaUK<bMBf6gjl]O]61
+S1
+R0
+R3
+8../rtl/NP_Accum_Unit.sv
+F../rtl/NP_Accum_Unit.sv
+!i122 0
+L0 1 39
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@accum_@unit
+vNP_DP_PopcountOnly
+R1
+R2
+!i10b 1
+!s100 KIk9R@kT]e>fWZ462agd40
+IHaBS0aWB`T^c`VYOAh=W^0
+S1
+R0
+R3
+8../rtl/NP_DP_PopcountOnly.sv
+F../rtl/NP_DP_PopcountOnly.sv
+!i122 0
+Z16 L0 3 49
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@d@p_@popcount@only
+vNP_DP_WithThreshold
+R1
+R2
+!i10b 1
+!s100 RH0M7UmT=1kGlb52BXNXZ3
+Ije;nG?F9lilooN@l4@:@X1
+S1
+R0
+R3
+8../rtl/NP_DP_WithThreshold.sv
+F../rtl/NP_DP_WithThreshold.sv
+!i122 0
+L0 1 59
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@d@p_@with@threshold
+vNP_FSM_PopcountOnly
+R1
+R2
+!i10b 1
+!s100 65<OhC`z=n`oUR`XSi`o=0
+I6kU9L7:ZcNcGaQCa[OQVM0
+S1
+R0
+R3
+8../rtl/NP_FSM_PopcountOnly.sv
+F../rtl/NP_FSM_PopcountOnly.sv
+!i122 0
+R15
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@f@s@m_@popcount@only
+vNP_FSM_WithOutputValid
+R1
+R2
+!i10b 1
+!s100 mT_imYSBA17KDUR?W3<][0
+I4VE]I3UzPE;eOQCG?;k251
+S1
+R0
+R3
+8../rtl/NP_FSM_WithOutputValid.sv
+F../rtl/NP_FSM_WithOutputValid.sv
+!i122 0
+R13
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@f@s@m_@with@output@valid
+vNP_Layer_PopcountOnly
+R1
+R2
+!i10b 1
+!s100 ;4Zf0ZHP@K>e9^:>CWU<:0
+I]D^@2gg`z]KmlIJj5cE[52
+S1
+R0
+R3
+8../rtl/NP_Layer_PopcountOnly.sv
+F../rtl/NP_Layer_PopcountOnly.sv
+!i122 0
+L0 3 139
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@layer_@popcount@only
+vNP_Layer_WithThreshold
+R1
+R2
+!i10b 1
+!s100 ;AIBYC]eNNF0`B:fW<3iU1
+IMjfh4FlSdkMDYFI;FCT`22
+S1
+R0
+R3
+8../rtl/NP_Layer_WithThreshold.sv
+F../rtl/NP_Layer_WithThreshold.sv
+!i122 0
+L0 3 202
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@layer_@with@threshold
+vNP_MEM_PopcountOnly
+R1
+R2
+!i10b 1
+!s100 3R@@MkUWN8BT0hbg=OOm33
+IOdahkQ;F=P]D29gfE4zlB3
+S1
+R0
+R3
+8../rtl/NP_MEM_PopcountOnly.sv
+F../rtl/NP_MEM_PopcountOnly.sv
+!i122 0
+L0 3 133
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@m@e@m_@popcount@only
+vNP_MEM_WithThreshold
+R1
+R2
+!i10b 1
+!s100 E6_bAW783M2^Pkg7[8?oh1
+IK=Y=5I1@OdKAlm3A7n9Xk0
+S1
+R0
+R3
+8../rtl/NP_MEM_WithThreshold.sv
+F../rtl/NP_MEM_WithThreshold.sv
+!i122 0
+L0 3 208
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@m@e@m_@with@threshold
+vNP_Pop_unit
+R1
+R2
+!i10b 1
+!s100 m3Tdoh:lcoejKS<;i0Q;M0
+Ii06CZH[6Di5ADUjLhfDl60
+S1
+R0
+R3
+8../rtl/NP_Pop_unit.sv
+F../rtl/NP_Pop_unit.sv
+!i122 0
+L0 1 229
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@pop_unit
+vNP_Threshold_Unit
+R1
+R2
+!i10b 1
+!s100 jX1KSXV[GnDDk9?@Ti5[;0
+IKL[WTfXo;m=^lH1G1a;i31
+S1
+R0
+R3
+8../rtl/NP_Threshold_Unit.sv
+F../rtl/NP_Threshold_Unit.sv
+!i122 0
+L0 1 26
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@threshold_@unit
+vNP_UNIT_PopcountOnly
+R1
+R2
+!i10b 1
+!s100 M741S[QFXfmA^kd<;]HPT3
+IVeJ?Cj5;2[ndelTflaGIQ0
+S1
+R0
+R3
+8../rtl/NP_UNIT_PopcountOnly.sv
+F../rtl/NP_UNIT_PopcountOnly.sv
+!i122 0
+R14
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@u@n@i@t_@popcount@only
+vNP_UNIT_WithThreshold
+R1
+R2
+!i10b 1
+!s100 13;Z3jVh4`aJLzCJaCmP?2
+IIl290l>PVeblN^;X4S82J1
+S1
+R0
+R3
+8../rtl/NP_UNIT_WithThreshold.sv
+F../rtl/NP_UNIT_WithThreshold.sv
+!i122 0
+L0 1 71
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@u@n@i@t_@with@threshold
+vNP_XNOR_unit
+R1
+R2
+!i10b 1
+!s100 1nSI0]8]jdLC?egdB3Z7a3
+IlGma9o?5k4_IJVo<1SQUm1
+S1
+R0
+R3
+8../rtl/NP_XNOR_unit.sv
+F../rtl/NP_XNOR_unit.sv
+!i122 0
+L0 3 22
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@n@p_@x@n@o@r_unit
+vPulse
+R1
+R2
+!i10b 1
+!s100 <E8IlelLGPWzYeW]E<B^j1
+I:4:=NoZ1N_g;ecQHz]i5<1
+S1
+R0
+R3
+8../rtl/Pulse.sv
+F../rtl/Pulse.sv
+!i122 0
+L0 3 16
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@pulse
+vPulse_Delay
+R1
+R2
+!i10b 1
+!s100 >:e4BfCN2MCQ0c9B`[M1?3
+I`0403AcP_d6f<3nbX[o<Q3
+S1
+R0
+R3
+8../rtl/Pulse_Delay.sv
+F../rtl/Pulse_Delay.sv
+!i122 0
+L0 1 24
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@pulse_@delay
+vRegister
+R1
+R2
+!i10b 1
+!s100 _G0_R8>a5f:QC[m;NnF_Z0
+IFY0Lk`3QoU3_]ce]T3NS@3
+S1
+R0
+R3
+8../rtl/Register.sv
+F../rtl/Register.sv
+!i122 0
+Z17 L0 1 18
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@register
+vRegister_ALWAYS
+R1
+R2
+!i10b 1
+!s100 k3>YNULi]WlgVY7>9^n8P2
+IC9kZKEZ1dEF5=PQ^Yi<PG3
+S1
+R0
+R3
+8../rtl/Register_ALWAYS.sv
+F../rtl/Register_ALWAYS.sv
+!i122 0
+L0 1 14
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@register_@a@l@w@a@y@s
+vSkid_Buffer
+R1
+R2
+!i10b 1
+!s100 f[B7cU5T4J=1VT>ACnDm60
+I;Q8Re;=>1?gJ>V:PC=O;42
+S1
+R0
+R3
+8../rtl/Skid_Buffer.sv
+F../rtl/Skid_Buffer.sv
+!i122 0
+R16
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@skid_@buffer
+vStickyBit
+R1
+R2
+!i10b 1
+!s100 iH;;>5Oh9T6ES<i[F932_1
+Im<?cV>kT7]TNeK495YgD52
+S1
+R0
+R3
+8../rtl/StickyBit.sv
+F../rtl/StickyBit.sv
+!i122 0
+R17
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+n@sticky@bit
+vxpm_memory_base
+R1
+R2
+!i10b 1
+!s100 :FZ1I9;2]kJFS@W0Mm_g32
+IM:h8<j7Ujj787DG>MPnEh3
+S1
+R0
+R3
+R10
+R11
+!i122 0
+L0 55 8117
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+vxpm_memory_dpdistram
+R1
+R2
+!i10b 1
+!s100 MK6K[Gm6GRH;b^GJ3S7o93
+I9UE:J1S^WdQEfK2B^U6<;1
+S1
+R0
+R3
+R10
+R11
+!i122 0
+L0 8240 138
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+vxpm_memory_dprom
+R1
+R2
+!i10b 1
+!s100 m0gZSUNknT_YI]LW9C2>W2
+IjlRUe187VAfPB[ScP5>0W0
+S1
+R0
+R3
+R10
+R11
+!i122 0
+L0 8384 167
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+vxpm_memory_sdpram
+R1
+R2
+!i10b 1
+!s100 O4S[5RJISgLJRgd=dnl=A1
+IQlDF64MBF>RMI73zm;]U71
+S1
+R0
+R3
+R10
+R11
+!i122 0
+L0 8557 170
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+vxpm_memory_spram
+R1
+R2
+!i10b 1
+!s100 g6zAcWeO:`L4FJ=7>9nn12
+IZX5JlScR4[_8TN@hcDChF2
+S1
+R0
+R3
+R10
+R11
+!i122 0
+L0 8733 159
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+vxpm_memory_sprom
+R1
+R2
+!i10b 1
+!s100 13D;8dbSM]OzMWe`PO[D33
+Id[;2Jk9z<ULie9AWkIY771
+S1
+R0
+R3
+R10
+R11
+!i122 0
+L0 8898 147
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9
+vxpm_memory_tdpram
+R1
+R2
+!i10b 1
+!s100 O7DR=A>fdjWk6J:AdPJF;3
+IX]W?cNR^PBlOP=LD_9NlF2
+S1
+R0
+R3
+R10
+R11
+!i122 0
+L0 9051 188
+R4
+R5
+r1
+!s85 0
+31
+R6
+R12
+R7
+!i113 0
+R8
+R9

@@ -79,6 +79,6 @@ parameters:
   OUTPUT_DATA_WIDTH: [4]
   OUTPUT_BUS_WIDTH: [8]
   TOTAL_LAYERS: [4]
-  BASE_DIR: ["../../python"]
+  BASE_DIR: ["../../python/mnist"]
 
 # TODO: Make sure implementation-specific parameters have appropriate defaults in bnn_fcc_tb.sv

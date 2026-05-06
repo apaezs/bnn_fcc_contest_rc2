@@ -1,0 +1,38 @@
+{
+  "dataset": "Fashion-MNIST",
+  "topology": [
+    784,
+    256,
+    256,
+    10
+  ],
+  "epochs": 20,
+  "batch_size": 256,
+  "learning_rate": 0.003,
+  "train_limit": 60000,
+  "val_limit": 10000,
+  "export_count": 100,
+  "seed": 11,
+  "train_accuracy": 0.86515,
+  "test_accuracy": 0.8208,
+  "export_subset_accuracy": 0.76,
+  "weight_sha256": {
+    "l0_weights.txt": "1a9db762a30cdbacbe3b07b7a414c9955fd89b2d5a63a1b313b3835e1078a4bb",
+    "l1_weights.txt": "2c49fcca6251d85c217e0a7b5b088676ac5507d91625d63f6d2bb04e63450ae8",
+    "l2_weights.txt": "d678e3ff6199d90160251e3ad9255f3c3301c43638517ef245550144897fc58e"
+  },
+  "threshold_summary": {
+    "l0": {
+      "min": 388,
+      "max": 396
+    },
+    "l1": {
+      "min": 125,
+      "max": 132
+    },
+    "l2": {
+      "min": 0,
+      "max": 0
+    }
+  }
+}

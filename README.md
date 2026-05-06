@@ -2,9 +2,11 @@
 
 **Contributors:** Alejandro Paez-Sansonetti, Miguel Sanchez
 
-This repository provides our submission that placed **second** in the EEL6935 Reconfigurable Computing 2 Apple BNN_FCC Hardware Design Contest. The contest represents a collaboration between Apple, Greg Stitt, and EEL6935 Reconfigurable Computing 2 at University of Florida.
+This repository provides our submission (with additions made after competition) that placed **second** in the EEL6935 Reconfigurable Computing 2 Apple BNN_FCC Hardware Design Contest. The contest represented a collaboration between Apple, Greg Stitt, and EEL6935 Reconfigurable Computing 2 at University of Florida.
 
 We implemented an binary neural network in SystemVerilog with the top-level [bnn_fcc](rtl/bnn_fcc.sv) module, optimizing it for maximum throughput with no constraint on latency.
+
+For the contest, the design was tested only on MNIST digit classification. After the contest, we added a testbench to support Fashion-MNIST classification as well.
 
 ## Design Performance and Area
 - **Max Frequency (Out-of-context & Non-restricted):** 945.179 MHz
@@ -34,6 +36,16 @@ any BNN topology, but the contest uses the fully connected (SFC) topology from t
 > Umuroglu, Y., Fraser, N. J., Gambardella, G., Blott, M., Leong, P., Jahre, M., & Vissers, K. (2017). FINN: A Framework for Fast, Scalable Binarized Neural Network Inference. In Proceedings of the 2017 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays (pp. 65-74). DOI: 10.1145/3020078.3021744
 
 The SFC topology is referred to as 784->256->256->10, which means 784 8-bit inputs, one hidden layer with 256 neurons, a second hidden layer with 256 neurons, and an output layer with 10 neurons. The repository provides a model (weights and thresholds) for the SFC topology, which was trained from the [MNIST](https://www.tensorflow.org/datasets/catalog/mnist) dataset for 0-9 digit recognition. Each of the 10 neurons in the output layer corresponds to a single category.
+
+<p align="center">
+  <img src="python/mnist/mnist.png" alt="MNIST digit examples">
+</p>
+
+After the contest was over, we trained a model with the same topology for the Fashion-MNIST dataset and verified our design worked with it.
+
+<p align="center">
+  <img src="python/fashion_mnist/fashion_mnist.png" alt="Fashion-MNIST examples" width="540">
+</p>
 
 The bnn_fcc module has three different interfaces: configuration, data input, and data output. All three interfaces use the [AXI4-Stream protocol](https://developer.arm.com/documentation/ihi0051/a/) leveraging TKEEP and TLAST.
 
