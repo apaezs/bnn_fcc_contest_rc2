@@ -1,0 +1,224 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36" version="29.5.2" pages="2">
+  <diagram name="Scoreboard Dataflow" id="scoreboard">
+    <mxGraphModel dx="2291" dy="934" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p1_title" parent="1" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=13;fontStyle=1;fontColor=#333333;labelBackgroundColor=none;" value="scoreboard_internals_tlm_dataflow" vertex="1">
+          <mxGeometry x="352" y="70" width="950" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_sb_outer" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;fontColor=#333333;strokeColor=#666666;gradientColor=none;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry x="430" y="180" width="720" height="660" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_sb_label" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=1;fontColor=#333333;" value="bnn_fcc_scoreboard" vertex="1">
+          <mxGeometry x="678" y="194" width="220" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_din_mon" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;data_in_agent.monitor&lt;/b&gt;&lt;br&gt;axi4_stream_monitor #(64)&lt;br&gt;beat-level input monitor" vertex="1">
+          <mxGeometry x="120" y="250" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_dout_mon" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;data_out_monitor&lt;/b&gt;&lt;br&gt;axi4_stream_monitor #(8)&lt;br&gt;observes DUT output beats" vertex="1">
+          <mxGeometry x="120" y="380" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_cfg_mon" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;dashed=1;dashPattern=8 8;" value="&lt;b&gt;config_agent.monitor&lt;/b&gt;&lt;br&gt;exists but has no scoreboard consumer" vertex="1">
+          <mxGeometry x="120" y="510" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_divif" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;data_in_vif&lt;/b&gt;&lt;br&gt;aresetn used by scoreboard reset handling" vertex="1">
+          <mxGeometry x="120" y="640" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_din_ae" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;data_in_ae&lt;/b&gt;&lt;br&gt;uvm_analysis_export" vertex="1">
+          <mxGeometry x="470" y="250" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_din_fifo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;data_in_fifo&lt;/b&gt;&lt;br&gt;uvm_tlm_analysis_fifo" vertex="1">
+          <mxGeometry x="700" y="250" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_expected_q" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;expected_q&lt;/b&gt;&lt;br&gt;queue of predicted classes&lt;br&gt;push in process_inputs&lt;br&gt;pop in process_outputs" vertex="1">
+          <mxGeometry x="920" y="240" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_dout_ae" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;data_out_ae&lt;/b&gt;&lt;br&gt;uvm_analysis_export" vertex="1">
+          <mxGeometry x="470" y="380" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_dout_fifo" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;data_out_fifo&lt;/b&gt;&lt;br&gt;uvm_tlm_analysis_fifo" vertex="1">
+          <mxGeometry x="700" y="380" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_partial_q" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;partial_img_q&lt;/b&gt;&lt;br&gt;temporary pixel queue&lt;br&gt;collected from input beats" vertex="1">
+          <mxGeometry x="920" y="370" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_mreset" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;monitor_reset()&lt;/b&gt;&lt;br&gt;watches data_in_vif.aresetn&lt;br&gt;clears partial_img_q and expected_q on reset" vertex="1">
+          <mxGeometry x="470" y="510" width="400" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_counters" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;passed / failed / output_count&lt;/b&gt;&lt;br&gt;updated after compare&lt;br&gt;read by report_phase" vertex="1">
+          <mxGeometry x="920" y="500" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_procinp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;align=left;" value="&lt;b&gt;process_inputs()&lt;/b&gt;&lt;br&gt;get beat from data_in_fifo&lt;br&gt;use tkeep to collect valid pixels&lt;br&gt;on tlast: assemble full image&lt;br&gt;call cfg.model.compute_reference(full_img)&lt;br&gt;push predicted class into expected_q" vertex="1">
+          <mxGeometry x="470" y="630" width="330" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_procout" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;align=left;" value="&lt;b&gt;process_outputs()&lt;/b&gt;&lt;br&gt;get output beat from data_out_fifo&lt;br&gt;pop expected class from expected_q&lt;br&gt;actual_pred = item.tdata[0][3:0]&lt;br&gt;compare actual vs expected&lt;br&gt;increment pass/fail counters" vertex="1">
+          <mxGeometry x="830" y="640" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_cfg_model" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;cfg.model&lt;/b&gt;&lt;br&gt;BNN_FCC_Model&lt;br&gt;compute_reference(img) -&gt; class" vertex="1">
+          <mxGeometry x="1230" y="640" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e1" edge="1" parent="1" source="p1_din_mon" target="p1_din_ae" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="ap.write(item)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e2" edge="1" parent="1" source="p1_dout_mon" target="p1_dout_ae" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="ap.write(item)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e3" edge="1" parent="1" source="p1_din_ae" target="p1_din_fifo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="analysis_export">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e4" edge="1" parent="1" source="p1_dout_ae" target="p1_dout_fifo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="analysis_export">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e5" edge="1" parent="1" source="p1_din_fifo" target="p1_procinp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="get(item)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e6" edge="1" parent="1" source="p1_dout_fifo" target="p1_procout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="get(item)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e7" edge="1" parent="1" source="p1_procinp" target="p1_partial_q" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="collect valid pixels">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e8" edge="1" parent="1" source="p1_procinp" target="p1_cfg_model" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="compute_reference(full_img)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1160" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1_e9" edge="1" parent="1" source="p1_cfg_model" target="p1_expected_q" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="predicted class">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1325" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p1_e10" edge="1" parent="1" source="p1_expected_q" target="p1_procout" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="pop expected class">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e11" edge="1" parent="1" source="p1_procout" target="p1_counters" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="update counters">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e12" edge="1" parent="1" source="p1_divif" target="p1_mreset" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="aresetn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e13" edge="1" parent="1" source="p1_mreset" target="p1_partial_q" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="clear">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p1_e14" edge="1" parent="1" source="p1_mreset" target="p1_expected_q" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="clear">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Directed-Test Overrides" id="overrides">
+    <mxGraphModel dx="2291" dy="934" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p2_title" parent="1" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=13;fontStyle=1;fontColor=#333333;labelBackgroundColor=none;" value="directed_test_override_paths" vertex="1">
+          <mxGeometry x="352" y="70" width="950" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_base" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;bnn_fcc_base_test&lt;/b&gt;&lt;br&gt;normal path: start_config_sequence(), start_data_sequence()&lt;br&gt;override path: direct vif drive, manual ready_ctrl, uvm_hdl_force" vertex="1">
+          <mxGeometry x="120" y="250" width="260" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_cagent" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;config_agent&lt;/b&gt;&lt;br&gt;sequencer, driver, monitor" vertex="1">
+          <mxGeometry x="490" y="200" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_diagent" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;data_in_agent&lt;/b&gt;&lt;br&gt;sequencer, driver, monitor" vertex="1">
+          <mxGeometry x="490" y="320" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_rctrl" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;bnn_fcc_ready_ctrl&lt;/b&gt;&lt;br&gt;auto mode or manual set_manual_ready()" vertex="1">
+          <mxGeometry x="490" y="500" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_ctrlif" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;ctrl_if&lt;/b&gt;&lt;br&gt;clk, rst" vertex="1">
+          <mxGeometry x="830" y="140" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_confvif" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;config_in vif&lt;/b&gt;&lt;br&gt;AXI4-Stream config interface" vertex="1">
+          <mxGeometry x="830" y="240" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_divif" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;data_in vif&lt;/b&gt;&lt;br&gt;AXI4-Stream input image interface" vertex="1">
+          <mxGeometry x="830" y="360" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_dovif" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;data_out vif&lt;/b&gt;&lt;br&gt;AXI4-Stream output interface&lt;br&gt;tready driven by ready_ctrl" vertex="1">
+          <mxGeometry x="830" y="500" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_dut" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;DUT : bnn_fcc&lt;/b&gt;&lt;br&gt;clk, rst&lt;br&gt;config_in&lt;br&gt;data_in&lt;br&gt;data_out" vertex="1">
+          <mxGeometry x="1170" y="290" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_ov_rst" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;direct ctrl_vif.rst drive&lt;/b&gt;&lt;br&gt;pulse_reset()&lt;br&gt;reset_and_reconfigure()&lt;br&gt;manual reset scenarios" vertex="1">
+          <mxGeometry x="120" y="470" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_ov_cfg" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;direct config_vif drive&lt;/b&gt;&lt;br&gt;run_manual_partial_config_reset()&lt;br&gt;send_single_beat_config_msg()" vertex="1">
+          <mxGeometry x="120" y="600" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_ov_din" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;direct data_in_vif drive&lt;/b&gt;&lt;br&gt;run_manual_reset_during_input()&lt;br&gt;run_data_in_partial_keep()&lt;br&gt;run_data_in_last_beat_vbr()" vertex="1">
+          <mxGeometry x="390" y="600" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_ov_ready" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;" value="&lt;b&gt;manual ready_ctrl control&lt;/b&gt;&lt;br&gt;set_manual_ready(0/1)&lt;br&gt;release_manual()" vertex="1">
+          <mxGeometry x="660" y="620" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_ov_force" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=11;verticalAlign=middle;fontColor=#333333;labelBackgroundColor=none;dashed=1;dashPattern=8 8;" value="&lt;b&gt;uvm_hdl_force / release&lt;/b&gt;&lt;br&gt;force tb.data_in.tready in one special corner case" vertex="1">
+          <mxGeometry x="930" y="630" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e1" edge="1" parent="1" source="p2_base" target="p2_cagent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="start config sequences">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e2" edge="1" parent="1" source="p2_base" target="p2_diagent" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="start data sequences">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e3" edge="1" parent="1" source="p2_cagent" target="p2_confvif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="AXI config beats">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e4" edge="1" parent="1" source="p2_diagent" target="p2_divif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="AXI image beats">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e5" edge="1" parent="1" source="p2_rctrl" target="p2_dovif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="tready">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e6" edge="1" parent="1" source="p2_ctrlif" target="p2_dut" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e7" edge="1" parent="1" source="p2_confvif" target="p2_dut" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e8" edge="1" parent="1" source="p2_divif" target="p2_dut" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e9" edge="1" parent="1" source="p2_dut" target="p2_dovif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e10" edge="1" parent="1" source="p2_base" target="p2_ov_rst" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;dashed=1;dashPattern=8 8;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e11" edge="1" parent="1" source="p2_base" target="p2_ov_cfg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;dashed=1;dashPattern=8 8;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e12" edge="1" parent="1" source="p2_base" target="p2_ov_din" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;dashed=1;dashPattern=8 8;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e13" edge="1" parent="1" source="p2_base" target="p2_ov_ready" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;dashed=1;dashPattern=8 8;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e14" edge="1" parent="1" source="p2_base" target="p2_ov_force" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;fontSize=10;fontColor=#000000;labelBackgroundColor=none;dashed=1;dashPattern=8 8;" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e15" edge="1" parent="1" source="p2_ov_rst" target="p2_ctrlif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="drive rst">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e16" edge="1" parent="1" source="p2_ov_cfg" target="p2_confvif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="bypass agent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e17" edge="1" parent="1" source="p2_ov_din" target="p2_divif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="bypass agent">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e18" edge="1" parent="1" source="p2_ov_ready" target="p2_rctrl" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;" value="set_manual_ready()">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p2_e19" edge="1" parent="1" source="p2_ov_force" target="p2_divif" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#666666;strokeWidth=2;fontSize=10;fontColor=#000000;labelBackgroundColor=none;dashed=1;dashPattern=8 8;" value="force tb.data_in.tready">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

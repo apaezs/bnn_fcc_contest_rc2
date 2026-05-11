@@ -30,6 +30,10 @@ At the top level, [bnn_fcc_uvm_tb.sv](verification/uvm/bnn_fcc_uvm_tb.sv) instan
   <img src="diagrams/bnn_fcc_uvm_tb.png" alt="BNN FCC UVM testbench diagram" width="1100">
 </p>
 
+<p align="center">
+  <img src="diagrams/scoreboard_internals_tlm_dataflow.png" alt="BNN FCC scoreboard internals and TLM dataflow diagram" width="1100">
+</p>
+
 ## Overview
 
 This section provides an overview of the required functionality. See [doc/README.md](doc/README.md) for the original README made for the contest repo. See [rtl/README.md](rtl/README.md) for a detailed description of the bnn_fcc interface. See [verification/README.md](verification/README.md) for a detailed description of the provided testbench and advanced testbench made to reach more coverage.
