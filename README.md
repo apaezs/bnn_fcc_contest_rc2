@@ -26,6 +26,10 @@ After the contest concluded, we expanded the verification effort by designing a 
 
 At the top level, [bnn_fcc_uvm_tb.sv](verification/uvm/bnn_fcc_uvm_tb.sv) instantiates the DUT, a shared configuration object, and three AXI4-Stream interfaces. The environment contains two AXI agents for driving configuration and input images, one monitor for observing DUT outputs, a ready controller for generating output backpressure, a scoreboard for reference checking, and a coverage component for functional coverage collection. The main test flow is implemented in [bnn_fcc_base_test.svh](verification/uvm/bnn_fcc_base_test.svh), where the trained BNN model and stimulus vectors are loaded, the DUT is configured, the main image sweep is run, and the edge cases tests are run. The scoreboard in [bnn_fcc_scoreboard.svh](verification/uvm/bnn_fcc_scoreboard.svh) reconstructs images from `data_in` beats, computes the expected class using the reference model, and compares that result against the class observed on `data_out`.
 
+<p align="center">
+  <img src="diagrams/bnn_fcc_uvm_tb.png" alt="BNN FCC UVM testbench diagram" width="1100">
+</p>
+
 ## Overview
 
 This section provides an overview of the required functionality. See [doc/README.md](doc/README.md) for the original README made for the contest repo. See [rtl/README.md](rtl/README.md) for a detailed description of the bnn_fcc interface. See [verification/README.md](verification/README.md) for a detailed description of the provided testbench and advanced testbench made to reach more coverage.
